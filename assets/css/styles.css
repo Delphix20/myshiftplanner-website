@@ -228,6 +228,14 @@ img {
   justify-content: center;
 }
 
+.landing-shell .brand {
+  justify-content: center;
+}
+
+.landing-shell .brand-copy {
+  text-align: center;
+}
+
 .landing-main {
   display: flex;
   align-items: center;
@@ -368,6 +376,31 @@ img {
 
 .landing-explore-button {
   flex: 0 0 auto;
+}
+
+.landing-footer {
+  padding: 0 0 24px;
+}
+
+.landing-footer-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  padding-top: 18px;
+  border-top: 1px solid rgba(23, 49, 59, 0.14);
+}
+
+.landing-footer-copy,
+.landing-footer-copyright {
+  margin: 0;
+  color: var(--text-strong);
+  font-size: 0.82rem;
+  font-weight: 600;
+}
+
+.landing-footer-copy {
+  color: var(--text-soft);
 }
 
 .hero-sequence {
@@ -1174,6 +1207,11 @@ h1 {
     padding: 8px 0 0;
     flex-direction: column;
     align-items: center;
+  }
+
+  .landing-footer-inner {
+    flex-direction: column;
+    align-items: flex-start;
   }
 
   .hero {
