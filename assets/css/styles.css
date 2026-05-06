@@ -394,13 +394,9 @@ img {
 .landing-footer-copy,
 .landing-footer-copyright {
   margin: 0;
-  color: var(--text-strong);
+  color: var(--text-soft);
   font-size: 0.82rem;
   font-weight: 600;
-}
-
-.landing-footer-copy {
-  color: var(--text-soft);
 }
 
 .landing-footer-link {
