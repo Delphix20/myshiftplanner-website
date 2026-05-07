@@ -18,6 +18,11 @@
               <span>Shift calendar and pay tracker for nurses</span>
             </span>
           </a>
+          <button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
           <nav class="nav" aria-label="Primary">
             <a href="index.html">Home</a>
             <a href="index.html#features">Features</a>
@@ -161,5 +166,17 @@
         </div>
       </footer>
     </div>
+    <script>
+      document.addEventListener('DOMContentLoaded', () => {
+        const toggle = document.querySelector('.nav-toggle');
+        const nav = document.querySelector('.nav');
+        if (!toggle || !nav) return;
+
+        toggle.addEventListener('click', () => {
+          const isOpen = nav.classList.toggle('is-open');
+          toggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+        });
+      });
+    </script>
   </body>
 </html>

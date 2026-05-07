@@ -1207,6 +1207,36 @@ h1 {
     display: none;
   }
 
+  .nav.is-open {
+    position: absolute;
+    top: calc(100% - 6px);
+    right: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0;
+    min-width: 208px;
+    padding: 12px 0;
+    border: 1px solid rgba(255, 255, 255, 0.82);
+    border-radius: 22px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.9), rgba(247, 251, 250, 0.76));
+    box-shadow:
+      0 24px 48px rgba(95, 120, 130, 0.16),
+      inset 0 1px 0 rgba(255, 255, 255, 0.92);
+    backdrop-filter: blur(22px);
+    -webkit-backdrop-filter: blur(22px);
+    z-index: 40;
+  }
+
+  .nav.is-open a {
+    width: 100%;
+    padding: 11px 18px;
+  }
+
+  .nav.is-open a + a::before {
+    display: none;
+  }
+
   .nav-toggle {
     display: inline-flex;
   }
