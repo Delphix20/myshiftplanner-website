@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-1G81C7EHDF"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-1G81C7EHDF');
+    </script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Healthcare Staff Discount | My Nurse Shift Planner</title>
@@ -27,10 +36,13 @@
     </style>
   </head>
   <body>
-    <iframe src="My-Nurse-Shift-Planner-Flyer.pdf" title="My Nurse Shift Planner Flyer">
+    <iframe
+      src="My-Nurse-Shift-Planner-Flyer.pdf"
+      title="My Nurse Shift Planner Flyer"
+      onload="gtag('event', 'pdf_view', { file_name: 'My-Nurse-Shift-Planner-Flyer.pdf', page_location: window.location.href });">
     </iframe>
     <div class="fallback">
-      <p><a href="My-Nurse-Shift-Planner-Flyer.pdf">Open the flyer PDF</a></p>
+      <p><a href="My-Nurse-Shift-Planner-Flyer.pdf" onclick="gtag('event', 'pdf_view', { file_name: 'My-Nurse-Shift-Planner-Flyer.pdf', page_location: window.location.href });">Open the flyer PDF</a></p>
     </div>
   </body>
 </html>
