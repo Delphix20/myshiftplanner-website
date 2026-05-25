@@ -56,7 +56,7 @@
       .work-theme .app-store-stat-number,
       .work-theme .app-store-stat-label {
         font-family: "Avenir Next", "Avenir Next LT Pro", "Helvetica Neue", Arial, sans-serif;
-        font-weight: 600;
+        font-weight: 700;
       }
 
       body.work-theme {
@@ -100,10 +100,23 @@
         filter: saturate(0.92);
       }
 
+      .work-theme .icon-badge.icon-badge-strong {
+        background: linear-gradient(180deg, rgba(255,255,255,0.84), rgba(201,219,255,0.82));
+      }
+
+      .work-theme .icon-badge.icon-badge-strong img {
+        filter: saturate(1) contrast(1.08);
+      }
+
       .work-theme .section-head h2,
       .work-theme .hero-copy h1,
       .work-theme .banner-card h3 {
         letter-spacing: -0.03em;
+      }
+
+      .work-theme .button {
+        font-family: "Avenir Next", "Avenir Next LT Pro", "Helvetica Neue", Arial, sans-serif;
+        font-weight: 600;
       }
     </style>
   </head>
@@ -174,14 +187,14 @@
             </div>
             <div class="grid grid-5">
               <article class="glass-card info-card">
-                <div class="icon-badge">
+                <div class="icon-badge icon-badge-strong">
                   <img src="../assets/images/clock.arrow.trianglehead.2.counterclockwise.rotate.90.svg" alt="" aria-hidden="true">
                 </div>
                 <h3>Rotating schedules</h3>
                 <p>Keep recurring work patterns visible without rebuilding each month by hand.</p>
               </article>
               <article class="glass-card info-card">
-                <div class="icon-badge">
+                <div class="icon-badge icon-badge-strong">
                   <img src="../assets/images/calendar.badge.clock.svg" alt="" aria-hidden="true">
                 </div>
                 <h3>Changing workdays</h3>
@@ -203,7 +216,7 @@
               </article>
               <article class="glass-card info-card">
                 <div class="icon-badge">
-                  <img src="../assets/images/workapp-icon.png" alt="" aria-hidden="true">
+                  <img src="../assets/images/calendar.badge.clock.svg" alt="" aria-hidden="true">
                 </div>
                 <h3>Multiple workplaces</h3>
                 <p>Use separate work profiles while still keeping one clear planner view.</p>
