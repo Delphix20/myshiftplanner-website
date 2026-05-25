@@ -388,6 +388,7 @@ img {
   align-items: center;
   justify-content: center;
   margin-bottom: 22px;
+  min-height: 120px;
 }
 
 .landing-card-media-link {
@@ -413,11 +414,16 @@ img {
 .landing-card-copy h2 {
   font-size: 1.48rem;
   font-weight: 800;
+  min-height: 3.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .landing-card-copy p {
   margin: 12px auto 0;
   max-width: 32ch;
+  min-height: 5.2rem;
   line-height: 1.7;
   color: var(--text-body);
 }
@@ -1353,6 +1359,10 @@ h1 {
     width: 104px;
     height: 104px;
     border-radius: 24px;
+  }
+
+  .landing-card-media {
+    min-height: 104px;
   }
 
   .landing-card-copy h2 {
