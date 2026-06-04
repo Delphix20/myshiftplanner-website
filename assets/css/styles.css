@@ -957,6 +957,10 @@ h1 {
   max-width: 60ch;
 }
 
+.banner-card + .banner-card {
+  margin-top: 18px;
+}
+
 .note-card {
   padding: 32px;
 }
