@@ -434,6 +434,15 @@ img {
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.9), rgba(247, 251, 250, 0.7));
 }
 
+.landing-card-note {
+  margin: 10px 0 0;
+  font-size: 0.8rem;
+  font-weight: 600;
+  line-height: 1.35;
+  color: var(--text-soft);
+  letter-spacing: 0;
+}
+
 .landing-button-disabled {
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.72), rgba(247, 251, 250, 0.56));
   color: rgba(23, 49, 59, 0.52);
