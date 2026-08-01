@@ -697,7 +697,7 @@ h1 {
 .store-badge {
   display: block;
   width: auto;
-  height: 64px;
+  height: 51px;
   max-width: 100%;
   transition: transform 0.2s ease;
 }
@@ -2430,6 +2430,6 @@ html[lang="ja"] body {
 
   .store-badge {
     width: auto;
-    height: 58px;
+    height: 46px;
   }
 }
