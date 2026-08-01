@@ -23,6 +23,10 @@
     <meta property="og:url" content="https://myshiftplanner.app/work/">
     <meta property="og:image" content="https://myshiftplanner.app/assets/images/work-1.png">
     <meta name="twitter:card" content="summary_large_image">
+    <meta name="apple-itunes-app" content="app-id=6769349635">
+    <link rel="icon" href="/assets/images/site-icon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="/assets/images/workapp-icon.png">
+    <link rel="preload" href="/assets/fonts/nunito-latin-variable.woff2" as="font" type="font/woff2" crossorigin>
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
@@ -195,7 +199,7 @@
       <header class="topbar">
         <div class="topbar-inner">
           <a class="brand" href="/">
-            <img src="../assets/images/workapp-icon.png" alt="My Work Shift Planner app icon">
+            <img src="../assets/images/optimized/work-icon-128.webp" width="128" height="128" alt="My Work Shift Planner app icon" decoding="async">
             <span class="brand-copy">
               <strong>My Work Shift Planner</strong>
               <span>Shift calendar and pay tracker for work schedules</span>
@@ -212,6 +216,7 @@
             <a href="#teams">For Teams</a>
             <a href="#about">About</a>
             <a href="#contact">Contact</a>
+            <a href="/guides/">Guides</a>
           </nav>
         </div>
       </header>
@@ -235,15 +240,15 @@
               </div>
 
               <div class="cta-row">
-                <a class="hero-sequence hero-sequence-cta" href="https://apps.apple.com/app/my-work-shift-planner/id6769349635" target="_blank" rel="noopener noreferrer" aria-label="Download My Work Shift Planner on the App Store">
-                  <img class="store-badge" src="../assets/images/download-app-store.png" alt="Download on the App Store">
+                <a class="hero-sequence hero-sequence-cta" href="https://apps.apple.com/app/my-work-shift-planner/id6769349635" target="_blank" rel="noopener noreferrer" aria-label="Download My Work Shift Planner on the App Store" onclick="gtag('event', 'app_store_click', { app_name: 'work', placement: 'hero' });">
+                  <img class="store-badge" src="../assets/images/download-app-store.png" width="450" height="150" alt="Download on the App Store" decoding="async">
                 </a>
               </div>
             </div>
 
             <div class="hero-preview hero-sequence hero-sequence-image">
               <div class="preview-frame">
-                <img src="../assets/images/work-1.png" alt="My Work Shift Planner preview">
+                <img src="../assets/images/optimized/work-1-480.webp" srcset="../assets/images/optimized/work-1-480.webp 480w, ../assets/images/optimized/work-1-800.webp 800w" sizes="(max-width: 720px) 56vw, 38vw" width="800" height="1288" alt="My Work Shift Planner monthly calendar and upcoming shifts preview" fetchpriority="high" decoding="async">
               </div>
             </div>
           </div>
@@ -258,28 +263,28 @@
             <div class="grid grid-5">
               <article class="glass-card info-card">
                 <div class="icon-badge">
-                  <img src="../assets/images/clock.arrow.trianglehead.2.counterclockwise.rotate.90.svg" alt="" aria-hidden="true">
+                  <img src="../assets/images/clock.arrow.trianglehead.2.counterclockwise.rotate.90.svg" width="22" height="22" alt="" aria-hidden="true">
                 </div>
                 <h3>Rotating schedules</h3>
                 <p>Keep recurring work patterns visible without rebuilding each month by hand.</p>
               </article>
               <article class="glass-card info-card">
                 <div class="icon-badge">
-                  <img src="../assets/images/calendar.badge.clock.svg" alt="" aria-hidden="true">
+                  <img src="../assets/images/calendar.badge.clock.svg" width="22" height="22" alt="" aria-hidden="true">
                 </div>
                 <h3>Changing workdays</h3>
                 <p>See what is coming next at a glance when schedules move week to week.</p>
               </article>
               <article class="glass-card info-card">
                 <div class="icon-badge">
-                  <img src="../assets/images/plus.circle.fill.svg" alt="" aria-hidden="true">
+                  <img src="../assets/images/plus.circle.fill.svg" width="22" height="22" alt="" aria-hidden="true">
                 </div>
                 <h3>Overtime visibility</h3>
                 <p>Track extra work more clearly and understand its impact on monthly pay.</p>
               </article>
               <article class="glass-card info-card">
                 <div class="icon-badge">
-                  <img src="../assets/images/moon.stars.fill.svg" alt="" aria-hidden="true">
+                  <img src="../assets/images/moon.stars.fill.svg" width="22" height="22" alt="" aria-hidden="true">
                 </div>
                 <h3>Evening and night work</h3>
                 <p>Keep later shifts easy to spot so the month stays readable under pressure.</p>
@@ -306,7 +311,7 @@
             </div>
             <div class="features-layout">
               <div class="features-visual">
-                <img src="../assets/images/work-2.png" alt="My Work Shift Planner feature preview">
+                <img src="../assets/images/optimized/work-2-480.webp" srcset="../assets/images/optimized/work-2-480.webp 480w, ../assets/images/optimized/work-2-800.webp 800w" sizes="(max-width: 720px) 75vw, 38vw" width="800" height="1288" alt="My Work Shift Planner calendar and multi-day shift planning features" loading="lazy" decoding="async">
               </div>
               <div class="feature-list">
                 <article class="glass-card feature-row">
@@ -386,7 +391,7 @@
                 </article>
               </div>
               <div class="features-visual">
-                <img src="../assets/images/work-3.png" alt="My Work Shift Planner pay and profile preview">
+                <img src="../assets/images/optimized/work-3-480.webp" srcset="../assets/images/optimized/work-3-480.webp 480w, ../assets/images/optimized/work-3-800.webp 800w" sizes="(max-width: 720px) 75vw, 38vw" width="800" height="1288" alt="My Work Shift Planner estimated pay and work profile preview" loading="lazy" decoding="async">
               </div>
             </div>
           </div>
@@ -491,12 +496,41 @@
           </div>
         </section>
 
+        <section class="section" aria-labelledby="work-resources-title">
+          <div class="section-inner">
+            <div class="section-head">
+              <h2 id="work-resources-title">Free resources for changing work schedules</h2>
+              <p>Compare common rotations, organize multiple workplaces and estimate gross pay before building your planner.</p>
+            </div>
+            <div class="guide-card-grid">
+              <a class="glass-card guide-card" href="/guides/shift-rotation-patterns/">
+                <span class="guide-label">Rotation guide</span>
+                <h3>Compare shift patterns</h3>
+                <p>Review fixed schedules, 2-2-3 patterns, 4-on/4-off rotations and rotating days and nights.</p>
+                <span class="text-link">Compare patterns</span>
+              </a>
+              <a class="glass-card guide-card" href="/guides/multiple-workplaces/">
+                <span class="guide-label">Organization</span>
+                <h3>Manage multiple workplaces</h3>
+                <p>Separate roles, rates, locations and schedules while keeping one useful calendar.</p>
+                <span class="text-link">Read the guide</span>
+              </a>
+              <a class="glass-card guide-card" href="/guides/shift-pay-calculator/">
+                <span class="guide-label">Free tool</span>
+                <h3>Estimate gross shift pay</h3>
+                <p>Combine regular hours, overtime, differentials and bonuses in a quick browser calculation.</p>
+                <span class="text-link">Open calculator</span>
+              </a>
+            </div>
+          </div>
+        </section>
+
         <section class="section">
           <div class="section-inner">
             <div class="closing-cta">
-              <img class="closing-icon" src="../assets/images/workapp-icon.png" alt="My Work Shift Planner icon">
-              <a href="https://apps.apple.com/app/my-work-shift-planner/id6769349635" target="_blank" rel="noopener noreferrer" aria-label="Download My Work Shift Planner on the App Store">
-                <img class="store-badge" src="../assets/images/download-app-store.png" alt="Download on the App Store">
+              <img class="closing-icon" src="../assets/images/optimized/work-icon-256.webp" width="256" height="256" alt="My Work Shift Planner icon" loading="lazy" decoding="async">
+              <a href="https://apps.apple.com/app/my-work-shift-planner/id6769349635" target="_blank" rel="noopener noreferrer" aria-label="Download My Work Shift Planner on the App Store" onclick="gtag('event', 'app_store_click', { app_name: 'work', placement: 'closing' });">
+                <img class="store-badge" src="../assets/images/download-app-store.png" width="450" height="150" alt="Download on the App Store" loading="lazy" decoding="async">
               </a>
             </div>
           </div>
@@ -516,6 +550,7 @@
               <a href="/">Choose Planner</a>
               <a href="/work/#features">Features</a>
               <a href="/work/#contact">Contact</a>
+              <a href="/guides/">Shift Guides</a>
               <a href="https://apps.apple.com/app/my-work-shift-planner/id6769349635" target="_blank" rel="noopener noreferrer">App Store</a>
             </nav>
             <p class="footer-copyright">&copy; 2026 My Work Shift Planner</p>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-1G81C7EHDF"></script>
+    <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-1G81C7EHDF');</script>
+    <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Free Shift Pay Calculator: Hours, Overtime &amp; Differentials</title>
+    <meta name="description" content="Estimate gross shift pay from regular hours, overtime, night and weekend differentials, and bonuses with this free browser-based calculator.">
+    <meta name="robots" content="index, follow, max-image-preview:large"><link rel="canonical" href="https://myshiftplanner.app/guides/shift-pay-calculator/">
+    <meta property="og:type" content="website"><meta property="og:site_name" content="My Shift Planner"><meta property="og:title" content="Free Shift Pay Calculator"><meta property="og:description" content="Estimate gross shift pay using hours, overtime, differentials and bonuses."><meta property="og:url" content="https://myshiftplanner.app/guides/shift-pay-calculator/"><meta property="og:image" content="https://myshiftplanner.app/assets/images/work-3.png"><meta name="twitter:card" content="summary_large_image">
+    <link rel="icon" href="/assets/images/site-icon.svg" type="image/svg+xml">
+    <link rel="preload" href="/assets/fonts/nunito-latin-variable.woff2" as="font" type="font/woff2" crossorigin>
+    <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebApplication","name":"Shift Pay Calculator","url":"https://myshiftplanner.app/guides/shift-pay-calculator/","applicationCategory":"FinanceApplication","operatingSystem":"Any modern web browser","description":"A free calculator for estimating gross shift pay from hours, overtime, differentials and bonuses.","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"My Shift Planner","item":"https://myshiftplanner.app/"},{"@type":"ListItem","position":2,"name":"Guides","item":"https://myshiftplanner.app/guides/"},{"@type":"ListItem","position":3,"name":"Shift Pay Calculator","item":"https://myshiftplanner.app/guides/shift-pay-calculator/"}]}]}</script>
+    <link rel="stylesheet" href="/assets/css/styles.css">
+  </head>
+  <body>
+    <div class="site-shell">
+      <header class="topbar"><div class="topbar-inner"><a class="brand" href="/"><img src="/assets/images/optimized/work-icon-256.webp" width="256" height="256" alt="My Shift Planner icon"><span class="brand-copy"><strong>My Shift Planner</strong><span>Free shift pay calculator</span></span></a><button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button><nav class="nav" aria-label="Primary"><a href="/">Home</a><a href="/guides/">All Guides</a><a href="/nurse/">Nurse Planner</a><a href="/work/">Work Planner</a></nav></div></header>
+      <main>
+        <section class="guide-hero"><div class="section-inner"><div class="glass-card guide-hero-card"><nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a><span>/</span><a href="/guides/">Guides</a><span>/</span><span>Pay calculator</span></nav><span class="eyebrow">Free browser tool</span><h1>Shift pay calculator</h1><p>Build a quick gross-pay estimate from regular hours, overtime, night and weekend differentials, and bonuses. Nothing you enter is sent anywhere by this calculator.</p><p class="guide-updated">Updated August 1, 2026</p></div></div></section>
+
+        <section class="content-section content-section-tight"><div class="section-inner">
+          <form class="glass-card calculator-card" id="shift-pay-form">
+            <div class="content-head"><h2>Enter your planned hours and rates</h2><p>Use the same currency for every amount. If a differential does not apply, leave its hours or rate at zero.</p></div>
+            <div class="calculator-grid">
+              <div class="calculator-field"><label for="currency">Currency</label><select id="currency"><option value="USD">USD</option><option value="EUR">EUR</option><option value="GBP">GBP</option><option value="CAD">CAD</option><option value="AUD">AUD</option><option value="RON">RON</option><option value="JPY">JPY</option><option value="KRW">KRW</option><option value="PLN">PLN</option><option value="TRY">TRY</option><option value="MXN">MXN</option><option value="BRL">BRL</option></select></div>
+              <div class="calculator-field"><label for="base-rate">Base hourly rate</label><input id="base-rate" type="number" min="0" step="0.01" value="25" inputmode="decimal"></div>
+              <div class="calculator-field"><label for="regular-hours">Regular hours</label><input id="regular-hours" type="number" min="0" step="0.25" value="160" inputmode="decimal"><span>Hours not already counted as overtime</span></div>
+              <div class="calculator-field"><label for="overtime-hours">Overtime hours</label><input id="overtime-hours" type="number" min="0" step="0.25" value="8" inputmode="decimal"></div>
+              <div class="calculator-field"><label for="overtime-multiplier">Overtime multiplier</label><input id="overtime-multiplier" type="number" min="0" step="0.1" value="1.5" inputmode="decimal"><span>For example, enter 1.5 for time-and-a-half</span></div>
+              <div class="calculator-field"><label for="night-hours">Night differential hours</label><input id="night-hours" type="number" min="0" step="0.25" value="48" inputmode="decimal"></div>
+              <div class="calculator-field"><label for="night-differential">Night differential per hour</label><input id="night-differential" type="number" min="0" step="0.01" value="3" inputmode="decimal"></div>
+              <div class="calculator-field"><label for="weekend-hours">Weekend differential hours</label><input id="weekend-hours" type="number" min="0" step="0.25" value="24" inputmode="decimal"></div>
+              <div class="calculator-field"><label for="weekend-differential">Weekend differential per hour</label><input id="weekend-differential" type="number" min="0" step="0.01" value="2" inputmode="decimal"></div>
+              <div class="calculator-field"><label for="bonus">Other bonuses</label><input id="bonus" type="number" min="0" step="0.01" value="0" inputmode="decimal"></div>
+            </div>
+            <div class="calculator-actions"><button class="button" type="submit">Calculate estimate</button><button class="button button-ghost" type="reset">Reset</button></div>
+            <div class="calculator-results" aria-live="polite">
+              <div class="calculator-result"><span>Regular pay</span><strong id="regular-pay-result">$0.00</strong></div>
+              <div class="calculator-result"><span>Overtime pay</span><strong id="overtime-pay-result">$0.00</strong></div>
+              <div class="calculator-result"><span>Differentials</span><strong id="differentials-result">$0.00</strong></div>
+              <div class="calculator-result"><span>Bonuses</span><strong id="bonus-result">$0.00</strong></div>
+              <div class="calculator-result calculator-result-total"><span>Estimated gross pay</span><strong id="total-result">$0.00</strong></div>
+            </div>
+          </form>
+        </div>
+        </section>
+
+        <section class="content-section"><div class="section-inner guide-layout"><article class="glass-card guide-article">
+          <h2>How the estimate is calculated</h2><p>Regular pay is regular hours multiplied by the base rate. Overtime pay is overtime hours multiplied by the base rate and overtime multiplier. Night and weekend amounts are calculated as flat per-hour additions, then bonuses are added.</p>
+          <h2>Before using the result</h2><ul><li>Only enter regular hours that are not already counted in the overtime field.</li><li>Night and weekend hours may overlap if your employer pays both differentials for the same hours.</li><li>This tool does not calculate taxes, deductions, holiday rules, minimum guarantees or employer-specific rounding.</li><li>Overtime laws and policies vary. Use the rule shown by your employer or payroll provider.</li></ul>
+          <div class="guide-callout"><strong>Planning estimate, not a payslip</strong><p>The result is an estimated gross amount based only on your entries. Confirm final hours, eligibility and pay with your employer&apos;s official payroll records.</p></div>
+          <h2>Track the complete month</h2><p>A calculator is useful for a quick scenario. A shift calendar is more useful when hours, start times, workplace profiles, overtime rules and bonuses change throughout the month.</p>
+          <div class="glass-card resource-cta"><div><span class="content-kicker">Keep the estimate connected to your schedule</span><h2>Track shifts and pay together</h2><p>Both My Shift Planner apps calculate estimates from the shifts and pay settings you record inside your private planner.</p></div><div class="cta-row"><a class="button" href="/work/">Work Planner</a><a class="button button-ghost" href="/nurse/">Nurse Planner</a></div></div>
+        </article><aside class="guide-aside"><strong>Related resources</strong><nav aria-label="Related guides"><a href="/guides/shift-rotation-patterns/">Shift rotation patterns</a><a href="/guides/night-shift-planning/">Night shift checklist</a><a href="/guides/multiple-workplaces/">Multiple workplaces</a><a href="/guides/">All guides</a></nav></aside></div></section>
+      </main>
+      <footer class="footer"><div class="footer-inner"><div class="glass-card footer-card"><div class="footer-brand"><span><strong>My Shift Planner</strong><span>Private schedule planning for real shift work</span></span></div><nav class="footer-links" aria-label="Footer"><a href="/">Home</a><a href="/guides/">Guides</a><a href="/nurse/">Nurse Planner</a><a href="/work/">Work Planner</a><a href="/nurse/privacy.html">Privacy</a></nav><p class="footer-copyright">&copy; 2026 My Shift Planner</p></div></div></footer>
+    </div><script src="/assets/js/site.js" defer></script><script src="/assets/js/pay-calculator.js" defer></script>
+  </body>
+</html>
