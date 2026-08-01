@@ -14,6 +14,14 @@ const localeNames = {
   ja: "日本語"
 };
 
+const appStoreBadges = {
+  es: { file: "es-es.svg", width: "119.66407" },
+  fr: { file: "fr-fr.svg", width: "126.51549" },
+  de: { file: "de-de.svg", width: "119.66407" },
+  "pt-br": { file: "pt-br.svg", width: "119.66407" },
+  ja: { file: "ja-jp.svg", width: "108.85157" }
+};
+
 const copy = {
   es: {
     lang: "es",
@@ -324,6 +332,17 @@ function appPage(d, type) {
   return `${head(d, type, p.title, p.description, image, schema)}<body><div class="site-shell">${header(d, type)}<main><section class="localized-hero"><div class="section-inner localized-hero-grid"><div class="localized-hero-copy"><span class="eyebrow">${p.eyebrow}</span><h1>${p.h1}</h1><p class="lead">${p.lead}</p><div class="trust-strip">${p.features.slice(0, 3).map((x) => `<span>${x}</span>`).join("")}</div><div class="cta-row"><a class="button" href="https://apps.apple.com/app/${appSlug}/id${appId}" target="_blank" rel="noopener noreferrer">${p.cta}</a></div></div><div class="localized-screenshot-wrap"><img class="localized-screenshot" src="/assets/images/localized/${d.key}/${type}-hero-480.webp" srcset="/assets/images/localized/${d.key}/${type}-hero-480.webp 480w, /assets/images/localized/${d.key}/${type}-hero-800.webp 800w" sizes="(max-width: 1080px) 76vw, 28vw" width="800" height="1731" alt="${imageAlt}" fetchpriority="high" decoding="async"></div></div></section><section class="localized-showcase"><div class="section-inner localized-showcase-list">${showcaseRows(d, type)}</div></section><section class="content-section"><div class="section-inner"><div class="content-grid">${p.sections.map(([title, text], i) => `<article class="glass-card content-card"><span class="content-kicker">0${i + 1}</span><h2>${title}</h2><p>${text}</p></article>`).join("")}</div></div></section><section class="content-section"><div class="section-inner"><div class="content-head"><h2>${p.detailsTitle}</h2></div><div class="glass-card legal-card"><ul class="content-list">${p.details.map((x) => `<li>${x}</li>`).join("")}</ul></div></div></section><section class="content-section"><div class="section-inner"><div class="content-head"><h2>${p.faqTitle}</h2></div>${faq(p.faqs)}</div></section></main>${pageEnd(d)}`;
 }
 
+function localizedAppStoreBadge(d, type) {
+  const nurse = type === "nurse";
+  const appId = nurse ? "6764406102" : "6769349635";
+  const appSlug = nurse ? "my-nurse-shift-planner" : "my-work-shift-planner";
+  const badge = appStoreBadges[d.key];
+  const label = d[type].cta;
+  const textButton = `<div class="cta-row"><a class="button" href="https://apps.apple.com/app/${appSlug}/id${appId}" target="_blank" rel="noopener noreferrer">${label}</a></div>`;
+  const badgeButton = `<div class="cta-row"><a class="app-store-link" href="https://apps.apple.com/app/${appSlug}/id${appId}" target="_blank" rel="noopener noreferrer" aria-label="${label}"><img class="store-badge" src="/assets/images/app-store/${badge.file}" width="${badge.width}" height="40" alt="${label}" decoding="async"></a></div>`;
+  return { textButton, badgeButton };
+}
+
 function trustPage(d, type) {
   const p = d[type];
   const isAbout = type === "about";
@@ -336,13 +355,17 @@ for (const [key, value] of Object.entries(copy)) {
   for (const [type, html] of [["home", homePage(d)], ["nurse", appPage(d, "nurse")], ["work", appPage(d, "work")], ["about", trustPage(d, "about")], ["editorial-policy", trustPage(d, "editorial")]]) {
     const directory = type === "home" ? path.join(root, key) : path.join(root, key, type);
     await mkdir(directory, { recursive: true });
-    const localizedHtml = html
+    let localizedHtml = html
       .replace('<body class="landing-split-page">', '<body class="landing-split-page localized-page">')
       .replace("<body>", '<body class="localized-page">')
       .replaceAll("nurse-icon-128.webp", "nurse-icon-256.webp")
       .replaceAll("work-icon-128.webp", "work-icon-256.webp")
       .replace('height="1731"', 'height="1732"')
       .replace("勤務シフトを、いつでも分かりやすく", "勤務シフトを、もっと見やすく");
+    if (type === "nurse" || type === "work") {
+      const badge = localizedAppStoreBadge(d, type);
+      localizedHtml = localizedHtml.replace(badge.textButton, badge.badgeButton);
+    }
     await writeFile(path.join(directory, "index.html"), localizedHtml, "utf8");
   }
 }

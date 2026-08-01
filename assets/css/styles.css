@@ -695,9 +695,22 @@ h1 {
 }
 
 .store-badge {
-  width: 196px;
-  height: auto;
+  display: block;
+  width: auto;
+  height: 64px;
+  max-width: 100%;
   transition: transform 0.2s ease;
+}
+
+.app-store-link {
+  display: inline-flex;
+  line-height: 0;
+  border-radius: 12px;
+}
+
+.app-store-link:focus-visible {
+  outline: 3px solid rgba(40, 86, 109, 0.38);
+  outline-offset: 4px;
 }
 
 .store-badge:hover,
@@ -2416,6 +2429,7 @@ html[lang="ja"] body {
   }
 
   .store-badge {
-    width: 180px;
+    width: auto;
+    height: 58px;
   }
 }
