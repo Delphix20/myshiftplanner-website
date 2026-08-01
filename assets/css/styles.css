@@ -307,6 +307,12 @@ img {
 
 .landing-shell .topbar-inner {
   justify-content: center;
+  position: relative;
+}
+
+.landing-shell .language-menu {
+  position: absolute;
+  right: 0;
 }
 
 .landing-shell .brand {
@@ -1538,9 +1544,9 @@ h1 {
 }
 
 .guide-hero h1 {
-  max-width: 16ch;
-  font-size: clamp(2.25rem, 6vw, 4.1rem);
-  line-height: 1.02;
+  max-width: 22ch;
+  font-size: clamp(1.9rem, 3.75vw, 3.1rem);
+  line-height: 1.08;
 }
 
 .guide-hero p {
@@ -1878,9 +1884,9 @@ h1 {
 }
 
 .localized-hero-copy h1 {
-  max-width: 15ch;
-  font-size: clamp(2.45rem, 6vw, 5rem);
-  line-height: 1.02;
+  max-width: 22ch;
+  font-size: clamp(1.9rem, 3.75vw, 3.1rem);
+  line-height: 1.08;
 }
 
 .localized-page h1,
@@ -1996,31 +2002,21 @@ h1 {
   margin-top: 0;
 }
 
-.footer-language-links {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 8px 16px;
-  margin: 18px 0 0;
-  font-size: 0.8rem;
-  font-weight: 700;
-}
-
 html[lang="ja"] body {
   font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Yu Gothic", "Noto Sans JP", sans-serif;
 }
 
 @media (max-width: 1280px) {
-  .localized-page .nav {
+  .topbar-with-language .nav {
     display: none;
   }
 
-  .localized-page .nav-toggle {
+  .topbar-with-language .nav-toggle {
     display: inline-flex;
     margin-left: auto;
   }
 
-  .localized-page .nav.is-open {
+  .topbar-with-language .nav.is-open {
     position: absolute;
     top: calc(100% - 6px);
     right: 16px;
@@ -2038,12 +2034,12 @@ html[lang="ja"] body {
     -webkit-backdrop-filter: blur(22px);
   }
 
-  .localized-page .nav.is-open a {
+  .topbar-with-language .nav.is-open a {
     width: 100%;
     padding: 11px 18px;
   }
 
-  .localized-page .nav.is-open a + a::before {
+  .topbar-with-language .nav.is-open a + a::before {
     display: none;
   }
 }
@@ -2102,26 +2098,26 @@ html[lang="ja"] body {
 }
 
 @media (max-width: 720px) {
-  .localized-page .topbar-inner {
+  .topbar-with-language {
     gap: 8px;
   }
 
-  .localized-page .brand {
+  .topbar-with-language .brand {
     min-width: 0;
     gap: 9px;
   }
 
-  .localized-page .brand img {
+  .topbar-with-language .brand img {
     width: 42px;
     height: 42px;
     flex: 0 0 42px;
   }
 
-  .localized-page .brand-copy {
+  .topbar-with-language .brand-copy {
     min-width: 0;
   }
 
-  .localized-page .brand-copy strong {
+  .topbar-with-language .brand-copy strong {
     max-width: 150px;
     overflow: hidden;
     font-size: 0.82rem;
@@ -2129,17 +2125,17 @@ html[lang="ja"] body {
     white-space: nowrap;
   }
 
-  .localized-page .brand-copy span {
+  .topbar-with-language .brand-copy span {
     display: none;
   }
 
-  .localized-page .nav-toggle {
+  .topbar-with-language .nav-toggle {
     width: 42px;
     height: 42px;
     flex: 0 0 42px;
   }
 
-  .localized-page .language-menu summary {
+  .topbar-with-language .language-menu summary {
     justify-content: center;
     width: 50px;
     min-height: 42px;
@@ -2148,16 +2144,16 @@ html[lang="ja"] body {
     font-size: 0;
   }
 
-  .localized-page .language-menu summary::before {
+  .topbar-with-language .language-menu summary::before {
     content: "A/文";
     font-size: 0.7rem;
   }
 
-  .localized-page .language-menu summary::after {
+  .topbar-with-language .language-menu summary::after {
     font-size: 0.76rem;
   }
 
-  .localized-page .language-menu-panel {
+  .topbar-with-language .language-menu-panel {
     position: fixed;
     top: 72px;
     right: 16px;

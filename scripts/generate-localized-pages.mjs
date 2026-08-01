@@ -219,11 +219,15 @@ function languageMenu(d, type) {
 }
 
 function header(d, type) {
-  return `<header class="topbar"><div class="topbar-inner"><a class="brand" href="${route(d.key, "home")}"><img src="/assets/images/optimized/work-icon-128.webp" width="128" height="128" alt=""><span class="brand-copy"><strong>${d.siteName}</strong><span>${d.brandLine}</span></span></a><button class="nav-toggle" type="button" aria-label="Menu" aria-expanded="false"><span></span><span></span><span></span></button><nav class="nav" aria-label="Primary"><a href="${route(d.key, "home")}">${d.nav.home}</a><a href="${route(d.key, "nurse")}">${d.nav.nurse}</a><a href="${route(d.key, "work")}">${d.nav.work}</a><a href="${route(d.key, "about")}">${d.nav.about}</a></nav>${languageMenu(d, type)}</div></header>`;
+  const app = type === "nurse" ? d.nurse : type === "work" ? d.work : null;
+  const identity = app
+    ? `<img src="/assets/images/optimized/${type}-icon-256.webp" width="256" height="256" alt=""><span class="brand-copy"><strong>${app.name}</strong><span>${app.eyebrow}</span></span>`
+    : `<span class="brand-copy"><strong>My Shift Planner</strong><span>${d.brandLine}</span></span>`;
+  return `<header class="topbar"><div class="topbar-inner topbar-with-language"><a class="brand" href="${route(d.key, "home")}">${identity}</a><button class="nav-toggle" type="button" aria-label="Menu" aria-expanded="false"><span></span><span></span><span></span></button><nav class="nav" aria-label="Primary"><a href="${route(d.key, "home")}">${d.nav.home}</a><a href="${route(d.key, "nurse")}">${d.nav.nurse}</a><a href="${route(d.key, "work")}">${d.nav.work}</a><a href="${route(d.key, "about")}">${d.nav.about}</a></nav>${languageMenu(d, type)}</div></header>`;
 }
 
 function footer(d) {
-  return `<footer class="footer"><div class="footer-inner"><div class="glass-card footer-card"><div class="footer-brand"><span><strong>My Shift Planner</strong><span>${d.brandLine}</span></span></div><nav class="footer-links" aria-label="Footer"><a href="${route(d.key, "home")}">${d.nav.home}</a><a href="${route(d.key, "nurse")}">${d.nav.nurse}</a><a href="${route(d.key, "work")}">${d.nav.work}</a><a href="${route(d.key, "about")}">${d.nav.about}</a><a href="${route(d.key, "editorial")}">${d.nav.editorial}</a></nav><p class="footer-copyright">&copy; 2026 My Shift Planner</p></div><nav class="footer-language-links" aria-label="Languages">${locales.map((locale) => `<a href="${route(locale, "home")}" lang="${locale === "pt-br" ? "pt-BR" : locale}">${localeNames[locale]}</a>`).join("")}</nav></div></footer>`;
+  return `<footer class="footer"><div class="footer-inner"><div class="glass-card footer-card"><div class="footer-brand"><span><strong>My Shift Planner</strong><span>${d.brandLine}</span></span></div><nav class="footer-links" aria-label="Footer"><a href="${route(d.key, "home")}">${d.nav.home}</a><a href="${route(d.key, "nurse")}">${d.nav.nurse}</a><a href="${route(d.key, "work")}">${d.nav.work}</a><a href="${route(d.key, "about")}">${d.nav.about}</a><a href="${route(d.key, "editorial")}">${d.nav.editorial}</a></nav><p class="footer-copyright">&copy; 2026 My Shift Planner</p></div></div></footer>`;
 }
 
 function faq(items) {
@@ -266,6 +270,8 @@ for (const [key, value] of Object.entries(copy)) {
     const localizedHtml = html
       .replace('<body class="landing-split-page">', '<body class="landing-split-page localized-page">')
       .replace("<body>", '<body class="localized-page">')
+      .replaceAll("nurse-icon-128.webp", "nurse-icon-256.webp")
+      .replaceAll("work-icon-128.webp", "work-icon-256.webp")
       .replace('height="1731"', 'height="1732"')
       .replace("勤務シフトを、いつでも分かりやすく", "勤務シフトを、もっと見やすく");
     await writeFile(path.join(directory, "index.html"), localizedHtml, "utf8");
