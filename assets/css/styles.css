@@ -723,11 +723,13 @@ h1 {
   margin-bottom: 22px;
 }
 
+.section-head h1,
 .section-head h2 {
   font-size: 1.93rem;
   font-weight: 700;
 }
 
+.section-head h1::after,
 .section-head h2::after {
   content: "";
   display: block;
@@ -1240,6 +1242,66 @@ h1 {
   background: rgba(247, 251, 250, 0.64);
 }
 
+.footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px 16px;
+}
+
+.footer-links a {
+  color: var(--text-body);
+  font-size: 0.82rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  color: var(--text-strong);
+}
+
+.discount-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.discount-info-card {
+  padding: 30px;
+}
+
+.discount-info-card h2 {
+  margin-bottom: 12px;
+  font-size: 1.4rem;
+}
+
+.discount-info-card p {
+  color: var(--text-body);
+  line-height: 1.75;
+}
+
+.discount-info-card .cta-row {
+  margin-top: 20px;
+}
+
+.discount-flyer-section {
+  padding-bottom: 40px;
+}
+
+.discount-pdf-shell {
+  overflow: hidden;
+  padding: 8px;
+}
+
+.discount-pdf {
+  display: block;
+  width: 100%;
+  min-height: 760px;
+  border: 0;
+  border-radius: 22px;
+  background: #fff;
+}
+
 .footer-brand {
   display: flex;
   align-items: center;
@@ -1285,6 +1347,22 @@ h1 {
   .contact-item {
     flex-direction: column;
     align-items: flex-start;
+  }
+
+  .footer-links {
+    justify-content: flex-start;
+  }
+
+  .discount-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .discount-info-card {
+    padding: 22px;
+  }
+
+  .discount-pdf {
+    min-height: 560px;
   }
 
   .topbar-inner {
