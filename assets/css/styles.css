@@ -1900,18 +1900,65 @@ h1 {
 .localized-screenshot-wrap {
   display: flex;
   justify-content: center;
-  padding: clamp(18px, 4vw, 34px);
-  border: 1px solid rgba(255, 255, 255, 0.8);
-  border-radius: 36px;
-  background: rgba(255, 255, 255, 0.34);
-  box-shadow: 0 28px 58px rgba(72, 104, 122, 0.13);
+  padding: 0;
 }
 
 .localized-screenshot {
-  width: min(100%, 360px);
+  width: min(100%, 320px);
   height: auto;
-  border-radius: 38px;
-  box-shadow: 0 24px 48px rgba(30, 53, 69, 0.18);
+  border-radius: 32px;
+  box-shadow: 0 20px 44px rgba(30, 53, 69, 0.14);
+}
+
+.localized-showcase {
+  padding: 48px 0 38px;
+}
+
+.localized-showcase-list {
+  display: grid;
+  gap: clamp(58px, 8vw, 96px);
+}
+
+.localized-showcase-row {
+  display: grid;
+  grid-template-columns: minmax(260px, 0.72fr) minmax(0, 1fr);
+  gap: clamp(38px, 8vw, 96px);
+  align-items: center;
+}
+
+.localized-showcase-row-image-right {
+  grid-template-columns: minmax(0, 1fr) minmax(260px, 0.72fr);
+}
+
+.localized-showcase-row-image-right .localized-showcase-media {
+  order: 2;
+}
+
+.localized-showcase-row-image-right .localized-showcase-copy {
+  order: 1;
+  margin-left: auto;
+}
+
+.localized-showcase-media {
+  display: flex;
+  justify-content: center;
+}
+
+.localized-showcase-copy {
+  max-width: 560px;
+}
+
+.localized-showcase-copy h2 {
+  font-size: clamp(1.75rem, 3.4vw, 2.55rem);
+  line-height: 1.08;
+}
+
+.localized-showcase-copy p {
+  max-width: 54ch;
+  margin: 16px 0 0;
+  color: var(--text-body);
+  font-size: 1.02rem;
+  line-height: 1.75;
 }
 
 .localized-app-grid {
@@ -2061,6 +2108,29 @@ html[lang="ja"] body {
 
   .localized-hero-grid {
     grid-template-columns: 1fr;
+  }
+
+  .localized-showcase-row,
+  .localized-showcase-row-image-right {
+    grid-template-columns: 1fr;
+    gap: 26px;
+    text-align: center;
+  }
+
+  .localized-showcase-row-image-right .localized-showcase-media,
+  .localized-showcase-row-image-right .localized-showcase-copy {
+    order: initial;
+  }
+
+  .localized-showcase-row-image-right .localized-showcase-copy,
+  .localized-showcase-copy {
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .localized-showcase-copy p {
+    margin-right: auto;
+    margin-left: auto;
   }
 
   .localized-hero-copy {
