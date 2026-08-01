@@ -173,7 +173,7 @@ const copy = {
 const showcaseCopy = {
   es: {
     nurse: [
-      ["nurse-multiadd", "Añade varios turnos de una vez", "Configura el turno una sola vez y selecciona varios días del calendario para completar el mes más rápido.", "Pantalla para añadir varios turnos de enfermería en diferentes fechas"],
+      ["nurse-earnings", "Consulta horas e ingresos estimados", "Revisa el total mensual, las horas extra y el desglose semanal antes del día de pago.", "Estimación mensual de horas e ingresos en Mis Turnos de Enfermería"],
       ["nurse-profiles", "Organiza cada centro por separado", "Crea perfiles para hospitales, clínicas o agencias y aplica la rotación adecuada a cada lugar.", "Perfiles de trabajo y rotaciones en Mis Turnos de Enfermería"]
     ],
     work: [
@@ -183,7 +183,7 @@ const showcaseCopy = {
   },
   fr: {
     nurse: [
-      ["nurse-multiadd", "Ajoutez plusieurs gardes en une seule fois", "Configurez une garde, puis sélectionnez plusieurs dates du calendrier pour remplir votre planning plus rapidement.", "Écran d'ajout de plusieurs gardes infirmières à différentes dates"],
+      ["nurse-earnings", "Suivez vos heures et votre rémunération", "Consultez le total mensuel, les heures supplémentaires et le détail par semaine avant la paie.", "Estimation mensuelle des heures et de la rémunération dans Mon Planning Infirmier"],
       ["nurse-profiles", "Séparez chaque établissement", "Créez des profils pour les hôpitaux, cliniques ou agences et appliquez la rotation adaptée à chaque lieu.", "Profils professionnels et rotations dans Mon Planning Infirmier"]
     ],
     work: [
@@ -193,7 +193,7 @@ const showcaseCopy = {
   },
   de: {
     nurse: [
-      ["nurse-multiadd", "Mehrere Dienste auf einmal eintragen", "Stelle einen Dienst einmal ein und wähle anschließend mehrere Kalendertage aus.", "Mehrere Pflegedienste an verschiedenen Tagen hinzufügen"],
+      ["nurse-earnings", "Stunden und Verdienst im Blick", "Prüfe Monatsprognose, Überstunden und Wochenübersicht schon vor dem Zahltag.", "Monatliche Stunden- und Verdienstprognose in Mein Pflege-Dienstplan"],
       ["nurse-profiles", "Jeden Arbeitsort getrennt organisieren", "Lege Profile für Kliniken, Stationen oder Agenturen an und nutze passende Rotationen.", "Arbeitsprofile und Rotationen in Mein Pflege-Dienstplan"]
     ],
     work: [
@@ -203,7 +203,7 @@ const showcaseCopy = {
   },
   "pt-br": {
     nurse: [
-      ["nurse-multiadd", "Adicione vários plantões de uma vez", "Configure o plantão uma vez e selecione várias datas do calendário para preencher sua escala mais rápido.", "Tela para adicionar vários plantões de enfermagem em datas diferentes"],
+      ["nurse-earnings", "Acompanhe horas e ganhos estimados", "Veja o total mensal, as horas extras e o resumo semanal antes do pagamento.", "Estimativa mensal de horas e ganhos em Meus Plantões de Enfermagem"],
       ["nurse-profiles", "Organize cada local separadamente", "Crie perfis para hospitais, clínicas ou agências e aplique a escala adequada a cada local.", "Perfis de trabalho e escalas em Meus Plantões de Enfermagem"]
     ],
     work: [
@@ -213,7 +213,7 @@ const showcaseCopy = {
   },
   ja: {
     nurse: [
-      ["nurse-multiadd", "複数のシフトをまとめて追加", "シフト内容を一度設定し、カレンダーで複数の日付を選ぶだけで予定をすばやく登録できます。", "複数の日付に看護シフトをまとめて追加する画面"],
+      ["nurse-earnings", "勤務時間と給与見込みを確認", "月間の給与見込み、残業時間、週ごとの内訳を支給日前に確認できます。", "看護師シフト管理の月間勤務時間と給与見込み"],
       ["nurse-profiles", "勤務先ごとに整理", "病院、クリニック、派遣先ごとにプロフィールを作成し、それぞれに合ったローテーションを使えます。", "看護師シフト管理の勤務先プロフィールとローテーション"]
     ],
     work: [
@@ -221,6 +221,14 @@ const showcaseCopy = {
       ["work-profiles", "仕事と勤務先を分けて管理", "役割、勤務先、タイムゾーン、給与設定をプロフィールごとに保存できます。", "勤務シフト管理の複数の仕事と勤務先プロフィール"]
     ]
   }
+};
+
+const nurseCalendarImageAlt = {
+  es: "Pantalla en español de Mis Turnos de Enfermería con calendario mensual",
+  fr: "Écran en français de Mon Planning Infirmier avec calendrier mensuel",
+  de: "Deutsche Ansicht von Mein Dienstplan Pflege mit Monatskalender",
+  "pt-br": "Tela em português de Meus Plantões de Enfermagem com calendário mensal",
+  ja: "看護師シフト管理の日本語画面と月間カレンダー"
 };
 
 function route(locale, type) {
@@ -310,9 +318,10 @@ function appPage(d, type) {
   const appId = nurse ? "6764406102" : "6769349635";
   const appSlug = nurse ? "my-nurse-shift-planner" : "my-work-shift-planner";
   const icon = nurse ? "nurse-icon-128.webp" : "work-icon-128.webp";
+  const imageAlt = nurse ? nurseCalendarImageAlt[d.key] : p.imageAlt;
   const schema = { "@context": "https://schema.org", "@type": "MobileApplication", name: p.name, alternateName: nurse ? "My Nurse Shift Planner" : "My Work Shift Planner", url: `${base}${route(d.key, type)}`, downloadUrl: `https://apps.apple.com/app/${appSlug}/id${appId}`, image: `${base}/assets/images/${nurse ? "app-icon.png" : "workapp-icon.png"}`, description: p.description, inLanguage: d.lang, applicationCategory: "BusinessApplication", operatingSystem: "iOS 18.0 or later", offers: { "@type": "Offer", price: "0", priceCurrency: nurse ? "USD" : "USD", description: "Free download; full access requires an auto-renewable subscription." } };
   const image = `${base}/assets/images/localized/${d.key}/${type}-hero-800.webp`;
-  return `${head(d, type, p.title, p.description, image, schema)}<body><div class="site-shell">${header(d, type)}<main><section class="localized-hero"><div class="section-inner localized-hero-grid"><div class="localized-hero-copy"><span class="eyebrow">${p.eyebrow}</span><h1>${p.h1}</h1><p class="lead">${p.lead}</p><div class="trust-strip">${p.features.slice(0, 3).map((x) => `<span>${x}</span>`).join("")}</div><div class="cta-row"><a class="button" href="https://apps.apple.com/app/${appSlug}/id${appId}" target="_blank" rel="noopener noreferrer">${p.cta}</a></div></div><div class="localized-screenshot-wrap"><img class="localized-screenshot" src="/assets/images/localized/${d.key}/${type}-hero-480.webp" srcset="/assets/images/localized/${d.key}/${type}-hero-480.webp 480w, /assets/images/localized/${d.key}/${type}-hero-800.webp 800w" sizes="(max-width: 1080px) 76vw, 28vw" width="800" height="1731" alt="${p.imageAlt}" fetchpriority="high" decoding="async"></div></div></section><section class="localized-showcase"><div class="section-inner localized-showcase-list">${showcaseRows(d, type)}</div></section><section class="content-section"><div class="section-inner"><div class="content-grid">${p.sections.map(([title, text], i) => `<article class="glass-card content-card"><span class="content-kicker">0${i + 1}</span><h2>${title}</h2><p>${text}</p></article>`).join("")}</div></div></section><section class="content-section"><div class="section-inner"><div class="content-head"><h2>${p.detailsTitle}</h2></div><div class="glass-card legal-card"><ul class="content-list">${p.details.map((x) => `<li>${x}</li>`).join("")}</ul></div></div></section><section class="content-section"><div class="section-inner"><div class="content-head"><h2>${p.faqTitle}</h2></div>${faq(p.faqs)}</div></section></main>${pageEnd(d)}`;
+  return `${head(d, type, p.title, p.description, image, schema)}<body><div class="site-shell">${header(d, type)}<main><section class="localized-hero"><div class="section-inner localized-hero-grid"><div class="localized-hero-copy"><span class="eyebrow">${p.eyebrow}</span><h1>${p.h1}</h1><p class="lead">${p.lead}</p><div class="trust-strip">${p.features.slice(0, 3).map((x) => `<span>${x}</span>`).join("")}</div><div class="cta-row"><a class="button" href="https://apps.apple.com/app/${appSlug}/id${appId}" target="_blank" rel="noopener noreferrer">${p.cta}</a></div></div><div class="localized-screenshot-wrap"><img class="localized-screenshot" src="/assets/images/localized/${d.key}/${type}-hero-480.webp" srcset="/assets/images/localized/${d.key}/${type}-hero-480.webp 480w, /assets/images/localized/${d.key}/${type}-hero-800.webp 800w" sizes="(max-width: 1080px) 76vw, 28vw" width="800" height="1731" alt="${imageAlt}" fetchpriority="high" decoding="async"></div></div></section><section class="localized-showcase"><div class="section-inner localized-showcase-list">${showcaseRows(d, type)}</div></section><section class="content-section"><div class="section-inner"><div class="content-grid">${p.sections.map(([title, text], i) => `<article class="glass-card content-card"><span class="content-kicker">0${i + 1}</span><h2>${title}</h2><p>${text}</p></article>`).join("")}</div></div></section><section class="content-section"><div class="section-inner"><div class="content-head"><h2>${p.detailsTitle}</h2></div><div class="glass-card legal-card"><ul class="content-list">${p.details.map((x) => `<li>${x}</li>`).join("")}</ul></div></div></section><section class="content-section"><div class="section-inner"><div class="content-head"><h2>${p.faqTitle}</h2></div>${faq(p.faqs)}</div></section></main>${pageEnd(d)}`;
 }
 
 function trustPage(d, type) {
