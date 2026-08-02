@@ -14,6 +14,15 @@ const localeNames = {
   ja: "日本語"
 };
 
+const localeShortNames = {
+  en: "EN",
+  es: "ES",
+  fr: "FR",
+  de: "DE",
+  "pt-br": "PT",
+  ja: "JA"
+};
+
 const appStoreBadges = {
   es: { file: "es-es.svg", width: "119.66407" },
   fr: { file: "fr-fr.svg", width: "126.51549" },
@@ -264,7 +273,7 @@ function head(d, type, title, description, image, schema) {
 }
 
 function languageMenu(d, type) {
-  return `<details class="language-menu"><summary>${d.language}: ${d.name}</summary><div class="language-menu-panel">${locales.map((locale) => `<a href="${route(locale, type)}" lang="${locale === "pt-br" ? "pt-BR" : locale}"${locale === d.key ? ' aria-current="page"' : ""}>${localeNames[locale]}</a>`).join("")}</div></details>`;
+  return `<details class="language-menu"><summary aria-label="${d.language}: ${d.name}">${localeShortNames[d.key]}</summary><div class="language-menu-panel">${locales.map((locale) => `<a href="${route(locale, type)}" lang="${locale === "pt-br" ? "pt-BR" : locale}"${locale === d.key ? ' aria-current="page"' : ""}>${localeNames[locale]}</a>`).join("")}</div></details>`;
 }
 
 function header(d, type) {

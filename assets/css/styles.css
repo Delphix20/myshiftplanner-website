@@ -323,6 +323,21 @@ img {
   text-align: center;
 }
 
+@media (min-width: 1281px) {
+  .site-shell:not(.landing-shell) .topbar-with-language {
+    display: grid;
+    grid-template-columns: max-content minmax(0, 1fr) max-content;
+  }
+
+  .site-shell:not(.landing-shell) .topbar-with-language .nav {
+    justify-self: center;
+  }
+
+  .site-shell:not(.landing-shell) .topbar-with-language .language-menu {
+    justify-self: end;
+  }
+}
+
 .landing-main {
   display: block;
   min-height: calc(100vh - 78px);
@@ -2225,16 +2240,10 @@ html[lang="ja"] body {
 
   .topbar-with-language .language-menu summary {
     justify-content: center;
-    width: 50px;
+    min-width: 52px;
     min-height: 42px;
-    padding: 0 7px;
-    overflow: hidden;
-    font-size: 0;
-  }
-
-  .topbar-with-language .language-menu summary::before {
-    content: "A/文";
-    font-size: 0.7rem;
+    padding: 0 9px;
+    font-size: 0.8rem;
   }
 
   .topbar-with-language .language-menu summary::after {
