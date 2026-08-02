@@ -1568,6 +1568,10 @@ h3 {
   gap: 14px;
 }
 
+.landing-split-page .landing-faq {
+  grid-template-columns: minmax(0, 1fr);
+}
+
 .landing-faq .faq-item {
   margin: 0;
 }
