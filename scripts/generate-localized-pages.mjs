@@ -345,7 +345,7 @@ for (const [key, value] of Object.entries(copy)) {
     await mkdir(directory, { recursive: true });
     let localizedHtml = html
       .replace('<body class="landing-split-page">', '<body class="landing-split-page localized-page">')
-      .replace("<body>", '<body class="localized-page">')
+      .replace("<body>", `<body class="localized-page${type === "work" ? " work-theme" : ""}">`)
       .replaceAll("nurse-icon-128.webp", "nurse-icon-256.webp")
       .replaceAll("work-icon-128.webp", "work-icon-256.webp")
       .replace('height="1731"', 'height="1732"')

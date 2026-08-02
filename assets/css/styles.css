@@ -121,6 +121,76 @@ body.landing-split-page::before {
     );
 }
 
+body.work-theme {
+  --bg-primary: #f2f7ff;
+  --bg-secondary: #eef4ff;
+  --bg-tint: #dfe9ff;
+  --text-strong: #10324c;
+  --text-body: #54607d;
+  --text-soft: #7d88a4;
+  --line-soft: rgba(255, 255, 255, 0.76);
+  --line-strong: #d3def4;
+  --line-deep: #c2d2ef;
+  --glass-fill: rgba(255, 255, 255, 0.56);
+  --glass-fill-strong: rgba(255, 255, 255, 0.76);
+  --glass-shadow: rgba(54, 93, 155, 0.14);
+  --teal: #7d95f6;
+  --sky: #b5cbff;
+  --apricot: #a8bdf0;
+  --lilac: #ced8ff;
+  --sage: #dbe8ff;
+  --coral: #8ca4e0;
+  --indigo: #5b7fd1;
+  --amber: #d5e1ff;
+  --rose: #aab9eb;
+  background:
+    radial-gradient(26rem 24rem at 14% 12%, rgba(255, 255, 255, 0.62), transparent 56%),
+    radial-gradient(24rem 22rem at 84% 24%, rgba(209, 226, 255, 0.72), transparent 54%),
+    radial-gradient(26rem 24rem at 68% 82%, rgba(242, 247, 255, 0.84), transparent 58%),
+    linear-gradient(180deg, #d1e2ff 0%, #e2ecff 46%, #f2f7ff 100%);
+}
+
+body.work-theme,
+body.work-theme button,
+body.work-theme input,
+body.work-theme textarea,
+body.work-theme select,
+.work-theme h1,
+.work-theme h2,
+.work-theme h3,
+.work-theme strong,
+.work-theme .brand-copy strong,
+.work-theme .button {
+  font-family: "Avenir Next", "Avenir Next LT Pro", -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Yu Gothic", "Noto Sans JP", "Helvetica Neue", Arial, sans-serif;
+}
+
+.work-theme h1,
+.work-theme h2,
+.work-theme h3,
+.work-theme strong,
+.work-theme .brand-copy strong {
+  font-weight: 700;
+}
+
+.work-theme .button {
+  font-weight: 600;
+}
+
+body.work-theme::before {
+  background:
+    radial-gradient(18rem 18rem at 18% 18%, rgba(255, 255, 255, 0.28), transparent 58%),
+    radial-gradient(24rem 24rem at 82% 26%, rgba(255, 255, 255, 0.2), transparent 60%),
+    radial-gradient(20rem 20rem at 48% 86%, rgba(255, 255, 255, 0.18), transparent 58%);
+}
+
+.work-theme .topbar {
+  background: rgba(242, 247, 255, 0.74);
+}
+
+.work-theme .brand img {
+  box-shadow: 0 12px 28px rgba(91, 127, 209, 0.18);
+}
+
 @keyframes heroSoftReveal {
   from {
     opacity: 0;
@@ -1863,7 +1933,7 @@ h3 {
   padding: 0 14px;
   color: var(--text-strong);
   font-size: 0.86rem;
-  font-weight: 800;
+  font-weight: 500;
   cursor: pointer;
   list-style: none;
   border: 1px solid rgba(255, 255, 255, 0.84);
