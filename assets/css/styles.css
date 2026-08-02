@@ -340,7 +340,7 @@ img {
 }
 
 .landing-head h1 {
-  font-size: clamp(1.8rem, 3.15vw, 2.7rem);
+  font-size: clamp(1.62rem, 2.84vw, 2.43rem);
 }
 
 .landing-head p {
@@ -442,7 +442,7 @@ img {
 }
 
 .landing-card-copy h2 {
-  font-size: 1.48rem;
+  font-size: 1.33rem;
   font-weight: 800;
   min-height: 3.2rem;
   display: flex;
@@ -496,7 +496,7 @@ img {
 }
 
 .landing-explore-copy h2 {
-  font-size: 1.28rem;
+  font-size: 1.15rem;
   font-weight: 700;
 }
 
@@ -647,9 +647,17 @@ h3 {
 }
 
 h1 {
-  font-size: clamp(1.9rem, 3.75vw, 3.1rem);
+  font-size: clamp(1.71rem, 3.38vw, 2.79rem);
   line-height: 0.98;
   font-weight: 900;
+}
+
+h2 {
+  font-size: 1.35rem;
+}
+
+h3 {
+  font-size: 1.05rem;
 }
 
 .hero p.lead {
@@ -697,7 +705,7 @@ h1 {
 .store-badge {
   display: block;
   width: auto;
-  height: 51px;
+  height: 47px;
   max-width: 100%;
   transition: transform 0.2s ease;
 }
@@ -784,7 +792,7 @@ h1 {
 
 .section-head h1,
 .section-head h2 {
-  font-size: 1.93rem;
+  font-size: 1.74rem;
   font-weight: 700;
 }
 
@@ -849,7 +857,7 @@ h1 {
 }
 
 .info-card h3 {
-  font-size: 1.05rem;
+  font-size: 0.95rem;
 }
 
 .info-card p {
@@ -993,7 +1001,7 @@ h1 {
 }
 
 .banner-card h3 {
-  font-size: 1.93rem;
+  font-size: 1.74rem;
   font-weight: 700;
 }
 
@@ -1180,7 +1188,7 @@ h1 {
 }
 
 .page-hero-card h1 {
-  font-size: clamp(2.1rem, 5vw, 3.55rem);
+  font-size: clamp(1.89rem, 4.5vw, 3.2rem);
 }
 
 .page-hero-card p,
@@ -1191,18 +1199,18 @@ h1 {
 }
 
 .legal-card h2 {
-  font-size: 1.3rem;
+  font-size: 1.17rem;
   margin: 0 0 10px;
 }
 
 .legal-card .section-head h2 {
-  font-size: 1.93rem;
+  font-size: 1.74rem;
   font-weight: 700;
   margin: 0;
 }
 
 .legal-card h3 {
-  font-size: 1rem;
+  font-size: 0.9rem;
   margin: 24px 0 8px;
 }
 
@@ -1331,7 +1339,7 @@ h1 {
 
 .discount-info-card h2 {
   margin-bottom: 12px;
-  font-size: 1.4rem;
+  font-size: 1.26rem;
 }
 
 .discount-info-card p {
@@ -1376,7 +1384,7 @@ h1 {
 }
 
 .content-head h2 {
-  font-size: clamp(1.8rem, 4vw, 2.65rem);
+  font-size: clamp(1.62rem, 3.6vw, 2.39rem);
   line-height: 1.08;
 }
 
@@ -1411,7 +1419,7 @@ h1 {
 }
 
 .content-card h3 {
-  font-size: 1.15rem;
+  font-size: 1.04rem;
 }
 
 .content-card p {
@@ -1513,7 +1521,7 @@ h1 {
 
 .guide-card h3 {
   margin-top: 10px;
-  font-size: 1.16rem;
+  font-size: 1.04rem;
   line-height: 1.25;
 }
 
@@ -1562,7 +1570,7 @@ h1 {
 
 .guide-hero h1 {
   max-width: 22ch;
-  font-size: clamp(1.9rem, 3.75vw, 3.1rem);
+  font-size: clamp(1.71rem, 3.38vw, 2.79rem);
   line-height: 1.08;
 }
 
@@ -1601,7 +1609,7 @@ h1 {
 
 .guide-article h2 {
   margin: 40px 0 14px;
-  font-size: clamp(1.5rem, 3.4vw, 2rem);
+  font-size: clamp(1.35rem, 3.06vw, 1.8rem);
   line-height: 1.15;
 }
 
@@ -1611,7 +1619,7 @@ h1 {
 
 .guide-article h3 {
   margin: 28px 0 10px;
-  font-size: 1.2rem;
+  font-size: 1.08rem;
 }
 
 .guide-article p,
@@ -1902,7 +1910,7 @@ h1 {
 
 .localized-hero-copy h1 {
   max-width: 22ch;
-  font-size: clamp(1.9rem, 3.75vw, 3.1rem);
+  font-size: clamp(1.71rem, 3.38vw, 2.79rem);
   line-height: 1.08;
 }
 
@@ -1962,7 +1970,7 @@ h1 {
 }
 
 .localized-showcase-copy h2 {
-  font-size: clamp(1.75rem, 3.4vw, 2.55rem);
+  font-size: clamp(1.58rem, 3.06vw, 2.3rem);
   line-height: 1.08;
 }
 
@@ -2397,7 +2405,7 @@ html[lang="ja"] body {
   }
 
   .landing-card-copy h2 {
-    font-size: 1.34rem;
+    font-size: 1.21rem;
   }
 
   .landing-explore {
@@ -2430,6 +2438,10 @@ html[lang="ja"] body {
 
   .store-badge {
     width: auto;
-    height: 46px;
+    height: 42px;
+  }
+
+  .hero .cta-row {
+    justify-content: center;
   }
 }
