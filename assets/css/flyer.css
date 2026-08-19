@@ -1,0 +1,691 @@
+@font-face {
+  font-family: "Nunito";
+  src: url("../fonts/nunito-latin-variable.woff2") format("woff2");
+  font-weight: 200 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --ink: #15343a;
+  --muted: #587076;
+  --teal: #56b8af;
+  --teal-deep: #287f7a;
+  --lavender: #a67ad4;
+  --blue: #6578cf;
+  --coral: #e88c7f;
+  --cream: #fffaf4;
+  --paper: #f5fbfa;
+  --line: rgba(21, 52, 58, 0.13);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background: #dfecea;
+}
+
+body {
+  margin: 0;
+  color: var(--ink);
+  font-family: "Nunito", sans-serif;
+  background:
+    radial-gradient(circle at 12% 15%, rgba(86, 184, 175, 0.24), transparent 33rem),
+    radial-gradient(circle at 88% 85%, rgba(166, 122, 212, 0.17), transparent 34rem),
+    #eaf3f1;
+}
+
+a {
+  color: inherit;
+}
+
+.flyer-tools {
+  display: flex;
+  justify-content: center;
+  gap: 0.75rem;
+  padding: 1rem;
+}
+
+.flyer-tools a,
+.flyer-tools button {
+  border: 1px solid rgba(21, 52, 58, 0.14);
+  border-radius: 999px;
+  padding: 0.75rem 1.1rem;
+  color: var(--ink);
+  font: 750 0.9rem/1 "Nunito", sans-serif;
+  text-decoration: none;
+  background: rgba(255, 255, 255, 0.82);
+  box-shadow: 0 8px 22px rgba(24, 64, 70, 0.1);
+  cursor: pointer;
+}
+
+.flyer-tools .primary {
+  color: #fff;
+  border-color: transparent;
+  background: var(--teal-deep);
+}
+
+.flyer-stage {
+  display: flex;
+  justify-content: center;
+  padding: 0 1rem 2rem;
+}
+
+.flyer {
+  position: relative;
+  width: 210mm;
+  min-height: 297mm;
+  padding: 10mm 11mm 9mm;
+  overflow: hidden;
+  isolation: isolate;
+  background:
+    linear-gradient(135deg, rgba(233, 250, 248, 0.98), rgba(255, 250, 246, 0.97) 54%, rgba(242, 239, 251, 0.97)),
+    var(--paper);
+  box-shadow: 0 22px 70px rgba(21, 52, 58, 0.18);
+}
+
+.flyer::before,
+.flyer::after {
+  position: absolute;
+  z-index: -1;
+  width: 74mm;
+  height: 74mm;
+  border-radius: 50%;
+  content: "";
+  filter: blur(1px);
+}
+
+.flyer::before {
+  top: -28mm;
+  right: -18mm;
+  background: rgba(92, 193, 184, 0.18);
+}
+
+.flyer::after {
+  bottom: -34mm;
+  left: -25mm;
+  background: rgba(166, 122, 212, 0.12);
+}
+
+.flyer-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 4mm;
+  border-bottom: 0.35mm solid var(--line);
+}
+
+.flyer-brand {
+  display: flex;
+  align-items: center;
+  gap: 3mm;
+}
+
+.flyer-brand img {
+  width: 14mm;
+  height: 14mm;
+  border-radius: 3.5mm;
+  box-shadow: 0 2mm 5mm rgba(29, 88, 91, 0.14);
+}
+
+.flyer-brand strong,
+.flyer-brand span {
+  display: block;
+}
+
+.flyer-brand strong {
+  font-size: 5mm;
+  line-height: 1.05;
+  letter-spacing: -0.15mm;
+}
+
+.flyer-brand span {
+  margin-top: 1mm;
+  color: var(--muted);
+  font-size: 2.65mm;
+  font-weight: 650;
+}
+
+.language-pill {
+  padding: 1.3mm 3mm;
+  border: 0.3mm solid rgba(40, 127, 122, 0.24);
+  border-radius: 99mm;
+  color: var(--teal-deep);
+  font-size: 2.7mm;
+  font-weight: 850;
+  letter-spacing: 0.16mm;
+  background: rgba(255, 255, 255, 0.58);
+}
+
+.hero-grid {
+  display: grid;
+  grid-template-columns: 0.92fr 1.08fr;
+  gap: 7mm;
+  align-items: center;
+  min-height: 132mm;
+  padding: 7mm 0 3mm;
+}
+
+.eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 1.4mm;
+  margin: 0 0 3mm;
+  color: var(--teal-deep);
+  font-size: 2.8mm;
+  font-weight: 900;
+  letter-spacing: 0.24mm;
+  text-transform: uppercase;
+}
+
+.eyebrow::before {
+  width: 2.2mm;
+  height: 2.2mm;
+  border-radius: 50%;
+  content: "";
+  background: var(--teal);
+  box-shadow: 0 0 0 1.25mm rgba(86, 184, 175, 0.16);
+}
+
+h1 {
+  max-width: 88mm;
+  margin: 0;
+  font-size: 10.4mm;
+  line-height: 0.98;
+  letter-spacing: -0.55mm;
+}
+
+.hero-copy > p {
+  margin: 4mm 0 4.5mm;
+  color: var(--muted);
+  font-size: 3.2mm;
+  font-weight: 580;
+  line-height: 1.42;
+}
+
+.benefit-list {
+  display: grid;
+  gap: 2mm;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.benefit-list li {
+  display: grid;
+  grid-template-columns: 6mm 1fr;
+  gap: 2.1mm;
+  align-items: center;
+  min-height: 8.2mm;
+  padding: 1.3mm 2.4mm 1.3mm 1.4mm;
+  border: 0.25mm solid rgba(21, 52, 58, 0.08);
+  border-radius: 3.1mm;
+  color: #24474d;
+  font-size: 3mm;
+  font-weight: 780;
+  line-height: 1.18;
+  background: rgba(255, 255, 255, 0.58);
+}
+
+.benefit-list li::before {
+  display: grid;
+  width: 6mm;
+  height: 6mm;
+  place-items: center;
+  border-radius: 2mm;
+  color: #fff;
+  font-size: 3mm;
+  font-weight: 950;
+  content: "✓";
+  background: var(--accent, var(--teal));
+}
+
+.benefit-list li:nth-child(2) {
+  --accent: var(--lavender);
+}
+
+.benefit-list li:nth-child(3) {
+  --accent: var(--blue);
+}
+
+.benefit-list li:nth-child(4) {
+  --accent: var(--coral);
+}
+
+.device-cluster {
+  position: relative;
+  height: 124mm;
+}
+
+.device {
+  position: absolute;
+  width: 45mm;
+  padding: 1.5mm;
+  border: 0.35mm solid rgba(21, 52, 58, 0.16);
+  border-radius: 8mm;
+  background: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 5mm 11mm rgba(32, 73, 81, 0.17);
+}
+
+.device img {
+  display: block;
+  width: 100%;
+  border-radius: 6.5mm;
+}
+
+.device.calendar {
+  top: 12mm;
+  left: 1mm;
+  transform: rotate(-6deg);
+}
+
+.device.earnings {
+  z-index: 2;
+  top: 0;
+  left: 27mm;
+  transform: rotate(1.5deg);
+}
+
+.device.profiles {
+  z-index: 3;
+  top: 16mm;
+  right: 0;
+  transform: rotate(7deg);
+}
+
+.offer-band {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  gap: 4mm;
+  align-items: center;
+  padding: 4mm 5mm;
+  border-radius: 5mm;
+  color: #fff;
+  background: linear-gradient(105deg, #276f75, #356a91 57%, #6f68aa);
+  box-shadow: 0 3mm 8mm rgba(47, 92, 104, 0.17);
+}
+
+.offer-value {
+  font-size: 12mm;
+  font-weight: 950;
+  line-height: 0.85;
+  letter-spacing: -0.6mm;
+}
+
+.offer-copy strong,
+.offer-copy span {
+  display: block;
+}
+
+.offer-copy strong {
+  font-size: 5.2mm;
+  line-height: 1.05;
+}
+
+.offer-copy span {
+  margin-top: 1mm;
+  color: rgba(255, 255, 255, 0.78);
+  font-size: 2.55mm;
+  font-weight: 650;
+}
+
+.offer-code {
+  padding: 2mm 3mm;
+  border: 0.3mm solid rgba(255, 255, 255, 0.26);
+  border-radius: 2.5mm;
+  font-size: 2.65mm;
+  font-weight: 900;
+  letter-spacing: 0.22mm;
+  background: rgba(255, 255, 255, 0.12);
+}
+
+.qr-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5mm;
+  padding-top: 5mm;
+}
+
+.qr-card {
+  display: grid;
+  grid-template-columns: 32mm 1fr;
+  gap: 4mm;
+  align-items: center;
+  min-height: 47mm;
+  padding: 3.5mm;
+  border: 0.3mm solid var(--line);
+  border-radius: 5mm;
+  background: rgba(255, 255, 255, 0.65);
+}
+
+.qr-card > img {
+  display: block;
+  width: 32mm;
+  height: 32mm;
+  padding: 1.6mm;
+  border-radius: 3mm;
+  background: #fff;
+}
+
+.qr-copy strong,
+.qr-copy span {
+  display: block;
+}
+
+.qr-copy strong {
+  font-size: 4.25mm;
+  line-height: 1.07;
+}
+
+.qr-copy span {
+  margin-top: 1.7mm;
+  color: var(--muted);
+  font-size: 2.6mm;
+  font-weight: 650;
+  line-height: 1.3;
+}
+
+.store-badge {
+  width: 29mm;
+  max-height: 10mm;
+  margin-top: 2.4mm;
+}
+
+.closing-line {
+  margin: 8mm 0 0;
+  text-align: center;
+  color: var(--ink);
+  font-size: 5.2mm;
+  font-weight: 850;
+  letter-spacing: -0.14mm;
+}
+
+.flyer-footer {
+  display: flex;
+  justify-content: space-between;
+  gap: 5mm;
+  margin-top: 7mm;
+  color: #6b7f84;
+  font-size: 2.15mm;
+  font-weight: 620;
+  line-height: 1.25;
+}
+
+.flyer-footer p {
+  margin: 0;
+}
+
+.flyer-footer p:first-child {
+  max-width: 130mm;
+}
+
+.flyer-footer a {
+  white-space: nowrap;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 850px) {
+  body {
+    background: #edf6f4;
+  }
+
+  .flyer-tools {
+    position: sticky;
+    z-index: 10;
+    top: 0;
+    flex-wrap: wrap;
+    padding: 0.75rem;
+    background: rgba(234, 243, 241, 0.9);
+    backdrop-filter: blur(14px);
+  }
+
+  .flyer-tools a,
+  .flyer-tools button {
+    flex: 1 1 9rem;
+    padding: 0.7rem 0.8rem;
+    text-align: center;
+  }
+
+  .flyer-stage {
+    padding-inline: 0;
+  }
+
+  .flyer {
+    width: 100%;
+    min-height: auto;
+    padding: 1.35rem 1.1rem 1.75rem;
+    transform: none;
+    box-shadow: none;
+  }
+
+  .flyer-header {
+    gap: 0.75rem;
+    padding-bottom: 1rem;
+  }
+
+  .flyer-brand {
+    gap: 0.65rem;
+  }
+
+  .flyer-brand img {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 0.75rem;
+  }
+
+  .flyer-brand strong {
+    font-size: 1.15rem;
+    letter-spacing: -0.02rem;
+  }
+
+  .flyer-brand span {
+    max-width: 13rem;
+    margin-top: 0.2rem;
+    font-size: 0.68rem;
+  }
+
+  .language-pill {
+    flex: 0 0 auto;
+    padding: 0.35rem 0.55rem;
+    font-size: 0.62rem;
+  }
+
+  .hero-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    min-height: 0;
+    padding: 2.25rem 0 1rem;
+  }
+
+  .eyebrow {
+    margin-bottom: 1rem;
+    font-size: 0.76rem;
+    letter-spacing: 0.07rem;
+  }
+
+  .eyebrow::before {
+    width: 0.55rem;
+    height: 0.55rem;
+    box-shadow: 0 0 0 0.3rem rgba(86, 184, 175, 0.16);
+  }
+
+  h1 {
+    max-width: 22rem;
+    font-size: clamp(2.8rem, 13vw, 4.25rem);
+    line-height: 0.94;
+    letter-spacing: -0.17rem;
+  }
+
+  .hero-copy > p {
+    margin: 1.4rem 0;
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+
+  .benefit-list {
+    gap: 0.6rem;
+  }
+
+  .benefit-list li {
+    grid-template-columns: 2.15rem 1fr;
+    gap: 0.65rem;
+    min-height: 3.1rem;
+    padding: 0.45rem 0.75rem 0.45rem 0.45rem;
+    border-radius: 1rem;
+    font-size: 0.92rem;
+  }
+
+  .benefit-list li::before {
+    width: 2.15rem;
+    height: 2.15rem;
+    border-radius: 0.7rem;
+    font-size: 1rem;
+  }
+
+  .device-cluster {
+    height: min(118vw, 34rem);
+    margin-top: 0.25rem;
+  }
+
+  .device {
+    width: 45%;
+    padding: 0.3rem;
+    border-radius: 1.8rem;
+    box-shadow: 0 1.4rem 2.6rem rgba(32, 73, 81, 0.17);
+  }
+
+  .device img {
+    border-radius: 1.5rem;
+  }
+
+  .device.calendar {
+    top: 2.8rem;
+    left: 1%;
+  }
+
+  .device.earnings {
+    top: 0;
+    left: 27%;
+  }
+
+  .device.profiles {
+    top: 3.1rem;
+    right: 0;
+  }
+
+  .offer-band {
+    grid-template-columns: auto 1fr;
+    gap: 0.8rem;
+    padding: 1.15rem;
+    border-radius: 1.35rem;
+  }
+
+  .offer-value {
+    font-size: 4.1rem;
+    letter-spacing: -0.2rem;
+  }
+
+  .offer-copy strong {
+    font-size: 1.35rem;
+  }
+
+  .offer-copy span {
+    margin-top: 0.35rem;
+    font-size: 0.77rem;
+  }
+
+  .offer-code {
+    grid-column: 1 / -1;
+    justify-self: start;
+    padding: 0.45rem 0.75rem;
+    border-radius: 0.65rem;
+    font-size: 0.75rem;
+  }
+
+  .qr-grid {
+    grid-template-columns: 1fr;
+    gap: 0.9rem;
+    padding-top: 1.2rem;
+  }
+
+  .qr-card {
+    grid-template-columns: 7.3rem 1fr;
+    gap: 1rem;
+    min-height: 0;
+    padding: 1rem;
+    border-radius: 1.35rem;
+  }
+
+  .qr-card > img {
+    width: 7.3rem;
+    height: 7.3rem;
+    padding: 0.35rem;
+    border-radius: 0.75rem;
+  }
+
+  .qr-copy strong {
+    font-size: 1.25rem;
+  }
+
+  .qr-copy span {
+    margin-top: 0.45rem;
+    font-size: 0.78rem;
+  }
+
+  .store-badge {
+    width: 7.5rem;
+    max-height: 2.5rem;
+    margin-top: 0.6rem;
+  }
+
+  .closing-line {
+    margin-top: 2rem;
+    font-size: 1.45rem;
+    line-height: 1.15;
+  }
+
+  .flyer-footer {
+    flex-direction: column;
+    gap: 0.75rem;
+    margin-top: 2rem;
+    font-size: 0.7rem;
+  }
+
+  .flyer-footer p:first-child {
+    max-width: none;
+  }
+}
+
+@page {
+  size: A4 portrait;
+  margin: 0;
+}
+
+@media print {
+  html,
+  body {
+    width: 210mm;
+    height: 297mm;
+    background: transparent;
+  }
+
+  .flyer-tools {
+    display: none;
+  }
+
+  .flyer-stage {
+    display: block;
+    padding: 0;
+  }
+
+  .flyer {
+    width: 210mm;
+    height: 297mm;
+    min-height: 297mm;
+    box-shadow: none;
+    print-color-adjust: exact;
+    -webkit-print-color-adjust: exact;
+  }
+}
