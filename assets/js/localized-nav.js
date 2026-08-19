@@ -1,26 +1,35 @@
 document.addEventListener('DOMContentLoaded', () => {
   const nav = document.querySelector('.localized-parity .topbar-with-language .nav');
-  if (!nav) return;
+  const footerLinks = document.querySelector('.localized-parity .footer-links');
+  if (!nav && !footerLinks) return;
 
-  const desktopQuery = window.matchMedia('(min-width: 1281px)');
+  const headerDesktopQuery = window.matchMedia('(min-width: 1281px)');
+  const footerDesktopQuery = window.matchMedia('(min-width: 1081px)');
   let resizeFrame;
 
-  const balanceWrappedNav = () => {
+  const applyBalancedLayout = (element, classPrefix, mediaQuery) => {
+    if (!element) return;
+
+    element.classList.remove(`${classPrefix}-6`, `${classPrefix}-7`);
+    if (!mediaQuery.matches) return;
+
+    const links = Array.from(element.children).filter((child) => child.matches('a'));
+    if (![6, 7].includes(links.length)) return;
+
+    const firstRowTop = links[0]?.getBoundingClientRect().top;
+    const hasWrapped = links.some((link) => Math.abs(link.getBoundingClientRect().top - firstRowTop) > 1);
+    if (hasWrapped) element.classList.add(`${classPrefix}-${links.length}`);
+  };
+
+  const balanceWrappedMenus = () => {
     window.cancelAnimationFrame(resizeFrame);
     resizeFrame = window.requestAnimationFrame(() => {
-      nav.classList.remove('nav-balanced-6', 'nav-balanced-7');
-      if (!desktopQuery.matches) return;
-
-      const links = Array.from(nav.children).filter((child) => child.matches('a'));
-      if (![6, 7].includes(links.length)) return;
-
-      const firstRowTop = links[0]?.offsetTop;
-      const hasWrapped = links.some((link) => link.offsetTop !== firstRowTop);
-      if (hasWrapped) nav.classList.add(`nav-balanced-${links.length}`);
+      applyBalancedLayout(nav, 'nav-balanced', headerDesktopQuery);
+      applyBalancedLayout(footerLinks, 'footer-balanced', footerDesktopQuery);
     });
   };
 
-  balanceWrappedNav();
-  window.addEventListener('resize', balanceWrappedNav, { passive: true });
-  document.fonts?.ready.then(balanceWrappedNav);
+  balanceWrappedMenus();
+  window.addEventListener('resize', balanceWrappedMenus, { passive: true });
+  document.fonts?.ready.then(balanceWrappedMenus);
 });

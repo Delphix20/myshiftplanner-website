@@ -17,7 +17,7 @@ from lxml import etree, html
 
 ROOT = Path(__file__).resolve().parents[1]
 CACHE_PATH = ROOT / "scripts" / "localized_translation_cache.json"
-LOCALIZED_STYLE_VERSION = "20260819-5"
+LOCALIZED_STYLE_VERSION = "20260819-6"
 SOURCE_PAGES = [
     "index.html",
     "nurse/index.html",
@@ -1003,7 +1003,10 @@ def add_localized_nav_script(document) -> None:
     if document.xpath('//script[contains(@src,"localized-nav.js")]'):
         return
     body = document.find("body")
-    script = etree.Element("script", {"src": "/assets/js/localized-nav.js", "defer": "defer"})
+    script = etree.Element(
+        "script",
+        {"src": f"/assets/js/localized-nav.js?v={LOCALIZED_STYLE_VERSION}", "defer": "defer"},
+    )
     body.append(script)
 
 
