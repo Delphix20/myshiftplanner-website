@@ -1048,10 +1048,10 @@ h3 {
 
 /* Localized assets are raw screenshots rather than device mockups. */
 .localized-parity .preview-frame img {
-  width: 56.25%;
+  width: 50.625%;
   padding: clamp(4px, 0.55vw, 7px);
   border: 1px solid rgba(255, 255, 255, 0.96);
-  border-radius: clamp(22px, 3vw, 36px);
+  border-radius: clamp(26px, 3.4vw, 42px);
   background: rgba(255, 255, 255, 0.96);
   box-shadow:
     0 24px 48px rgba(48, 83, 100, 0.15),
@@ -1062,11 +1062,11 @@ h3 {
 }
 
 .localized-parity .features-visual img {
-  width: 75%;
-  max-width: 315px;
+  width: 67.5%;
+  max-width: 284px;
   padding: clamp(4px, 0.55vw, 7px);
   border: 1px solid rgba(255, 255, 255, 0.96);
-  border-radius: clamp(22px, 3vw, 36px);
+  border-radius: clamp(26px, 3.4vw, 42px);
   background: rgba(255, 255, 255, 0.96);
   box-shadow:
     0 22px 44px rgba(48, 83, 100, 0.14),
