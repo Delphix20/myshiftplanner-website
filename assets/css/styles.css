@@ -1049,15 +1049,39 @@ h3 {
 /* Localized assets are raw screenshots rather than device mockups. */
 .localized-parity .preview-frame img {
   width: 56.25%;
+  padding: clamp(4px, 0.55vw, 7px);
+  border: 1px solid rgba(255, 255, 255, 0.96);
   border-radius: clamp(22px, 3vw, 36px);
-  filter: drop-shadow(0 22px 42px rgba(79, 121, 131, 0.14));
+  background: rgba(255, 255, 255, 0.96);
+  box-shadow:
+    0 24px 48px rgba(48, 83, 100, 0.15),
+    0 7px 18px rgba(48, 83, 100, 0.08);
+  filter: none;
+  transform: rotate(2.5deg);
+  transform-origin: center;
 }
 
 .localized-parity .features-visual img {
   width: 75%;
   max-width: 315px;
+  padding: clamp(4px, 0.55vw, 7px);
+  border: 1px solid rgba(255, 255, 255, 0.96);
   border-radius: clamp(22px, 3vw, 36px);
-  filter: drop-shadow(0 20px 40px rgba(79, 121, 131, 0.12));
+  background: rgba(255, 255, 255, 0.96);
+  box-shadow:
+    0 22px 44px rgba(48, 83, 100, 0.14),
+    0 6px 16px rgba(48, 83, 100, 0.07);
+  filter: none;
+  transform: rotate(-2.5deg);
+  transform-origin: center;
+}
+
+.localized-parity .features-layout-reverse .features-visual img {
+  transform: rotate(2.5deg);
+}
+
+.localized-parity.work-theme .hero-preview .preview-frame img {
+  padding: clamp(4px, 0.55vw, 7px);
 }
 
 .feature-row {
@@ -2569,5 +2593,14 @@ html[lang="ja"] body {
 
   .hero .cta-row {
     justify-content: center;
+  }
+
+  .localized-parity .preview-frame img,
+  .localized-parity .features-layout-reverse .features-visual img {
+    transform: rotate(1.6deg);
+  }
+
+  .localized-parity .features-visual img {
+    transform: rotate(-1.6deg);
   }
 }

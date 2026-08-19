@@ -17,7 +17,7 @@ from lxml import etree, html
 
 ROOT = Path(__file__).resolve().parents[1]
 CACHE_PATH = ROOT / "scripts" / "localized_translation_cache.json"
-LOCALIZED_STYLE_VERSION = "20260819-3"
+LOCALIZED_STYLE_VERSION = "20260819-4"
 SOURCE_PAGES = [
     "index.html",
     "nurse/index.html",
