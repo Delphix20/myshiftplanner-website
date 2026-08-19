@@ -3,33 +3,461 @@
   <head>
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-1G81C7EHDF"></script>
-    <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-1G81C7EHDF');</script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-1G81C7EHDF');
+    </script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon-nurse-16.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon-nurse-32.png">
     <link rel="icon" type="image/png" sizes="192x192" href="/assets/images/favicon-nurse-192.png">
     <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/apple-touch-icon-nurse.png">
-    <title>Calendario de turnos y control de ingresos para enfermería</title>
-    <meta name="description" content="Planifica turnos de enfermería, controla horas e ingresos estimados y organiza varios centros en un calendario privado.">
+    <title>Planificador de turnos de enfermería, calendario y seguimiento de pagos</title>
+    <meta name="description" content="Planifique turnos de enfermería, rotaciones, horas de trabajo, recordatorios y salario estimado en un calendario de turnos de enfermería privado con widgets de pantalla de inicio y exportaciones PDF.">
     <meta name="robots" content="index, follow, max-image-preview:large">
     <link rel="canonical" href="https://myshiftplanner.app/es/nurse/">
     <link rel="alternate" hreflang="en" href="https://myshiftplanner.app/nurse/">
-    <link rel="alternate" hreflang="es" href="https://myshiftplanner.app/es/nurse/">
-    <link rel="alternate" hreflang="fr" href="https://myshiftplanner.app/fr/nurse/">
-    <link rel="alternate" hreflang="de" href="https://myshiftplanner.app/de/nurse/">
-    <link rel="alternate" hreflang="pt-BR" href="https://myshiftplanner.app/pt-br/nurse/">
-    <link rel="alternate" hreflang="ja" href="https://myshiftplanner.app/ja/nurse/">
-    <link rel="alternate" hreflang="x-default" href="https://myshiftplanner.app/nurse/">
-    <meta property="og:type" content="website">
+<link rel="alternate" hreflang="es" href="https://myshiftplanner.app/es/nurse/">
+<link rel="alternate" hreflang="fr" href="https://myshiftplanner.app/fr/nurse/">
+<link rel="alternate" hreflang="de" href="https://myshiftplanner.app/de/nurse/">
+<link rel="alternate" hreflang="pt-BR" href="https://myshiftplanner.app/pt-br/nurse/">
+<link rel="alternate" hreflang="ja" href="https://myshiftplanner.app/ja/nurse/">
+<link rel="alternate" hreflang="x-default" href="https://myshiftplanner.app/nurse/">
+<meta property="og:type" content="website">
     <meta property="og:site_name" content="My Shift Planner">
-    <meta property="og:title" content="Calendario de turnos y control de ingresos para enfermería">
-    <meta property="og:description" content="Planifica turnos de enfermería, controla horas e ingresos estimados y organiza varios centros en un calendario privado.">
+    <meta property="og:title" content="Mis Turnos de Enfermería">
+    <meta property="og:description" content="Un calendario de turnos de enfermería privado, un seguimiento de las horas de trabajo y una estimación de salarios creados en torno a horarios de enfermería reales.">
     <meta property="og:url" content="https://myshiftplanner.app/es/nurse/">
-    <meta property="og:image" content="https://myshiftplanner.app/assets/images/localized/es/nurse-hero-800.webp">
-    <meta property="og:locale" content="es_ES">
+    <meta property="og:image" content="https://myshiftplanner.app/assets/images/app-preview.png">
     <meta name="twitter:card" content="summary_large_image">
+    <meta name="apple-itunes-app" content="app-id=6764406102">
     <link rel="preload" href="/assets/fonts/nunito-latin-variable.woff2" as="font" type="font/woff2" crossorigin>
-    <script type="application/ld+json">{"@context":"https://schema.org","@type":"MobileApplication","name":"Mis Turnos de Enfermería","alternateName":"My Nurse Shift Planner","url":"https://myshiftplanner.app/es/nurse/","downloadUrl":"https://apps.apple.com/app/my-nurse-shift-planner/id6764406102","image":"https://myshiftplanner.app/assets/images/app-icon.png","description":"Planifica turnos de enfermería, controla horas e ingresos estimados y organiza varios centros en un calendario privado.","inLanguage":"es","applicationCategory":"BusinessApplication","operatingSystem":"iOS 18.0 or later","offers":{"@type":"Offer","price":"0","priceCurrency":"USD","description":"Free download; full access requires an auto-renewable subscription."}}</script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"MobileApplication","name":"Mis Turnos de Enfermería","url":"https://myshiftplanner.app/es/nurse/","downloadUrl":"https://apps.apple.com/app/my-nurse-shift-planner/id6764406102","image":"https://myshiftplanner.app/assets/images/app-icon.png","description":"Un calendario privado de turnos de enfermería, un seguimiento de las horas de trabajo y una estimación de salarios para enfermeras y personal sanitario.","applicationCategory":"BusinessApplication","operatingSystem":"iOS 18.0 o posterior","offers":{"@type":"Offer","price":"0","priceCurrency":"USD","description":"Descarga gratuita; El acceso completo a la aplicación requiere una suscripción renovable automáticamente."}}</script>
     <link rel="stylesheet" href="/assets/css/styles.css">
-  </head><body class="localized-page"><div class="site-shell"><header class="topbar"><div class="topbar-inner topbar-with-language"><a class="brand" href="/es/"><img src="/assets/images/optimized/nurse-icon-256.webp" width="256" height="256" alt=""><span class="brand-copy"><strong>Mis Turnos de Enfermería</strong><span>Diseñado para horarios de enfermería</span></span></a><button class="nav-toggle" type="button" aria-label="Menu" aria-expanded="false"><span></span><span></span><span></span></button><nav class="nav" aria-label="Primary"><a href="/es/">Inicio</a><a href="/es/nurse/">Enfermería</a><a href="/es/work/">Trabajo</a><a href="/es/about/">Acerca de</a></nav><details class="language-menu"><summary aria-label="Idioma: Español">ES</summary><div class="language-menu-panel"><a href="/nurse/" lang="en">English</a><a href="/es/nurse/" lang="es" aria-current="page">Español</a><a href="/fr/nurse/" lang="fr">Français</a><a href="/de/nurse/" lang="de">Deutsch</a><a href="/pt-br/nurse/" lang="pt-BR">Português (Brasil)</a><a href="/ja/nurse/" lang="ja">日本語</a></div></details></div></header><main><section class="localized-hero"><div class="section-inner localized-hero-grid"><div class="localized-hero-copy"><span class="eyebrow">Diseñado para horarios de enfermería</span><h1>Tus turnos de enfermería, organizados en un solo lugar</h1><p class="lead">Planifica turnos de día y noche, guardias, avisos, horas extra, vacaciones y bajas con una vista mensual pensada para el trabajo sanitario.</p><div class="trust-strip"><span>Calendario mensual</span><span>Turnos de día y noche</span><span>Guardias y avisos</span></div><div class="cta-row"><a class="app-store-link" href="https://apps.apple.com/app/my-nurse-shift-planner/id6764406102" target="_blank" rel="noopener noreferrer" aria-label="Ver en el App Store"><img class="store-badge" src="/assets/images/app-store/es-es.svg" width="119.66407" height="40" alt="Ver en el App Store" decoding="async"></a></div></div><div class="localized-screenshot-wrap"><img class="localized-screenshot" src="/assets/images/localized/es/nurse-hero-480.webp" srcset="/assets/images/localized/es/nurse-hero-480.webp 480w, /assets/images/localized/es/nurse-hero-800.webp 800w" sizes="(max-width: 1080px) 76vw, 28vw" width="800" height="1732" alt="Pantalla en español de Mis Turnos de Enfermería con calendario mensual" fetchpriority="high" decoding="async"></div></div></section><section class="localized-showcase"><div class="section-inner localized-showcase-list"><article class="localized-showcase-row"><div class="localized-showcase-media"><img class="localized-screenshot" src="/assets/images/localized/es/nurse-earnings-480.webp" srcset="/assets/images/localized/es/nurse-earnings-480.webp 480w, /assets/images/localized/es/nurse-earnings-800.webp 800w" sizes="(max-width: 1080px) 76vw, 28vw" width="800" height="1732" alt="Estimación mensual de horas e ingresos en Mis Turnos de Enfermería" loading="lazy" decoding="async"></div><div class="localized-showcase-copy"><span class="content-kicker">02</span><h2>Consulta horas e ingresos estimados</h2><p>Revisa el total mensual, las horas extra y el desglose semanal antes del día de pago.</p></div></article><article class="localized-showcase-row localized-showcase-row-image-right"><div class="localized-showcase-media"><img class="localized-screenshot" src="/assets/images/localized/es/nurse-profiles-480.webp" srcset="/assets/images/localized/es/nurse-profiles-480.webp 480w, /assets/images/localized/es/nurse-profiles-800.webp 800w" sizes="(max-width: 1080px) 76vw, 28vw" width="800" height="1732" alt="Perfiles de trabajo y rotaciones en Mis Turnos de Enfermería" loading="lazy" decoding="async"></div><div class="localized-showcase-copy"><span class="content-kicker">03</span><h2>Organiza cada centro por separado</h2><p>Crea perfiles para hospitales, clínicas o agencias y aplica la rotación adecuada a cada lugar.</p></div></article></div></section><section class="content-section"><div class="section-inner"><div class="content-grid"><article class="glass-card content-card"><span class="content-kicker">01</span><h2>Planifica horarios sanitarios reales</h2><p>Registra turnos de día, tarde y noche, guardias, avisos, horas extra, formación, vacaciones, bajas y turnos cancelados. Las rotaciones y la planificación de varios días reducen el trabajo repetitivo.</p></article><article class="glass-card content-card"><span class="content-kicker">02</span><h2>Sigue horas e ingresos</h2><p>Configura tarifa por hora, plus nocturno, fin de semana, festivos, horas extra, descansos y bonificaciones. Las cifras son estimaciones para planificar, no cálculos oficiales de nómina.</p></article><article class="glass-card content-card"><span class="content-kicker">03</span><h2>Varios centros, una sola vista</h2><p>Crea perfiles para hospitales, unidades, clínicas, agencias o trabajo eventual y asigna cada turno al lugar correcto.</p></article></div></div></section><section class="content-section"><div class="section-inner"><div class="content-head"><h2>Qué puedes organizar</h2></div><div class="glass-card legal-card"><ul class="content-list"><li>Turnos diurnos, nocturnos y rotativos</li><li>Guardias, avisos y horas extra</li><li>Vacaciones, bajas, formación y cancelaciones</li><li>Perfiles con tarifas y lugares distintos</li><li>Recordatorios locales antes de los turnos</li><li>Widgets de inicio y pantalla bloqueada</li></ul></div></div></section><section class="content-section"><div class="section-inner"><div class="content-head"><h2>Preguntas sobre el planificador de enfermería</h2></div><div class="landing-faq"><details class="glass-card faq-item"><summary>¿Está pensado solo para hospitales?</summary><div class="faq-answer"><p>No. También sirve para clínicas, agencias, residencias, atención domiciliaria y otros entornos sanitarios.</p></div></details><details class="glass-card faq-item"><summary>¿Puedo registrar turnos de 12 horas?</summary><div class="faq-answer"><p>Sí. Puedes configurar la hora de inicio y fin, incluidos turnos que terminan al día siguiente.</p></div></details><details class="glass-card faq-item"><summary>¿Mis datos se envían a un servidor propio?</summary><div class="faq-answer"><p>La app prioriza el almacenamiento local. Si activas iCloud, Apple sincroniza los datos seleccionados entre tus dispositivos.</p></div></details><details class="glass-card faq-item"><summary>¿Se necesita una suscripción?</summary><div class="faq-answer"><p>La descarga es gratuita. El acceso completo requiere una suscripción autorrenovable después de la prueba gratuita aplicable.</p></div></details></div></div></section></main><footer class="footer"><div class="footer-inner"><div class="glass-card footer-card"><div class="footer-brand"><span><strong>My Shift Planner</strong><span>Calendarios de turnos privados</span></span></div><nav class="footer-links" aria-label="Footer"><a href="/es/">Inicio</a><a href="/es/nurse/">Enfermería</a><a href="/es/work/">Trabajo</a><a href="/es/about/">Acerca de</a></nav><p class="footer-copyright">&copy; 2026 My Shift Planner</p></div></div></footer></div><script src="/assets/js/site.js" defer></script></body></html>
+  <meta property="og:locale" content="es_ES">
+</head>
+  <body class="localized-parity">
+    <div class="site-shell">
+      <header class="topbar">
+        <div class="topbar-with-language topbar-inner">
+          <a class="brand" href="/es/nurse/">
+            <img src="/assets/images/optimized/nurse-icon-256.webp" width="256" height="256" alt="Icono de la aplicación Mis Turnos de Enfermería" decoding="async">
+            <span class="brand-copy">
+              <strong>Mis Turnos de Enfermería</strong>
+              <span>Calendario de turnos y seguimiento de pagos para enfermeras</span>
+            </span>
+          </a>
+          <button class="nav-toggle" type="button" aria-label="abrir menú" aria-expanded="false">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+          <nav class="nav" aria-label="Primaria">
+            <a href="/es/nurse/">Inicio</a>
+            <a href="#features">Características</a>
+            <a href="#teams">Para equipos</a>
+            <a href="#about">Acerca de</a>
+            <a href="#contact">Contacto</a>
+            <a href="/es/guides/">Guías</a>
+            <a href="/es/nurse/support.html">Soporte</a>
+          </nav>
+          <details class="language-menu"><summary aria-label="Español">ES</summary><div class="language-menu-panel">
+<a href="/nurse/" lang="en">English</a><a href="/es/nurse/" lang="es" aria-current="page">Español</a><a href="/fr/nurse/" lang="fr">Français</a><a href="/de/nurse/" lang="de">Deutsch</a><a href="/pt-br/nurse/" lang="pt-BR">Português (Brasil)</a><a href="/ja/nurse/" lang="ja">日本語</a>
+</div></details>
+</div>
+      </header>
+
+      <main>
+        <section class="hero">
+          <div class="section-inner hero-grid">
+            <div class="hero-copy">
+              <h1 class="hero-sequence hero-sequence-title">Hecho para tu ritmo<br>entre turnos.</h1>
+              <p class="lead hero-sequence hero-sequence-subtitle">Una aplicación sencilla de planificación de turnos creada para enfermeras y personal sanitario. Programación diaria clara, planificación de rotación flexible, visibilidad de pago y una experiencia privada diseñada para seguir siendo práctica.</p>
+
+              <div class="hero-points">
+                <span class="hero-sequence hero-sequence-chip-1">Calendario<br>mensual</span>
+                <span class="hero-sequence hero-sequence-chip-2">Rotaciones<br>predefinidas</span>
+                <span class="hero-sequence hero-sequence-chip-3">Turnos de día<br>y de noche</span>
+                <span class="hero-sequence hero-sequence-chip-4">Control de<br>horas extra</span>
+                <span class="hero-sequence hero-sequence-chip-5">Ingresos<br>estimados</span>
+                <span class="hero-sequence hero-sequence-chip-6">Perfiles<br>de trabajo</span>
+                <span class="hero-sequence hero-sequence-chip-7">Avisos<br>de turno</span>
+                <span class="hero-sequence hero-sequence-chip-8">Exportación<br>CSV y PDF</span>
+              </div>
+
+              <div class="cta-row">
+                <a class="hero-sequence hero-sequence-cta" href="https://apps.apple.com/app/my-nurse-shift-planner/id6764406102" target="_blank" rel="noopener noreferrer" aria-label="Descargue Mis Turnos de Enfermería en App Store" onclick="gtag('event', 'app_store_click', { app_name: 'nurse', placement: 'hero' });">
+                  <img class="store-badge" src="/assets/images/app-store/es-es.svg" width="119.66407" height="40" alt="Descargar en la App Store" decoding="async">
+                </a>
+              </div>
+            </div>
+
+            <div class="hero-preview hero-sequence hero-sequence-image">
+              <div class="preview-frame">
+                <img src="/assets/images/localized/es/nurse-hero-480.webp" srcset="/assets/images/localized/es/nurse-hero-480.webp 480w, /assets/images/localized/es/nurse-hero-800.webp 800w" sizes="(max-width: 720px) 56vw, 38vw" width="800" height="1732" alt="Calendario mensual de turnos en Mis Turnos de Enfermería" fetchpriority="high" decoding="async">
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section" id="pain-points">
+          <div class="section-inner">
+            <div class="section-head">
+              <h2>Diseñado para la realidad del trabajo de enfermería</h2>
+              <p>La aplicación está diseñada para los patrones de programación con los que realmente se enfrentan las enfermeras: cambios de turno, trabajo nocturno, horas extras, múltiples lugares de trabajo y la necesidad de ver un mes claramente de un vistazo.</p>
+            </div>
+            <div class="grid grid-5">
+              <article class="glass-card info-card">
+                <div class="icon-badge">
+                  <img src="/assets/images/clock.arrow.trianglehead.2.counterclockwise.rotate.90.svg" width="22" height="22" alt="" aria-hidden="true">
+                </div>
+                <h3>Horarios rotativos</h3>
+                <p>Mantenga visibles los patrones de trabajo recurrentes sin reconstruir el mes manualmente.</p>
+              </article>
+              <article class="glass-card info-card">
+                <div class="icon-badge">
+                  <img src="/assets/images/moon.stars.fill.svg" width="22" height="22" alt="" aria-hidden="true">
+                </div>
+                <h3>turnos de noche</h3>
+                <p>Realice un seguimiento claro del trabajo diurno y nocturno para que los próximos turnos sean fáciles de detectar.</p>
+              </article>
+              <article class="glass-card info-card">
+                <div class="icon-badge">
+                  <img src="/assets/images/plus.circle.fill.svg" width="22" height="22" alt="" aria-hidden="true">
+                </div>
+                <h3>Control de</h3>
+                <p>Vea turnos adicionales y el impacto salarial estimado sin mantener notas separadas.</p>
+              </article>
+              <article class="glass-card info-card">
+                <div class="icon-badge icon-badge-large-symbol">
+                  <img src="/assets/images/calendar.badge.clock.svg" width="22" height="22" alt="" aria-hidden="true">
+                </div>
+                <h3>Turnos siempre claros</h3>
+                <p>Utilice un planificador limpio en lugar de mensajes, capturas de pantalla y memoria dispersos.</p>
+              </article>
+              <article class="glass-card info-card">
+                <div class="icon-badge">
+                  <img src="/assets/images/heart.text.square.fill.svg" width="22" height="22" alt="" aria-hidden="true">
+                </div>
+                <h3>Equilibrio vida-trabajo</h3>
+                <p>Obtenga una visión general rápida de lo que viene a continuación y planifique en función de días laborables reales.</p>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section class="section" id="features">
+          <div class="section-inner">
+            <div class="section-head">
+              <h2>Funciones principales</h2>
+              <p>Centrado, profesional e intencionalmente simple. La aplicación está diseñada para ser útil en el trabajo diario de enfermería, sin estar sobrecargada de distracciones.</p>
+            </div>
+            <div class="features-layout">
+              <div class="features-visual">
+                <img src="/assets/images/localized/es/nurse-earnings-480.webp" srcset="/assets/images/localized/es/nurse-earnings-480.webp 480w, /assets/images/localized/es/nurse-earnings-800.webp 800w" sizes="(max-width: 720px) 75vw, 38vw" width="800" height="1732" alt="Estimación mensual de ingresos en Mis Turnos de Enfermería" loading="lazy" decoding="async">
+              </div>
+              <div class="feature-list">
+                <article class="glass-card feature-row">
+                  <div class="check" aria-hidden="true"></div>
+                  <div>
+                    <strong>Calendario de turnos</strong>
+                    <span>Un calendario mes a mes que facilita la localización de los turnos registrados de un vistazo.</span>
+                  </div>
+                </article>
+                <article class="glass-card feature-row">
+                  <div class="check" aria-hidden="true"></div>
+                  <div>
+                    <strong>Añade varios días rápidamente</strong>
+                    <span>Establezca un turno una vez y colóquelo en varias fechas más rápido al crear un mes.</span>
+                  </div>
+                </article>
+                <article class="glass-card feature-row">
+                  <div class="check" aria-hidden="true"></div>
+                  <div>
+                    <strong>Rotaciones predefinidas</strong>
+                    <span>Aplique patrones de trabajo recurrentes más rápido y mantenga organizados los meses futuros con menos trabajo manual.</span>
+                  </div>
+                </article>
+                <article class="glass-card feature-row">
+                  <div class="check" aria-hidden="true"></div>
+                  <div>
+                    <strong>Detalle diario del turno</strong>
+                    <span>Abierto cualquier día para revisar turnos programados, símbolos, horarios, notas y detalles del lugar de trabajo.</span>
+                  </div>
+                </article>
+                <article class="glass-card feature-row">
+                  <div class="check" aria-hidden="true"></div>
+                  <div>
+                    <strong>Tipos de turno de enfermería</strong>
+                    <span>Realice un seguimiento del día, la noche, las horas extra, las guardias, las devoluciones de llamadas, el tiempo libre, las enfermedades, la educación y más en un solo planificador.</span>
+                  </div>
+                </article>
+              </div>
+            </div>
+
+            <div class="features-layout features-layout-reverse">
+              <div class="feature-list">
+                <article class="glass-card feature-row">
+                  <div class="check" aria-hidden="true"></div>
+                  <div>
+                    <strong>Ingresos estimados</strong>
+                    <span>Revise las estimaciones de salario bruto mensual utilizando la tarifa base, diferenciales, horas extras y bonificaciones.</span>
+                  </div>
+                </article>
+                <article class="glass-card feature-row">
+                  <div class="check" aria-hidden="true"></div>
+                  <div>
+                    <strong>Perfiles de trabajo</strong>
+                    <span>Administre múltiples lugares de trabajo en un calendario y asigne turnos al perfil correcto.</span>
+                  </div>
+                </article>
+                <article class="glass-card feature-row">
+                  <div class="check" aria-hidden="true"></div>
+                  <div>
+                    <strong>Notificaciones antes de los turnos</strong>
+                    <span>Reciba recordatorios locales antes de los próximos turnos para que sea más difícil pasar por alto los días laborales importantes.</span>
+                  </div>
+                </article>
+                <article class="glass-card feature-row">
+                  <div class="check" aria-hidden="true"></div>
+                  <div>
+                    <strong>Exportaciones CSV y PDF</strong>
+                    <span>Exporte registros mensuales en formatos limpios que sean más fáciles de revisar, guardar o compartir.</span>
+                  </div>
+                </article>
+                <article class="glass-card feature-row">
+                  <div class="check" aria-hidden="true"></div>
+                  <div>
+                    <strong>Privado desde el principio</strong>
+                    <span>Utilice almacenamiento local rápido de forma predeterminada con sincronización privada iCloud cuando esté habilitada.</span>
+                  </div>
+                </article>
+              </div>
+              <div class="features-visual">
+                <img src="/assets/images/localized/es/nurse-profiles-480.webp" srcset="/assets/images/localized/es/nurse-profiles-480.webp 480w, /assets/images/localized/es/nurse-profiles-800.webp 800w" sizes="(max-width: 720px) 75vw, 38vw" width="800" height="1732" alt="Perfiles de trabajo en Mis Turnos de Enfermería" loading="lazy" decoding="async">
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section" id="teams">
+          <div class="section-inner">
+            <article class="glass-card banner-card">
+              <div>
+                <h3>Descuento para personal sanitario</h3>
+                <div class="card-divider" aria-hidden="true"></div>
+                <p class="banner-subtitle">Hasta un 50% de descuento disponible para hospitales, reclutadores y programas de enfermería.</p>
+                <p>Los códigos de descuento están disponibles para hospitales, agencias de empleo, reclutadores y programas de educación de enfermería interesados en compartir la aplicación con su personal o estudiantes.</p>
+              </div>
+              <a class="button button-ghost" href="mailto:hello@myshiftplanner.app?subject=Healthcare%20Staff%20Discount%20Inquiry">Solicitar descuento para personal sanitario</a>
+            </article>
+
+            <article class="glass-card banner-card">
+              <div>
+                <h3>20% de descuento en el plan anual</h3>
+                <div class="card-divider" aria-hidden="true"></div>
+                <p class="banner-subtitle">Disponible para todos los nuevos usuarios.</p>
+                <p>Los nuevos usuarios pueden canjear el código. <strong>NURSESHIFT20OFF</strong> con un 20% de descuento en el plan anual en App Store.</p>
+                <p>La prueba gratuita de 7 días aún se aplica antes de que comience la suscripción anual con descuento.</p>
+              </div>
+              <a class="button button-ghost" href="https://apps.apple.com/redeem/?ctx=offercodes&amp;id=6764406102&amp;code=NURSESHIFT20OFF" target="_blank" rel="noopener noreferrer">Canjear código en App Store</a>
+            </article>
+          </div>
+        </section>
+
+        <section class="section" id="about">
+          <div class="section-inner grid grid-2">
+            <article class="glass-card note-card">
+              <div class="section-head">
+                <h2>Sobre el proyecto</h2>
+              </div>
+              <p><strong>Mis Turnos de Enfermería</strong> fue creado de forma independiente por un equipo de desarrollo de aplicaciones centrado en aplicaciones móviles prácticas y respetuosas con la privacidad. El objetivo es sencillo: crear software que ayude a los usuarios reales a mantenerse organizados sin complejidad innecesaria.</p>
+              <div class="note-card-actions">
+                <a class="button button-ghost" href="https://paulcrp.com" target="_blank" rel="noopener noreferrer">Ver nuestras aplicaciones</a>
+              </div>
+            </article>
+            <article class="glass-card note-card">
+              <div class="section-head">
+                <h2>Disponible en la App Store</h2>
+              </div>
+              <div class="app-store-stat">
+                <div class="app-store-stat-line">
+                  <span class="app-store-stat-label">vivir en</span>
+                  <span class="app-store-stat-number">175</span>
+                  <span class="app-store-stat-label">países</span>
+                </div>
+                <div class="app-store-stat-subcopy">Disponible en todo el mundo para que enfermeras, reclutadores, hospitales y equipos de atención médica lo revisen y descarguen.</div>
+              </div>
+              <p>Mis Turnos de Enfermería está disponible en App Store, con una lista pública, capturas de pantalla, detalles de soporte y un enlace de descarga directa para que el personal y los reclutadores lo revisen.</p>
+            </article>
+          </div>
+        </section>
+
+        <section class="section" id="contact">
+          <div class="section-inner">
+            <div class="section-head">
+              <h2>Contacto</h2>
+              <p>Para discusiones sobre asociaciones, descuentos para el personal de atención médica, conversaciones con reclutadores, preguntas de soporte o consultas sobre productos, utilice los datos de contacto a continuación.</p>
+            </div>
+            <div class="contact-list contact-list-plain">
+              <article class="contact-item-plain">
+                <div class="contact-item-copy">
+                  <span class="contact-marker" aria-hidden="true"></span>
+                  <div>
+                    <strong>Ponte en contacto</strong>
+                    <span>Para asociaciones de atención médica, preguntas sobre productos y más información.</span>
+                  </div>
+                </div>
+                <div class="contact-action">
+                  <a class="button button-ghost" href="mailto:hello@myshiftplanner.app">Contáctenos</a>
+                </div>
+              </article>
+              <article class="contact-item-plain">
+                <div class="contact-item-copy">
+                  <span class="contact-marker" aria-hidden="true"></span>
+                  <div>
+                    <strong>Soporte de producto</strong>
+                    <span>Soporte de aplicaciones, preguntas frecuentes y comunicación general del producto.</span>
+                  </div>
+                </div>
+                <div class="contact-action">
+                  <a class="button button-ghost" href="/es/nurse/support.html">Visitar la página de soporte</a>
+                </div>
+              </article>
+              <article class="contact-item-plain">
+                <div class="contact-item-copy">
+                  <span class="contact-marker" aria-hidden="true"></span>
+                  <div>
+                    <strong>Información de privacidad</strong>
+                    <span>Resumen de cómo la aplicación maneja el almacenamiento local, la sincronización opcional de iCloud y las notificaciones.</span>
+                  </div>
+                </div>
+                <div class="contact-action">
+                  <a class="button button-ghost" href="/es/nurse/privacy.html">Lea la Política de Privacidad</a>
+                </div>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section class="section" aria-labelledby="nurse-resources-title">
+          <div class="section-inner">
+            <div class="section-head">
+              <h2 id="nurse-resources-title">Guías prácticas para planificar turnos de enfermería</h2>
+              <p>Explore recursos gratuitos para horarios de 12 horas, turnos nocturnos, rotaciones comunes y salario bruto estimado por turnos.</p>
+            </div>
+            <div class="guide-card-grid">
+              <a class="glass-card guide-card" href="/es/guides/nurse-12-hour-shift-schedule/">
+                <span class="guide-label">Horarios de enfermeras</span>
+                <h3>Planifica turnos de enfermería de 12 horas</h3>
+                <p>Organiza turnos diurnos y nocturnos, guardias, descansos y unidades múltiples sin perder la vista mensual.</p>
+                <span class="text-link">Lee la guía</span>
+              </a>
+              <a class="glass-card guide-card" href="/es/guides/night-shift-planning/">
+                <span class="guide-label">trabajo nocturno</span>
+                <h3>Organiza los turnos nocturnos</h3>
+                <p>Registre correctamente el trabajo entre medianoche y mantenga juntos los recordatorios, ubicaciones y diferenciales.</p>
+                <span class="text-link">Utilice la lista de verificación</span>
+              </a>
+              <a class="glass-card guide-card" href="/es/guides/shift-pay-calculator/">
+                <span class="guide-label">herramienta gratuita</span>
+                <h3>Estima los ingresos brutos por turno</h3>
+                <p>Combine horas regulares, horas extras, diferenciales y bonificaciones en un cálculo rápido del navegador.</p>
+                <span class="text-link">Abrir calculadora</span>
+              </a>
+            </div>
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="section-inner">
+            <div class="closing-cta">
+              <img class="closing-icon" src="/assets/images/optimized/nurse-icon-256.webp" width="256" height="256" alt="Icono Mis Turnos de Enfermería" loading="lazy" decoding="async">
+              <a href="https://apps.apple.com/app/my-nurse-shift-planner/id6764406102" target="_blank" rel="noopener noreferrer" aria-label="Descargue Mis Turnos de Enfermería en App Store" onclick="gtag('event', 'app_store_click', { app_name: 'nurse', placement: 'closing' });">
+                <img class="store-badge" src="/assets/images/app-store/es-es.svg" width="119.66407" height="40" alt="Descargar en la App Store" loading="lazy" decoding="async">
+              </a>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <div class="footer-inner">
+          <div class="glass-card footer-card">
+            <div class="footer-brand">
+              <span>
+                <strong>Mis Turnos de Enfermería</strong>
+                <span>Calendario de turnos y seguimiento de pagos para enfermeras</span>
+              </span>
+            </div>
+            <nav class="footer-links" aria-label="Pie de página">
+              <a href="/es/">Elija Planificador</a>
+              <a href="/es/nurse/support.html">Soporte</a>
+              <a href="/es/nurse/contact.html">Contacto</a>
+              <a href="/es/nurse/privacy.html">Privacidad</a>
+              <a href="/es/nurse/healthcarestaffdiscount/">Descuentos</a>
+              <a href="/es/guides/">Guías de turnos</a>
+              <a href="/es/about/">Acerca de</a>
+            </nav>
+            <p class="footer-copyright">© 2026 Mis Turnos de Enfermería</p>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script>
+      document.addEventListener('DOMContentLoaded', () => {
+        const toggle = document.querySelector('.nav-toggle');
+        const nav = document.querySelector('.nav');
+        if (toggle && nav) {
+          toggle.addEventListener('click', () => {
+            const isOpen = nav.classList.toggle('is-open');
+            toggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+          });
+        }
+
+        document.querySelectorAll(
+          '#pain-points .section-head, ' +
+          '#features .section-head, ' +
+          '#teams .section-inner, ' +
+          '#about .note-card, ' +
+          '#contact .section-head, ' +
+          '#contact .contact-item-plain, ' +
+          '.closing-cta'
+        ).forEach((el) => {
+          el.classList.add('scroll-reveal-card');
+        });
+
+        document.querySelectorAll(
+          '#pain-points .info-card, ' +
+          '#features .feature-row'
+        ).forEach((el) => {
+          el.classList.add('scroll-reveal-card');
+        });
+
+        document.querySelectorAll(
+          '#features .features-visual'
+        ).forEach((el) => {
+          el.classList.add('scroll-reveal-icon');
+        });
+
+        const revealElements = document.querySelectorAll('.scroll-reveal-card, .scroll-reveal-icon');
+        const observer = new IntersectionObserver((entries, obs) => {
+          entries.forEach((entry) => {
+            if (!entry.isIntersecting) return;
+            entry.target.classList.add('is-visible');
+            obs.unobserve(entry.target);
+          });
+        }, {
+          threshold: 0.18,
+          rootMargin: '0px 0px -6% 0px'
+        });
+
+        revealElements.forEach((el) => observer.observe(el));
+      });
+    </script>
+  </body>
+</html>

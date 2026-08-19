@@ -3,33 +3,461 @@
   <head>
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-1G81C7EHDF"></script>
-    <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-1G81C7EHDF');</script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-1G81C7EHDF');
+    </script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon-nurse-16.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon-nurse-32.png">
     <link rel="icon" type="image/png" sizes="192x192" href="/assets/images/favicon-nurse-192.png">
     <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/apple-touch-icon-nurse.png">
-    <title>Planning infirmier, heures et rémunération</title>
-    <meta name="description" content="Planifiez les postes infirmiers, suivez les heures et la rémunération estimée, et gérez plusieurs établissements dans un calendrier privé.">
+    <title>Planificateur de horaires de travail d'infirmière, calendrier et suivi de la paie</title>
+    <meta name="description" content="Planifiez les horaires de travail des infirmières, les rotations, les heures de travail, les rappels et la rémunération estimée dans un seul calendrier des horaires de travail des infirmières privées avec des widgets sur l'écran d'accueil et des exportations PDF.">
     <meta name="robots" content="index, follow, max-image-preview:large">
     <link rel="canonical" href="https://myshiftplanner.app/fr/nurse/">
     <link rel="alternate" hreflang="en" href="https://myshiftplanner.app/nurse/">
-    <link rel="alternate" hreflang="es" href="https://myshiftplanner.app/es/nurse/">
-    <link rel="alternate" hreflang="fr" href="https://myshiftplanner.app/fr/nurse/">
-    <link rel="alternate" hreflang="de" href="https://myshiftplanner.app/de/nurse/">
-    <link rel="alternate" hreflang="pt-BR" href="https://myshiftplanner.app/pt-br/nurse/">
-    <link rel="alternate" hreflang="ja" href="https://myshiftplanner.app/ja/nurse/">
-    <link rel="alternate" hreflang="x-default" href="https://myshiftplanner.app/nurse/">
-    <meta property="og:type" content="website">
+<link rel="alternate" hreflang="es" href="https://myshiftplanner.app/es/nurse/">
+<link rel="alternate" hreflang="fr" href="https://myshiftplanner.app/fr/nurse/">
+<link rel="alternate" hreflang="de" href="https://myshiftplanner.app/de/nurse/">
+<link rel="alternate" hreflang="pt-BR" href="https://myshiftplanner.app/pt-br/nurse/">
+<link rel="alternate" hreflang="ja" href="https://myshiftplanner.app/ja/nurse/">
+<link rel="alternate" hreflang="x-default" href="https://myshiftplanner.app/nurse/">
+<meta property="og:type" content="website">
     <meta property="og:site_name" content="My Shift Planner">
-    <meta property="og:title" content="Planning infirmier, heures et rémunération">
-    <meta property="og:description" content="Planifiez les postes infirmiers, suivez les heures et la rémunération estimée, et gérez plusieurs établissements dans un calendrier privé.">
+    <meta property="og:title" content="Mon Planning Infirmier">
+    <meta property="og:description" content="Un calendrier des horaires de travail des infirmières privées, un suivi des heures de travail et un estimateur de salaire construits autour d'horaires réels de soins infirmiers.">
     <meta property="og:url" content="https://myshiftplanner.app/fr/nurse/">
-    <meta property="og:image" content="https://myshiftplanner.app/assets/images/localized/fr/nurse-hero-800.webp">
-    <meta property="og:locale" content="fr_FR">
+    <meta property="og:image" content="https://myshiftplanner.app/assets/images/app-preview.png">
     <meta name="twitter:card" content="summary_large_image">
+    <meta name="apple-itunes-app" content="app-id=6764406102">
     <link rel="preload" href="/assets/fonts/nunito-latin-variable.woff2" as="font" type="font/woff2" crossorigin>
-    <script type="application/ld+json">{"@context":"https://schema.org","@type":"MobileApplication","name":"Mon Planning Infirmier","alternateName":"My Nurse Shift Planner","url":"https://myshiftplanner.app/fr/nurse/","downloadUrl":"https://apps.apple.com/app/my-nurse-shift-planner/id6764406102","image":"https://myshiftplanner.app/assets/images/app-icon.png","description":"Planifiez les postes infirmiers, suivez les heures et la rémunération estimée, et gérez plusieurs établissements dans un calendrier privé.","inLanguage":"fr","applicationCategory":"BusinessApplication","operatingSystem":"iOS 18.0 or later","offers":{"@type":"Offer","price":"0","priceCurrency":"USD","description":"Free download; full access requires an auto-renewable subscription."}}</script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"MobileApplication","name":"Mon Planning Infirmier","url":"https://myshiftplanner.app/fr/nurse/","downloadUrl":"https://apps.apple.com/app/my-nurse-shift-planner/id6764406102","image":"https://myshiftplanner.app/assets/images/app-icon.png","description":"Un calendrier des horaires de travail des infirmières privées, un suivi des heures de travail et un estimateur de salaire pour les infirmières et le personnel de santé.","applicationCategory":"BusinessApplication","operatingSystem":"iOS 18.0 ou version ultérieure","offers":{"@type":"Offer","price":"0","priceCurrency":"USD","description":"Téléchargement gratuit ; l'accès complet à l'application nécessite un abonnement auto-renouvelable."}}</script>
     <link rel="stylesheet" href="/assets/css/styles.css">
-  </head><body class="localized-page"><div class="site-shell"><header class="topbar"><div class="topbar-inner topbar-with-language"><a class="brand" href="/fr/"><img src="/assets/images/optimized/nurse-icon-256.webp" width="256" height="256" alt=""><span class="brand-copy"><strong>Mon Planning Infirmier</strong><span>Pensé pour les horaires infirmiers</span></span></a><button class="nav-toggle" type="button" aria-label="Menu" aria-expanded="false"><span></span><span></span><span></span></button><nav class="nav" aria-label="Primary"><a href="/fr/">Accueil</a><a href="/fr/nurse/">Infirmier</a><a href="/fr/work/">Travail</a><a href="/fr/about/">À propos</a></nav><details class="language-menu"><summary aria-label="Langue: Français">FR</summary><div class="language-menu-panel"><a href="/nurse/" lang="en">English</a><a href="/es/nurse/" lang="es">Español</a><a href="/fr/nurse/" lang="fr" aria-current="page">Français</a><a href="/de/nurse/" lang="de">Deutsch</a><a href="/pt-br/nurse/" lang="pt-BR">Português (Brasil)</a><a href="/ja/nurse/" lang="ja">日本語</a></div></details></div></header><main><section class="localized-hero"><div class="section-inner localized-hero-grid"><div class="localized-hero-copy"><span class="eyebrow">Pensé pour les horaires infirmiers</span><h1>Vos postes infirmiers, réunis au même endroit</h1><p class="lead">Planifiez les postes de jour et de nuit, astreintes, rappels, heures supplémentaires, congés et absences dans une vue mensuelle adaptée aux soins.</p><div class="trust-strip"><span>Calendrier mensuel</span><span>Postes de jour et de nuit</span><span>Astreintes et rappels</span></div><div class="cta-row"><a class="app-store-link" href="https://apps.apple.com/app/my-nurse-shift-planner/id6764406102" target="_blank" rel="noopener noreferrer" aria-label="Voir sur l'App Store"><img class="store-badge" src="/assets/images/app-store/fr-fr.svg" width="126.51549" height="40" alt="Voir sur l'App Store" decoding="async"></a></div></div><div class="localized-screenshot-wrap"><img class="localized-screenshot" src="/assets/images/localized/fr/nurse-hero-480.webp" srcset="/assets/images/localized/fr/nurse-hero-480.webp 480w, /assets/images/localized/fr/nurse-hero-800.webp 800w" sizes="(max-width: 1080px) 76vw, 28vw" width="800" height="1732" alt="Écran en français de Mon Planning Infirmier avec calendrier mensuel" fetchpriority="high" decoding="async"></div></div></section><section class="localized-showcase"><div class="section-inner localized-showcase-list"><article class="localized-showcase-row"><div class="localized-showcase-media"><img class="localized-screenshot" src="/assets/images/localized/fr/nurse-earnings-480.webp" srcset="/assets/images/localized/fr/nurse-earnings-480.webp 480w, /assets/images/localized/fr/nurse-earnings-800.webp 800w" sizes="(max-width: 1080px) 76vw, 28vw" width="800" height="1732" alt="Estimation mensuelle des heures et de la rémunération dans Mon Planning Infirmier" loading="lazy" decoding="async"></div><div class="localized-showcase-copy"><span class="content-kicker">02</span><h2>Suivez vos heures et votre rémunération</h2><p>Consultez le total mensuel, les heures supplémentaires et le détail par semaine avant la paie.</p></div></article><article class="localized-showcase-row localized-showcase-row-image-right"><div class="localized-showcase-media"><img class="localized-screenshot" src="/assets/images/localized/fr/nurse-profiles-480.webp" srcset="/assets/images/localized/fr/nurse-profiles-480.webp 480w, /assets/images/localized/fr/nurse-profiles-800.webp 800w" sizes="(max-width: 1080px) 76vw, 28vw" width="800" height="1732" alt="Profils professionnels et rotations dans Mon Planning Infirmier" loading="lazy" decoding="async"></div><div class="localized-showcase-copy"><span class="content-kicker">03</span><h2>Séparez chaque établissement</h2><p>Créez des profils pour les hôpitaux, cliniques ou agences et appliquez la rotation adaptée à chaque lieu.</p></div></article></div></section><section class="content-section"><div class="section-inner"><div class="content-grid"><article class="glass-card content-card"><span class="content-kicker">01</span><h2>Planifiez de vrais horaires de soins</h2><p>Enregistrez les postes de jour, du soir et de nuit, les astreintes, rappels, heures supplémentaires, formations, congés, absences maladie et annulations. Les rotations et l'ajout sur plusieurs jours limitent les saisies répétitives.</p></article><article class="glass-card content-card"><span class="content-kicker">02</span><h2>Suivez les heures et la rémunération</h2><p>Configurez le taux horaire, les majorations de nuit, de week-end et de jour férié, les heures supplémentaires, pauses et primes. Les montants servent à planifier et ne remplacent pas une fiche de paie.</p></article><article class="glass-card content-card"><span class="content-kicker">03</span><h2>Plusieurs établissements, une seule vue</h2><p>Créez des profils pour les hôpitaux, services, cliniques, agences ou missions ponctuelles, puis associez chaque poste au bon lieu.</p></article></div></div></section><section class="content-section"><div class="section-inner"><div class="content-head"><h2>Ce que vous pouvez organiser</h2></div><div class="glass-card legal-card"><ul class="content-list"><li>Postes de jour, de nuit et en rotation</li><li>Astreintes, rappels et heures supplémentaires</li><li>Congés, maladie, formation et annulations</li><li>Profils avec lieux et taux différents</li><li>Notifications locales avant les postes</li><li>Widgets d'accueil et d'écran verrouillé</li></ul></div></div></section><section class="content-section"><div class="section-inner"><div class="content-head"><h2>Questions sur le planning infirmier</h2></div><div class="landing-faq"><details class="glass-card faq-item"><summary>Est-il réservé aux hôpitaux ?</summary><div class="faq-answer"><p>Non. Il convient aussi aux cliniques, agences, EHPAD, soins à domicile et autres structures de santé.</p></div></details><details class="glass-card faq-item"><summary>Puis-je enregistrer des postes de 12 heures ?</summary><div class="faq-answer"><p>Oui. Définissez l'heure de début et de fin, y compris lorsqu'un poste se termine le lendemain.</p></div></details><details class="glass-card faq-item"><summary>Mes données sont-elles envoyées vers vos serveurs ?</summary><div class="faq-answer"><p>L'app privilégie le stockage local. Si vous activez iCloud, Apple synchronise les données sélectionnées entre vos appareils.</p></div></details><details class="glass-card faq-item"><summary>Un abonnement est-il nécessaire ?</summary><div class="faq-answer"><p>Le téléchargement est gratuit. L'accès complet nécessite un abonnement renouvelable après l'essai gratuit applicable.</p></div></details></div></div></section></main><footer class="footer"><div class="footer-inner"><div class="glass-card footer-card"><div class="footer-brand"><span><strong>My Shift Planner</strong><span>Plannings privés pour horaires postés</span></span></div><nav class="footer-links" aria-label="Footer"><a href="/fr/">Accueil</a><a href="/fr/nurse/">Infirmier</a><a href="/fr/work/">Travail</a><a href="/fr/about/">À propos</a></nav><p class="footer-copyright">&copy; 2026 My Shift Planner</p></div></div></footer></div><script src="/assets/js/site.js" defer></script></body></html>
+  <meta property="og:locale" content="fr_FR">
+</head>
+  <body class="localized-parity">
+    <div class="site-shell">
+      <header class="topbar">
+        <div class="topbar-with-language topbar-inner">
+          <a class="brand" href="/fr/nurse/">
+            <img src="/assets/images/optimized/nurse-icon-256.webp" width="256" height="256" alt="Icône de l'application Mon Planning Infirmier" decoding="async">
+            <span class="brand-copy">
+              <strong>Mon Planning Infirmier</strong>
+              <span>Calendrier des équipes et suivi des salaires pour les infirmières</span>
+            </span>
+          </a>
+          <button class="nav-toggle" type="button" aria-label="Ouvrir le menu" aria-expanded="false">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+          <nav class="nav" aria-label="Primaire">
+            <a href="/fr/nurse/">Accueil</a>
+            <a href="#features">Caractéristiques</a>
+            <a href="#teams">Pour les équipes</a>
+            <a href="#about">À propos</a>
+            <a href="#contact">Contacter</a>
+            <a href="/fr/guides/">Guides</a>
+            <a href="/fr/nurse/support.html">Assistance</a>
+          </nav>
+          <details class="language-menu"><summary aria-label="Français">FR</summary><div class="language-menu-panel">
+<a href="/nurse/" lang="en">English</a><a href="/es/nurse/" lang="es">Español</a><a href="/fr/nurse/" lang="fr" aria-current="page">Français</a><a href="/de/nurse/" lang="de">Deutsch</a><a href="/pt-br/nurse/" lang="pt-BR">Português (Brasil)</a><a href="/ja/nurse/" lang="ja">日本語</a>
+</div></details>
+</div>
+      </header>
+
+      <main>
+        <section class="hero">
+          <div class="section-inner hero-grid">
+            <div class="hero-copy">
+              <h1 class="hero-sequence hero-sequence-title">Pensé pour votre quotidien<br>entre deux gardes.</h1>
+              <p class="lead hero-sequence hero-sequence-subtitle">Une application simple de planification des horaires de travail conçue pour les infirmières et le personnel de santé. Un planning quotidien clair, une planification de rotation flexible, une visibilité sur les salaires et une expérience privée conçue pour rester pratique.</p>
+
+              <div class="hero-points">
+                <span class="hero-sequence hero-sequence-chip-1">Calendrier<br>mensuel</span>
+                <span class="hero-sequence hero-sequence-chip-2">Rotations<br>prédéfinies</span>
+                <span class="hero-sequence hero-sequence-chip-3">Gardes de jour<br>et de nuit</span>
+                <span class="hero-sequence hero-sequence-chip-4">Suivi des<br>heures sup.</span>
+                <span class="hero-sequence hero-sequence-chip-5">Revenu<br>estimé</span>
+                <span class="hero-sequence hero-sequence-chip-6">Profils<br>professionnels</span>
+                <span class="hero-sequence hero-sequence-chip-7">Notifications<br>de garde</span>
+                <span class="hero-sequence hero-sequence-chip-8">Exports<br>CSV et PDF</span>
+              </div>
+
+              <div class="cta-row">
+                <a class="hero-sequence hero-sequence-cta" href="https://apps.apple.com/app/my-nurse-shift-planner/id6764406102" target="_blank" rel="noopener noreferrer" aria-label="Téléchargez Mon Planning Infirmier sur l'App Store" onclick="gtag('event', 'app_store_click', { app_name: 'nurse', placement: 'hero' });">
+                  <img class="store-badge" src="/assets/images/app-store/fr-fr.svg" width="119.66407" height="40" alt="Télécharger sur l'App Store" decoding="async">
+                </a>
+              </div>
+            </div>
+
+            <div class="hero-preview hero-sequence hero-sequence-image">
+              <div class="preview-frame">
+                <img src="/assets/images/localized/fr/nurse-hero-480.webp" srcset="/assets/images/localized/fr/nurse-hero-480.webp 480w, /assets/images/localized/fr/nurse-hero-800.webp 800w" sizes="(max-width: 720px) 56vw, 38vw" width="800" height="1732" alt="Calendrier mensuel des gardes dans Mon Planning Infirmier" fetchpriority="high" decoding="async">
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section" id="pain-points">
+          <div class="section-inner">
+            <div class="section-head">
+              <h2>Conçu pour la réalité du travail infirmier</h2>
+              <p>L'application est conçue pour les modèles d'horaires auxquels les infirmières sont réellement confrontées : changements d'équipes, travail de nuit, heures supplémentaires, lieux de travail multiples et nécessité de voir clairement un mois en un coup d'œil.</p>
+            </div>
+            <div class="grid grid-5">
+              <article class="glass-card info-card">
+                <div class="icon-badge">
+                  <img src="/assets/images/clock.arrow.trianglehead.2.counterclockwise.rotate.90.svg" width="22" height="22" alt="" aria-hidden="true">
+                </div>
+                <h3>Horaires tournants</h3>
+                <p>Gardez les cycles de travail récurrents visibles sans reconstruire le mois manuellement.</p>
+              </article>
+              <article class="glass-card info-card">
+                <div class="icon-badge">
+                  <img src="/assets/images/moon.stars.fill.svg" width="22" height="22" alt="" aria-hidden="true">
+                </div>
+                <h3>Gardes de nuit</h3>
+                <p>Suivez clairement le travail de jour et de nuit afin que les horaires de travail à venir restent faciles à repérer.</p>
+              </article>
+              <article class="glass-card info-card">
+                <div class="icon-badge">
+                  <img src="/assets/images/plus.circle.fill.svg" width="22" height="22" alt="" aria-hidden="true">
+                </div>
+                <h3>Suivi des</h3>
+                <p>Consultez les horaires de travail supplémentaires et l’impact estimé sur la rémunération sans conserver de notes séparées.</p>
+              </article>
+              <article class="glass-card info-card">
+                <div class="icon-badge icon-badge-large-symbol">
+                  <img src="/assets/images/calendar.badge.clock.svg" width="22" height="22" alt="" aria-hidden="true">
+                </div>
+                <h3>Des gardes toujours lisibles</h3>
+                <p>Utilisez un planificateur propre au lieu de messages, de captures d'écran et de mémoire dispersés.</p>
+              </article>
+              <article class="glass-card info-card">
+                <div class="icon-badge">
+                  <img src="/assets/images/heart.text.square.fill.svg" width="22" height="22" alt="" aria-hidden="true">
+                </div>
+                <h3>Équilibre travail-vie personnelle</h3>
+                <p>Obtenez un aperçu rapide de ce qui va suivre et planifiez des journées de travail réelles.</p>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section class="section" id="features">
+          <div class="section-inner">
+            <div class="section-head">
+              <h2>Fonctions principales</h2>
+              <p>Concentré, professionnel et intentionnellement simple. L'application est conçue pour être utile dans le travail infirmier quotidien, sans être surchargée de distractions.</p>
+            </div>
+            <div class="features-layout">
+              <div class="features-visual">
+                <img src="/assets/images/localized/fr/nurse-earnings-480.webp" srcset="/assets/images/localized/fr/nurse-earnings-480.webp 480w, /assets/images/localized/fr/nurse-earnings-800.webp 800w" sizes="(max-width: 720px) 75vw, 38vw" width="800" height="1732" alt="Estimation mensuelle du revenu dans Mon Planning Infirmier" loading="lazy" decoding="async">
+              </div>
+              <div class="feature-list">
+                <article class="glass-card feature-row">
+                  <div class="check" aria-hidden="true"></div>
+                  <div>
+                    <strong>Calendrier des horaires</strong>
+                    <span>Un calendrier mois par mois qui permet de repérer facilement les équipes enregistrées en un coup d'œil.</span>
+                  </div>
+                </article>
+                <article class="glass-card feature-row">
+                  <div class="check" aria-hidden="true"></div>
+                  <div>
+                    <strong>Ajout rapide sur plusieurs jours</strong>
+                    <span>Définissez un décalage une fois et répartissez-le sur plusieurs dates plus rapidement lors de la construction d'un mois.</span>
+                  </div>
+                </article>
+                <article class="glass-card feature-row">
+                  <div class="check" aria-hidden="true"></div>
+                  <div>
+                    <strong>Modèles de rotation</strong>
+                    <span>Appliquez des modèles de travail récurrents plus rapidement et organisez les mois à venir avec moins de travail manuel.</span>
+                  </div>
+                </article>
+                <article class="glass-card feature-row">
+                  <div class="check" aria-hidden="true"></div>
+                  <div>
+                    <strong>Détail de chaque journée</strong>
+                    <span>Ouvrez n'importe quel jour pour consulter les horaires de travail programmés, les symboles, le calendrier, les notes et les détails du lieu de travail.</span>
+                  </div>
+                </article>
+                <article class="glass-card feature-row">
+                  <div class="check" aria-hidden="true"></div>
+                  <div>
+                    <strong>Types de gardes infirmières</strong>
+                    <span>Suivez le jour, la nuit, les heures supplémentaires, les gardes, les rappels, les prises de force, les maladies, les études et bien plus encore dans un seul planificateur.</span>
+                  </div>
+                </article>
+              </div>
+            </div>
+
+            <div class="features-layout features-layout-reverse">
+              <div class="feature-list">
+                <article class="glass-card feature-row">
+                  <div class="check" aria-hidden="true"></div>
+                  <div>
+                    <strong>Revenu estimé</strong>
+                    <span>Examinez les estimations de salaire brut mensuel en utilisant le taux de base, les différentiels, les heures supplémentaires et les primes.</span>
+                  </div>
+                </article>
+                <article class="glass-card feature-row">
+                  <div class="check" aria-hidden="true"></div>
+                  <div>
+                    <strong>Profils de travail</strong>
+                    <span>Gérez plusieurs lieux de travail dans un seul calendrier et attribuez des équipes au bon profil.</span>
+                  </div>
+                </article>
+                <article class="glass-card feature-row">
+                  <div class="check" aria-hidden="true"></div>
+                  <div>
+                    <strong>Notifications avant les horaires</strong>
+                    <span>Recevez des rappels locaux avant les horaires de travail à venir afin qu'il soit plus difficile de manquer les journées de travail importantes.</span>
+                  </div>
+                </article>
+                <article class="glass-card feature-row">
+                  <div class="check" aria-hidden="true"></div>
+                  <div>
+                    <strong>Exportations CSV et PDF</strong>
+                    <span>Exportez les enregistrements mensuels dans des formats clairs, plus faciles à consulter, à enregistrer ou à partager.</span>
+                  </div>
+                </article>
+                <article class="glass-card feature-row">
+                  <div class="check" aria-hidden="true"></div>
+                  <div>
+                    <strong>Confidentiel dès la conception</strong>
+                    <span>Utilisez le stockage local rapide par défaut avec la synchronisation privée iCloud en option lorsqu'elle est activée.</span>
+                  </div>
+                </article>
+              </div>
+              <div class="features-visual">
+                <img src="/assets/images/localized/fr/nurse-profiles-480.webp" srcset="/assets/images/localized/fr/nurse-profiles-480.webp 480w, /assets/images/localized/fr/nurse-profiles-800.webp 800w" sizes="(max-width: 720px) 75vw, 38vw" width="800" height="1732" alt="Profils professionnels dans Mon Planning Infirmier" loading="lazy" decoding="async">
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section" id="teams">
+          <div class="section-inner">
+            <article class="glass-card banner-card">
+              <div>
+                <h3>Remise pour le personnel soignant</h3>
+                <div class="card-divider" aria-hidden="true"></div>
+                <p class="banner-subtitle">Jusqu'à 50 % de réduction disponible pour les hôpitaux, les recruteurs et les programmes de soins infirmiers.</p>
+                <p>Des codes de réduction sont disponibles pour les hôpitaux, les agences de recrutement, les recruteurs et les programmes de formation en soins infirmiers souhaitant partager l'application avec leur personnel ou leurs étudiants.</p>
+              </div>
+              <a class="button button-ghost" href="mailto:hello@myshiftplanner.app?subject=Healthcare%20Staff%20Discount%20Inquiry">Demander une réduction pour le personnel soignant</a>
+            </article>
+
+            <article class="glass-card banner-card">
+              <div>
+                <h3>20 % de réduction sur le forfait annuel</h3>
+                <div class="card-divider" aria-hidden="true"></div>
+                <p class="banner-subtitle">Disponible pour tous les nouveaux utilisateurs.</p>
+                <p>Les nouveaux utilisateurs peuvent utiliser le code <strong>NURSESHIFT20OFF</strong> pour 20 % de réduction sur le forfait annuel dans l'App Store.</p>
+                <p>L'essai gratuit de 7 jours reste valable avant le début de l'abonnement annuel à tarif réduit.</p>
+              </div>
+              <a class="button button-ghost" href="https://apps.apple.com/redeem/?ctx=offercodes&amp;id=6764406102&amp;code=NURSESHIFT20OFF" target="_blank" rel="noopener noreferrer">Utiliser le code dans App Store</a>
+            </article>
+          </div>
+        </section>
+
+        <section class="section" id="about">
+          <div class="section-inner grid grid-2">
+            <article class="glass-card note-card">
+              <div class="section-head">
+                <h2>À propos du projet</h2>
+              </div>
+              <p><strong>Mon Planning Infirmier</strong> a été créé indépendamment par une équipe de développement d'applications axée sur des applications mobiles pratiques et respectueuses de la vie privée. L’objectif est simple : créer un logiciel qui aide les vrais utilisateurs à rester organisés sans complexité inutile.</p>
+              <div class="note-card-actions">
+                <a class="button button-ghost" href="https://paulcrp.com" target="_blank" rel="noopener noreferrer">Découvrir nos applications</a>
+              </div>
+            </article>
+            <article class="glass-card note-card">
+              <div class="section-head">
+                <h2>Disponible sur l'App Store</h2>
+              </div>
+              <div class="app-store-stat">
+                <div class="app-store-stat-line">
+                  <span class="app-store-stat-label">vivre dans</span>
+                  <span class="app-store-stat-number">175</span>
+                  <span class="app-store-stat-label">pays</span>
+                </div>
+                <div class="app-store-stat-subcopy">Disponible dans le monde entier pour que les infirmières, les recruteurs, les hôpitaux et les équipes soignantes puissent le consulter et le télécharger.</div>
+              </div>
+              <p>Mon Planning Infirmier est en ligne sur App Store, avec une liste publique, des captures d'écran, des détails d'assistance et un lien de téléchargement direct que le personnel et les recruteurs peuvent consulter.</p>
+            </article>
+          </div>
+        </section>
+
+        <section class="section" id="contact">
+          <div class="section-inner">
+            <div class="section-head">
+              <h2>Contacter</h2>
+              <p>Pour les discussions de partenariat, les réductions pour le personnel de santé, les conversations avec les recruteurs, les questions d'assistance ou les demandes de produits, utilisez les coordonnées ci-dessous.</p>
+            </div>
+            <div class="contact-list contact-list-plain">
+              <article class="contact-item-plain">
+                <div class="contact-item-copy">
+                  <span class="contact-marker" aria-hidden="true"></span>
+                  <div>
+                    <strong>Contactez-nous</strong>
+                    <span>Pour les partenariats de santé, les questions sur les produits, plus d’informations.</span>
+                  </div>
+                </div>
+                <div class="contact-action">
+                  <a class="button button-ghost" href="mailto:hello@myshiftplanner.app">Contactez-nous</a>
+                </div>
+              </article>
+              <article class="contact-item-plain">
+                <div class="contact-item-copy">
+                  <span class="contact-marker" aria-hidden="true"></span>
+                  <div>
+                    <strong>Assistance produit</strong>
+                    <span>Assistance pour les applications, FAQ et communication générale sur les produits.</span>
+                  </div>
+                </div>
+                <div class="contact-action">
+                  <a class="button button-ghost" href="/fr/nurse/support.html">Visitez la page d'assistance</a>
+                </div>
+              </article>
+              <article class="contact-item-plain">
+                <div class="contact-item-copy">
+                  <span class="contact-marker" aria-hidden="true"></span>
+                  <div>
+                    <strong>Informations de confidentialité</strong>
+                    <span>Résumé de la façon dont l'application gère le stockage local, la synchronisation iCloud facultative et les notifications.</span>
+                  </div>
+                </div>
+                <div class="contact-action">
+                  <a class="button button-ghost" href="/fr/nurse/privacy.html">Lire la politique de confidentialité</a>
+                </div>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section class="section" aria-labelledby="nurse-resources-title">
+          <div class="section-inner">
+            <div class="section-head">
+              <h2 id="nurse-resources-title">Guides pratiques pour planifier les gardes infirmières</h2>
+              <p>Explorez les ressources gratuites sur les horaires de 12 heures, les gardes de nuit, les rotations courantes et la rémunération brute estimée des horaires de travail.</p>
+            </div>
+            <div class="guide-card-grid">
+              <a class="glass-card guide-card" href="/fr/guides/nurse-12-hour-shift-schedule/">
+                <span class="guide-label">Horaires des infirmières</span>
+                <h3>Planifiez les gardes infirmières de 12 heures</h3>
+                <p>Organisez les gardes de jour et de nuit, les astreintes, les pauses et plusieurs services sans perdre la vue mensuelle.</p>
+                <span class="text-link">Lire le guide</span>
+              </a>
+              <a class="glass-card guide-card" href="/fr/guides/night-shift-planning/">
+                <span class="guide-label">Travail de nuit</span>
+                <h3>Organisez clairement les gardes de nuit</h3>
+                <p>Enregistrez correctement le travail de minuit et conservez les rappels, les emplacements et les différentiels ensemble.</p>
+                <span class="text-link">Utilisez la liste de contrôle</span>
+              </a>
+              <a class="glass-card guide-card" href="/fr/guides/shift-pay-calculator/">
+                <span class="guide-label">Outil gratuit</span>
+                <h3>Estimez le revenu brut d'un poste</h3>
+                <p>Combinez les heures régulières, les heures supplémentaires, les différentiels et les primes dans un calcul rapide par navigateur.</p>
+                <span class="text-link">Ouvrir la calculatrice</span>
+              </a>
+            </div>
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="section-inner">
+            <div class="closing-cta">
+              <img class="closing-icon" src="/assets/images/optimized/nurse-icon-256.webp" width="256" height="256" alt="Icône Mon Planning Infirmier" loading="lazy" decoding="async">
+              <a href="https://apps.apple.com/app/my-nurse-shift-planner/id6764406102" target="_blank" rel="noopener noreferrer" aria-label="Téléchargez Mon Planning Infirmier sur l'App Store" onclick="gtag('event', 'app_store_click', { app_name: 'nurse', placement: 'closing' });">
+                <img class="store-badge" src="/assets/images/app-store/fr-fr.svg" width="119.66407" height="40" alt="Télécharger sur l'App Store" loading="lazy" decoding="async">
+              </a>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <div class="footer-inner">
+          <div class="glass-card footer-card">
+            <div class="footer-brand">
+              <span>
+                <strong>Mon Planning Infirmier</strong>
+                <span>Calendrier des équipes et suivi des salaires pour les infirmières</span>
+              </span>
+            </div>
+            <nav class="footer-links" aria-label="Pied de page">
+              <a href="/fr/">Choisir le planificateur</a>
+              <a href="/fr/nurse/support.html">Assistance</a>
+              <a href="/fr/nurse/contact.html">Contacter</a>
+              <a href="/fr/nurse/privacy.html">Confidentialité</a>
+              <a href="/fr/nurse/healthcarestaffdiscount/">Réductions</a>
+              <a href="/fr/guides/">Guides de horaire de travail</a>
+              <a href="/fr/about/">À propos</a>
+            </nav>
+            <p class="footer-copyright">© 2026 Mon Planning Infirmier</p>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script>
+      document.addEventListener('DOMContentLoaded', () => {
+        const toggle = document.querySelector('.nav-toggle');
+        const nav = document.querySelector('.nav');
+        if (toggle && nav) {
+          toggle.addEventListener('click', () => {
+            const isOpen = nav.classList.toggle('is-open');
+            toggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+          });
+        }
+
+        document.querySelectorAll(
+          '#pain-points .section-head, ' +
+          '#features .section-head, ' +
+          '#teams .section-inner, ' +
+          '#about .note-card, ' +
+          '#contact .section-head, ' +
+          '#contact .contact-item-plain, ' +
+          '.closing-cta'
+        ).forEach((el) => {
+          el.classList.add('scroll-reveal-card');
+        });
+
+        document.querySelectorAll(
+          '#pain-points .info-card, ' +
+          '#features .feature-row'
+        ).forEach((el) => {
+          el.classList.add('scroll-reveal-card');
+        });
+
+        document.querySelectorAll(
+          '#features .features-visual'
+        ).forEach((el) => {
+          el.classList.add('scroll-reveal-icon');
+        });
+
+        const revealElements = document.querySelectorAll('.scroll-reveal-card, .scroll-reveal-icon');
+        const observer = new IntersectionObserver((entries, obs) => {
+          entries.forEach((entry) => {
+            if (!entry.isIntersecting) return;
+            entry.target.classList.add('is-visible');
+            obs.unobserve(entry.target);
+          });
+        }, {
+          threshold: 0.18,
+          rootMargin: '0px 0px -6% 0px'
+        });
+
+        revealElements.forEach((el) => observer.observe(el));
+      });
+    </script>
+  </body>
+</html>
