@@ -17,6 +17,7 @@ from lxml import etree, html
 
 ROOT = Path(__file__).resolve().parents[1]
 CACHE_PATH = ROOT / "scripts" / "localized_translation_cache.json"
+LOCALIZED_STYLE_VERSION = "20260819-2"
 SOURCE_PAGES = [
     "index.html",
     "nurse/index.html",
@@ -1033,6 +1034,9 @@ def localize_page(source: str, locale: str, translations: dict[str, str]) -> Non
         for attribute in ("href", "src", "srcset", "action"):
             if element.get(attribute):
                 element.set(attribute, localize_internal(element.get(attribute), route, locale, attribute))
+
+    for stylesheet in document.xpath('//link[@rel="stylesheet" and contains(@href,"styles.css")]'):
+        stylesheet.set("href", f"/assets/css/styles.css?v={LOCALIZED_STYLE_VERSION}")
 
     canonical = document.xpath('//link[@rel="canonical"]')
     if canonical:

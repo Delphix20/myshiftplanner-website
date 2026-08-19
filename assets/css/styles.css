@@ -1017,6 +1017,20 @@ h3 {
   filter: drop-shadow(0 26px 52px rgba(79, 121, 131, 0.14));
 }
 
+/* Localized assets are raw screenshots rather than device mockups. */
+.localized-parity .preview-frame img {
+  width: 56.25%;
+  border-radius: clamp(22px, 3vw, 36px);
+  filter: drop-shadow(0 22px 42px rgba(79, 121, 131, 0.14));
+}
+
+.localized-parity .features-visual img {
+  width: 75%;
+  max-width: 315px;
+  border-radius: clamp(22px, 3vw, 36px);
+  filter: drop-shadow(0 20px 40px rgba(79, 121, 131, 0.12));
+}
+
 .feature-row {
   display: flex;
   align-items: flex-start;
