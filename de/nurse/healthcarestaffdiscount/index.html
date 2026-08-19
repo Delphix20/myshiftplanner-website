@@ -15,6 +15,11 @@
     <meta property="og:image" content="https://myshiftplanner.app/assets/images/app-preview.png">
     <link rel="icon" href="../../../assets/images/site-icon.svg" type="image/svg+xml">
     <link rel="stylesheet" href="../../../assets/css/flyer.css">
+    <script>
+      if (new URLSearchParams(window.location.search).has('pdf')) {
+        document.documentElement.classList.add('pdf-export');
+      }
+    </script>
   </head>
   <body>
     <div class="flyer-tools" aria-label="Flyer-Aktionen">

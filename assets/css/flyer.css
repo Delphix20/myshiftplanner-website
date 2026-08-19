@@ -275,6 +275,39 @@ h1 {
   border-radius: 6.5mm;
 }
 
+/* PDFKit can flatten translucent CSS layers into rectangular artifacts. */
+.pdf-export .flyer {
+  background: linear-gradient(135deg, #edf9f7, #fffaf6 54%, #f4f1fb);
+}
+
+.pdf-export .flyer::before {
+  background: #dff3f0;
+}
+
+.pdf-export .flyer::after {
+  background: #f2eaf8;
+}
+
+.pdf-export .device,
+.pdf-export .offer-band {
+  box-shadow: none;
+}
+
+.pdf-export .device,
+.pdf-export .benefit-list li,
+.pdf-export .language-pill,
+.pdf-export .qr-card,
+.pdf-export .qr-card > img {
+  background: #fff;
+}
+
+.pdf-export .benefit-list li,
+.pdf-export .device,
+.pdf-export .language-pill,
+.pdf-export .qr-card {
+  border-color: #d7e3e1;
+}
+
 .device.calendar {
   top: 12mm;
   left: 1mm;
