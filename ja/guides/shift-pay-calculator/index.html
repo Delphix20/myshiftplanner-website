@@ -1,17 +1,15 @@
 <!DOCTYPE html>
 <html lang="ja">
   <head>
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-1G81C7EHDF"></script>
-    <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-1G81C7EHDF');</script>
+    <script src="/assets/js/analytics.js" defer></script>
     <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon-work-16.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon-work-32.png">
     <link rel="icon" type="image/png" sizes="192x192" href="/assets/images/favicon-work-192.png">
     <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/apple-touch-icon-work.png">
-    <title>フリーシフト給与計算ツール: 時間、残業、差額</title>
-    <meta name="description" content="この無料のブラウザベースの計算ツールを使用して、通常の勤務時間、残業、夜間と週末の差額、ボーナスから総シフト給与を見積もります。">
+    <title>無料のシフト給与計算：勤務時間・残業・手当</title>
+    <meta name="description" content="この無料のブラウザベースの計算ツールを使用して、通常の勤務時間、残業、夜間と週末の手当、ボーナスから総シフト給与を見積もります。">
     <meta name="robots" content="index, follow, max-image-preview:large">
 <link rel="canonical" href="https://myshiftplanner.app/ja/guides/shift-pay-calculator/">
     <link rel="alternate" hreflang="en" href="https://myshiftplanner.app/guides/shift-pay-calculator/">
@@ -24,12 +22,17 @@
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="My Shift Planner">
 <meta property="og:title" content="フリーシフト給与計算ツール">
-<meta property="og:description" content="時間、残業、差額、ボーナスを使用してシフトの総給与を見積もります。">
+<meta property="og:description" content="時間、残業、手当、ボーナスを使用してシフトの総給与を見積もります。">
 <meta property="og:url" content="https://myshiftplanner.app/ja/guides/shift-pay-calculator/">
-<meta property="og:image" content="https://myshiftplanner.app/assets/images/work-3.png">
+<meta property="og:image" content="https://myshiftplanner.app/assets/images/social/my-shift-planner.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="My Shift Planner apps for nursing and work schedules">
+    <meta name="twitter:image" content="https://myshiftplanner.app/assets/images/social/my-shift-planner.jpg">
 <meta name="twitter:card" content="summary_large_image">
+    <link rel="alternate" type="application/atom+xml" title="My Shift Planner Guides" href="https://myshiftplanner.app/feed.xml">
     <link rel="preload" href="/assets/fonts/nunito-latin-variable.woff2" as="font" type="font/woff2" crossorigin>
-    <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebApplication","name":"シフト給与計算機","url":"https://myshiftplanner.app/ja/guides/shift-pay-calculator/","applicationCategory":"FinanceApplication","operatingSystem":"最新の Web ブラウザならどれでも","description":"時間、残業、差額、ボーナスから総シフト給与を見積もるための無料の計算ツール。","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"My Shift Planner","item":"https://myshiftplanner.app/ja/"},{"@type":"ListItem","position":2,"name":"ガイド","item":"https://myshiftplanner.app/ja/guides/"},{"@type":"ListItem","position":3,"name":"シフト給与計算機","item":"https://myshiftplanner.app/ja/guides/shift-pay-calculator/"}]}]}</script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebApplication","name":"シフト給与計算機","url":"https://myshiftplanner.app/ja/guides/shift-pay-calculator/","applicationCategory":"FinanceApplication","operatingSystem":"最新の Web ブラウザならどれでも","description":"時間、残業、手当、ボーナスから総シフト給与を見積もるための無料の計算ツール。","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"My Shift Planner","item":"https://myshiftplanner.app/ja/"},{"@type":"ListItem","position":2,"name":"ガイド","item":"https://myshiftplanner.app/ja/guides/"},{"@type":"ListItem","position":3,"name":"シフト給与計算機","item":"https://myshiftplanner.app/ja/guides/shift-pay-calculator/"}]}]}</script>
     <link rel="stylesheet" href="/assets/css/styles.css?v=20260819-6">
   <meta property="og:locale" content="ja_JP">
 </head>
@@ -43,7 +46,7 @@
       <main>
         <section class="guide-hero"><div class="section-inner"><div class="glass-card guide-hero-card">
 <nav class="breadcrumb" aria-label="ブレッドクラム"><a href="/ja/">ホーム</a><span>/</span><a href="/ja/guides/">ガイド</a><span>/</span><span>給与計算機</span></nav><span class="eyebrow">無料のブラウザツール</span><h1>シフト給与計算ツール</h1>
-<p>通常の勤務時間、残業、夜間と週末の差額、ボーナスから総給与の見積もりを簡単に作成できます。入力した内容は、この計算機によってどこにも送信されません。</p>
+<p>通常の勤務時間、残業、夜間と週末の手当、ボーナスから総給与の見積もりを簡単に作成できます。入力した内容は、この計算機によってどこにも送信されません。</p>
 <p class="guide-updated">2026 年 8 月 1 日更新</p>
 <div class="author-card">
 <strong>作成およびレビュー者 <a class="text-link" href="/ja/about/">My Shift Planner</a></strong><p>この計算機はブラウザ内でローカルに実行されます。結果は計画の見積もりであり、公式の給与計算に代わるものではありません。</p>
@@ -54,7 +57,7 @@
           <form class="glass-card calculator-card" id="shift-pay-form">
             <div class="content-head">
 <h2>予定時間と賃金設定を入力</h2>
-<p>すべての金額に同じ通貨を使用してください。差額が適用されない場合は、時間または料金をゼロのままにしてください。</p>
+<p>すべての金額に同じ通貨を使用してください。手当が適用されない場合は、時間または料金をゼロのままにしてください。</p>
 </div>
             <div class="calculator-grid">
               <div class="calculator-field">
@@ -130,14 +133,14 @@
           <h2>結果を使用する前に</h2>
 <ul>
 <li>時間外フィールドには、まだカウントされていない通常の時間のみを入力してください。</li>
-<li>雇用主が同じ時間に対して両方の差額を支払う場合、夜間と週末の時間は重複する可能性があります。</li>
+<li>雇用主が同じ時間に対して両方の手当を支払う場合、夜間と週末の時間は重複する可能性があります。</li>
 <li>このツールは、税金、控除、休日規定、最低保証、雇用主固有の四捨五入は計算しません。</li>
 <li>残業に関する法律や方針はさまざまです。雇用主または給与計算プロバイダーによって示されたルールを使用してください。</li>
 </ul>
           <div class="guide-callout">
 <strong>給与明細ではなく、計画の見積り</strong><p>結果は、入力内容のみに基づいて推定総額が表示されます。雇用主の公式給与記録を使用して、最終労働時間、資格、支払いを確認します。</p>
 </div>
-          <h2>月1か月分をまとめて管理</h2>
+          <h2>1か月分をまとめて管理</h2>
 <p>電卓は簡単なシナリオに役立ちます。勤務時間、始業時間、職場のプロフィール、残業規則、ボーナスが月を通して変わる場合、シフト カレンダーはより便利です。</p>
           <div class="glass-card resource-cta">
 <div>

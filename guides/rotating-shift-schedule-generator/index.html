@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="/assets/js/analytics.js" defer></script>
+    <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon-work-32.png"><link rel="apple-touch-icon" sizes="180x180" href="/assets/images/apple-touch-icon-work.png">
+    <title>Free Rotating Shift Schedule Generator | 2-2-3 &amp; 4-on/4-off</title>
+    <meta name="description" content="Generate a free 2-2-3, 4-on/4-off, 3-on/3-off, or weekday shift schedule from any start date. Preview 4 to 8 weeks privately in your browser.">
+    <meta name="robots" content="index, follow, max-image-preview:large"><link rel="canonical" href="https://myshiftplanner.app/guides/rotating-shift-schedule-generator/">
+    <meta property="og:type" content="website"><meta property="og:site_name" content="My Shift Planner"><meta property="og:title" content="Free Rotating Shift Schedule Generator"><meta property="og:description" content="Preview 2-2-3, 4-on/4-off and other rotating schedules from a confirmed start date."><meta property="og:url" content="https://myshiftplanner.app/guides/rotating-shift-schedule-generator/"><meta property="og:image" content="https://myshiftplanner.app/assets/images/social/my-shift-planner.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="My Shift Planner apps for nursing and work schedules">
+    <meta name="twitter:image" content="https://myshiftplanner.app/assets/images/social/my-shift-planner.jpg"><meta name="twitter:card" content="summary_large_image">
+    <link rel="alternate" type="application/atom+xml" title="My Shift Planner Guides" href="https://myshiftplanner.app/feed.xml">
+    <link rel="preload" href="/assets/fonts/nunito-latin-variable.woff2" as="font" type="font/woff2" crossorigin>
+    <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebApplication","name":"Rotating Shift Schedule Generator","url":"https://myshiftplanner.app/guides/rotating-shift-schedule-generator/","applicationCategory":"ProductivityApplication","operatingSystem":"Any modern web browser","description":"A free browser tool for previewing common rotating shift patterns from a selected anchor date.","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"My Shift Planner","item":"https://myshiftplanner.app/"},{"@type":"ListItem","position":2,"name":"Guides","item":"https://myshiftplanner.app/guides/"},{"@type":"ListItem","position":3,"name":"Rotating Shift Schedule Generator","item":"https://myshiftplanner.app/guides/rotating-shift-schedule-generator/"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What does the start date mean?","acceptedAnswer":{"@type":"Answer","text":"The start date is the first workday in the selected repeating pattern. It should be checked against an official roster before future dates are used."}},{"@type":"Question","name":"Is a 2-2-3 schedule always the same?","acceptedAnswer":{"@type":"Answer","text":"No. Employers may assign different day and night teams or start the cycle at a different point. Confirm the exact local sequence before relying on a preset."}}]}]}</script>
+    <link rel="stylesheet" href="/assets/css/styles.css">
+  </head>
+  <body><div class="site-shell">
+    <header class="topbar"><div class="topbar-inner"><a class="brand" href="/"><img src="/assets/images/optimized/work-icon-128.webp" width="128" height="128" alt="My Shift Planner icon"><span class="brand-copy"><strong>My Shift Planner</strong><span>Free rotating schedule generator</span></span></a><button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button><nav class="nav" aria-label="Primary"><a href="/">Home</a><a href="/guides/">All Guides</a><a href="/nurse/">Nurse Planner</a><a href="/work/">Work Planner</a></nav></div></header>
+    <main>
+      <section class="guide-hero"><div class="section-inner"><div class="glass-card guide-hero-card"><nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a><span>/</span><a href="/guides/">Guides</a><span>/</span><span>Schedule generator</span></nav><span class="eyebrow">Free browser tool</span><h1>Rotating shift schedule generator</h1><p>Choose a common rotation, confirm its first workday, and preview the next four to eight weeks. Your entries stay in this browser and are not uploaded.</p><p class="guide-updated">Updated August 26, 2026</p></div></div></section>
+
+      <section class="content-section content-section-tight"><div class="section-inner">
+        <form class="glass-card calculator-card rotation-generator" id="rotation-generator-form">
+          <div class="content-head"><h2>Build a schedule preview</h2><p>Treat the result as a planning draft. Compare it with the official workplace roster before adding future shifts to your calendar.</p></div>
+          <div class="calculator-grid">
+            <div class="calculator-field"><label for="rotation-pattern">Rotation pattern</label><select id="rotation-pattern"><option value="223">2-2-3 rotation</option><option value="4on4off">4-on/4-off</option><option value="3on3off">3-on/3-off</option><option value="weekday">Five on, two off</option></select></div>
+            <div class="calculator-field"><label for="rotation-start">First workday</label><input id="rotation-start" type="date" required></div>
+            <div class="calculator-field"><label for="rotation-shift">Work label</label><select id="rotation-shift"><option value="Day shift">Day shift</option><option value="Night shift">Night shift</option><option value="Work shift">Work shift</option><option value="On call">On call</option></select></div>
+            <div class="calculator-field"><label for="rotation-days">Preview length</label><select id="rotation-days"><option value="28">4 weeks</option><option value="42">6 weeks</option><option value="56">8 weeks</option></select></div>
+          </div>
+          <div class="calculator-actions"><button class="button" type="submit">Generate schedule</button><button class="button button-ghost" id="print-rotation" type="button">Print preview</button></div>
+          <div class="rotation-summary" id="rotation-summary" aria-live="polite"></div>
+          <div class="rotation-preview" id="rotation-preview" aria-label="Generated rotating schedule"></div>
+        </form>
+      </div></section>
+
+      <section class="content-section"><div class="section-inner guide-layout"><article class="glass-card guide-article">
+        <h2>How to use the generated dates</h2><ol><li><strong>Confirm the anchor date.</strong> The first selected date must be a known workday at the start of the cycle.</li><li><strong>Check at least two cycles.</strong> Compare the preview with the official roster before relying on later dates.</li><li><strong>Add shift times separately.</strong> A rotation shows work and rest days; your actual start time, end time, workplace, breaks, and pay rules still matter.</li><li><strong>Record exceptions.</strong> Overtime, swaps, training, leave, and cancelled shifts should be entered without silently changing the underlying pattern.</li></ol>
+        <h2>Why common names are not enough</h2><p>A pattern such as 2-2-3 or 4-on/4-off describes a repeating sequence, but it does not define every employer's day/night assignment, handover time, break policy, or payroll week. Use the pattern as a draft, not as proof of when you work.</p>
+        <div class="guide-callout"><strong>Private by design</strong><p>This generator runs locally in your browser. The selected date and generated schedule are not sent to My Shift Planner.</p></div>
+        <h2>Move the confirmed pattern into a planner</h2><p>Once the dates match your official roster, a dedicated shift planner can attach times, workplaces, reminders, hours, differentials, and pay estimates to each shift.</p>
+        <div class="glass-card resource-cta"><div><span class="content-kicker">Keep planning</span><h2>Turn the preview into a useful work calendar</h2><p>Choose the nurse planner for healthcare schedules or the work planner for other shift-based roles.</p></div><div class="cta-row"><a class="button" href="/nurse/">Nurse Planner</a><a class="button button-ghost" href="/work/">Work Planner</a></div></div>
+      </article><aside class="guide-aside"><strong>Related resources</strong><nav aria-label="Related resources"><a href="/guides/shift-rotation-patterns/">Rotation patterns explained</a><a href="/guides/night-shift-planning/">Night shift checklist</a><a href="/guides/shift-pay-calculator/">Shift pay calculator</a><a href="/guides/">All guides</a></nav></aside></div></section>
+    </main>
+    <footer class="footer"><div class="footer-inner"><div class="glass-card footer-card"><div class="footer-brand"><span><strong>My Shift Planner</strong><span>Private schedule planning for real shift work</span></span></div><nav class="footer-links" aria-label="Footer"><a href="/">Home</a><a href="/guides/">Guides</a><a href="/nurse/">Nurse Planner</a><a href="/work/">Work Planner</a><a href="/nurse/privacy.html">Privacy</a></nav><p class="footer-copyright">&copy; 2026 My Shift Planner</p></div></div></footer>
+  </div><script src="/assets/js/site.js" defer></script><script src="/assets/js/rotation-generator.js" defer></script></body>
+</html>
+

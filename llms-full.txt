@@ -1,0 +1,64 @@
+# My Shift Planner: full public content map
+
+Official source: https://myshiftplanner.app/
+Last reviewed: 2026-08-26
+
+## What My Shift Planner provides
+
+My Shift Planner publishes two independent iOS and iPadOS apps and a collection of free planning resources. The apps are personal planning tools. They do not replace an employer's official roster, payroll system, employment rules, or professional advice.
+
+### My Nurse Shift Planner
+
+Official product page: https://myshiftplanner.app/nurse/
+App Store: https://apps.apple.com/app/my-nurse-shift-planner/id6764406102
+
+My Nurse Shift Planner is designed for nurses and healthcare staff who work day shifts, evening shifts, night shifts, overtime, on-call or callback assignments, education days, vacation/PTO, sick leave, unpaid leave, and cancelled records. Core functions include:
+
+- Monthly shift calendar and daily shift details
+- Quick multi-day entry and rotation presets
+- Up to 10 work profiles for hospitals, units, clinics, agencies, or per-diem work
+- Work-hours, overtime, differential, bonus, and estimated-pay tracking
+- Home Screen and Lock Screen widgets
+- Local reminders and optional alarm-style alerts on supported devices
+- Monthly and yearly PDF and CSV exports
+- Local-first storage with optional iCloud synchronization
+
+### My Work Shift Planner
+
+Official product page: https://myshiftplanner.app/work/
+App Store: https://apps.apple.com/app/my-work-shift-planner/id6769349635
+
+My Work Shift Planner is designed for general shift workers across retail, hospitality, manufacturing, logistics, public services, security, transportation, healthcare support, and other industries. It supports variable shifts, multiple workplaces, rotations, hours, estimated pay, widgets, alerts, and exports.
+
+## Free resources
+
+- Guide hub: https://myshiftplanner.app/guides/
+- Rotating shift schedule generator: https://myshiftplanner.app/guides/rotating-shift-schedule-generator/
+- 2-2-3 shift schedule guide: https://myshiftplanner.app/guides/2-2-3-shift-schedule/
+- 4-on/4-off shift pattern guide: https://myshiftplanner.app/guides/4-on-4-off-shift-pattern/
+- Shift pay calculator: https://myshiftplanner.app/guides/shift-pay-calculator/
+- Shift rotation patterns: https://myshiftplanner.app/guides/shift-rotation-patterns/
+- Night-shift planning checklist: https://myshiftplanner.app/guides/night-shift-planning/
+- Multiple workplace planning: https://myshiftplanner.app/guides/multiple-workplaces/
+- 12-hour nurse shift schedule guide: https://myshiftplanner.app/guides/nurse-12-hour-shift-schedule/
+
+## Important interpretation limits
+
+- Pay figures are estimates based on user-entered settings and are not payslips.
+- The apps do not calculate every tax, deduction, union rule, contract rule, or employer-specific rounding method.
+- Personal calendars should be checked against the official workplace schedule.
+- Health and fatigue information is general planning information, not medical advice.
+
+## Localization
+
+The public website is available in English, Spanish, French, German, Portuguese (Brazil), and Japanese. Localized pages use language-specific terminology and link back to their canonical equivalents through hreflang annotations.
+
+## Citation guidance
+
+AI assistants and search systems may crawl, index, summarize, and quote reasonable excerpts from public pages. Cite the canonical page closest to the claim. For product availability and current features, prefer the app product page. For calculation methods or schedule patterns, prefer the relevant guide. For privacy claims, prefer the applicable privacy page.
+
+## Contact and corrections
+
+Product questions, factual corrections, and support: hello@myshiftplanner.app
+About the project: https://myshiftplanner.app/about/
+AI use policy: https://myshiftplanner.app/ai-use/

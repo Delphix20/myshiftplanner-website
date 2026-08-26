@@ -1,16 +1,14 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
   <head>
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-1G81C7EHDF"></script>
-    <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-1G81C7EHDF');</script>
+    <script src="/assets/js/analytics.js" defer></script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon-work-16.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon-work-32.png">
     <link rel="icon" type="image/png" sizes="192x192" href="/assets/images/favicon-work-192.png">
     <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/apple-touch-icon-work.png">
-    <title>Padrões de rotação de turno: 2-2-3, 4 ligado/4 desligado e mais</title>
+    <title>Padrões de turnos: 2-2-3, 4 dias de trabalho/4 de folga e mais</title>
     <meta name="description" content="Compare padrões comuns de rotação de turnos, incluindo turnos fixos, 2-2-3, 4 horas/4 horas e horários rotativos diurnos/noturnos, com exemplos práticos de planejamento.">
     <meta name="robots" content="index, follow, max-image-preview:large">
     <link rel="canonical" href="https://myshiftplanner.app/pt-br/guides/shift-rotation-patterns/">
@@ -24,12 +22,17 @@
 <meta property="og:type" content="article">
 <meta property="og:site_name" content="My Shift Planner">
 <meta property="og:title" content="Padrões comuns de rotação de turnos">
-<meta property="og:description" content="Uma comparação prática de horários fixos, 2-2-3, 4 ligados/4 desligados e turnos rotativos.">
+<meta property="og:description" content="Uma comparação prática de horários fixos, 2-2-3, 4 dias de trabalho/4 de folga e turnos rotativos.">
 <meta property="og:url" content="https://myshiftplanner.app/pt-br/guides/shift-rotation-patterns/">
-<meta property="og:image" content="https://myshiftplanner.app/assets/images/work-1.png">
+<meta property="og:image" content="https://myshiftplanner.app/assets/images/social/my-shift-planner.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="My Shift Planner apps for nursing and work schedules">
+    <meta name="twitter:image" content="https://myshiftplanner.app/assets/images/social/my-shift-planner.jpg">
 <meta name="twitter:card" content="summary_large_image">
+    <link rel="alternate" type="application/atom+xml" title="My Shift Planner Guides" href="https://myshiftplanner.app/feed.xml">
     <link rel="preload" href="/assets/fonts/nunito-latin-variable.woff2" as="font" type="font/woff2" crossorigin>
-    <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Article","headline":"Padrões comuns de rotação de turnos","description":"Uma comparação prática de horários fixos, 2-2-3, 4 ligados/4 desligados e turnos rotativos.","datePublished":"2026-08-01","dateModified":"2026-08-01","author":{"@type":"Organization","name":"My Shift Planner","url":"https://myshiftplanner.app/pt-br/about/"},"publisher":{"@type":"Organization","name":"My Shift Planner"},"mainEntityOfPage":"https://myshiftplanner.app/pt-br/guides/shift-rotation-patterns/"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"My Shift Planner","item":"https://myshiftplanner.app/pt-br/"},{"@type":"ListItem","position":2,"name":"Guias","item":"https://myshiftplanner.app/pt-br/guides/"},{"@type":"ListItem","position":3,"name":"Padrões de rotação de turno","item":"https://myshiftplanner.app/pt-br/guides/shift-rotation-patterns/"}]}]}</script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Article","headline":"Padrões comuns de rotação de turnos","description":"Uma comparação prática de horários fixos, 2-2-3, 4 dias de trabalho/4 de folga e turnos rotativos.","datePublished":"2026-08-01","dateModified":"2026-08-01","author":{"@type":"Organization","name":"My Shift Planner","url":"https://myshiftplanner.app/pt-br/about/"},"publisher":{"@type":"Organization","name":"My Shift Planner"},"mainEntityOfPage":"https://myshiftplanner.app/pt-br/guides/shift-rotation-patterns/"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"My Shift Planner","item":"https://myshiftplanner.app/pt-br/"},{"@type":"ListItem","position":2,"name":"Guias","item":"https://myshiftplanner.app/pt-br/guides/"},{"@type":"ListItem","position":3,"name":"Padrões de rotação de turno","item":"https://myshiftplanner.app/pt-br/guides/shift-rotation-patterns/"}]}]}</script>
     <link rel="stylesheet" href="/assets/css/styles.css?v=20260819-6">
   <meta property="og:locale" content="pt_BR">
 </head>
@@ -62,17 +65,17 @@
             <div class="pattern-grid">
               <section class="pattern-card"><span>Horário fixo</span><h3>Mesmos dias úteis</h3>
 <p>Você trabalha um conjunto consistente de dias da semana ou noites. É fácil de revisar, mas as exceções ainda precisam ser registradas separadamente.</p></section>
-              <section class="pattern-card"><span>Padrão 2-2-3</span><h3>Dois ligados, dois desligados, três ligados</h3>
+              <section class="pattern-card"><span>Padrão 2-2-3</span><h3>2 dias de trabalho, 2 de folga e 3 de trabalho</h3>
 <p>Um ciclo de duas semanas geralmente alterna blocos de trabalho mais curtos e mais longos. Os arranjos exatos de dia/noite variam de acordo com o empregador.</p></section>
-              <section class="pattern-card"><span>4 ligado/4 desligado</span><h3>Quatro dias úteis, quatro dias de descanso</h3>
+              <section class="pattern-card"><span>4 dias de trabalho/4 de folga</span><h3>Quatro dias úteis, quatro dias de descanso</h3>
 <p>O ciclo passa pelos dias da semana ao longo do tempo. Pode ser previsível, embora raramente corresponda a um mês de segunda a sexta-feira.</p></section>
-              <section class="pattern-card"><span>Rotação de dias e noites</span><h3>Mudanças de horário de turno</h3>
+              <section class="pattern-card"><span>Rotação de dias e noites</span><h3>Alternância entre turnos diurnos e noturnos</h3>
 <p>O bloco de trabalho pode permanecer consistente enquanto os horários de início mudam. Rotule explicitamente as atribuições diurnas e noturnas, em vez de depender apenas da cor.</p></section>
-              <section class="pattern-card"><span>Ciclo personalizado</span><h3>Sequência específica do empregador</h3>
+              <section class="pattern-card"><span>Ciclo personalizado</span><h3>Ciclo próprio do local de trabalho</h3>
 <p>Muitos locais de trabalho usam variações locais. Registre a sequência exata em vez de presumir que um nome de padrão familiar tenha uma definição universal.</p></section>
             </div>
 
-            <h2>Como escolher uma configuração de planejador</h2>
+            <h2>Como configurar seu planner</h2>
             <ol>
               <li>
 <strong>Escreva a sequência em linguagem simples.</strong> Exemplo: dois turnos diurnos, dois dias de folga, três turnos noturnos.</li>

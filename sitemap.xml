@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://myshiftplanner.app/</loc>
-    <lastmod>2026-08-19</lastmod>
+    <lastmod>2026-08-26</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://myshiftplanner.app/" />
     <xhtml:link rel="alternate" hreflang="es" href="https://myshiftplanner.app/es/" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://myshiftplanner.app/fr/" />
@@ -10,197 +10,10 @@
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://myshiftplanner.app/pt-br/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://myshiftplanner.app/ja/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://myshiftplanner.app/" />
-  </url>
-  <url>
-    <loc>https://myshiftplanner.app/es/</loc>
-    <lastmod>2026-08-19</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://myshiftplanner.app/" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://myshiftplanner.app/es/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://myshiftplanner.app/fr/" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://myshiftplanner.app/de/" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://myshiftplanner.app/pt-br/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://myshiftplanner.app/ja/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://myshiftplanner.app/" />
-  </url>
-  <url>
-    <loc>https://myshiftplanner.app/fr/</loc>
-    <lastmod>2026-08-19</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://myshiftplanner.app/" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://myshiftplanner.app/es/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://myshiftplanner.app/fr/" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://myshiftplanner.app/de/" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://myshiftplanner.app/pt-br/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://myshiftplanner.app/ja/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://myshiftplanner.app/" />
-  </url>
-  <url>
-    <loc>https://myshiftplanner.app/de/</loc>
-    <lastmod>2026-08-19</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://myshiftplanner.app/" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://myshiftplanner.app/es/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://myshiftplanner.app/fr/" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://myshiftplanner.app/de/" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://myshiftplanner.app/pt-br/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://myshiftplanner.app/ja/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://myshiftplanner.app/" />
-  </url>
-  <url>
-    <loc>https://myshiftplanner.app/pt-br/</loc>
-    <lastmod>2026-08-19</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://myshiftplanner.app/" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://myshiftplanner.app/es/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://myshiftplanner.app/fr/" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://myshiftplanner.app/de/" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://myshiftplanner.app/pt-br/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://myshiftplanner.app/ja/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://myshiftplanner.app/" />
-  </url>
-  <url>
-    <loc>https://myshiftplanner.app/ja/</loc>
-    <lastmod>2026-08-19</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://myshiftplanner.app/" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://myshiftplanner.app/es/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://myshiftplanner.app/fr/" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://myshiftplanner.app/de/" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://myshiftplanner.app/pt-br/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://myshiftplanner.app/ja/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://myshiftplanner.app/" />
-  </url>
-  <url>
-    <loc>https://myshiftplanner.app/nurse/</loc>
-    <lastmod>2026-08-19</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://myshiftplanner.app/nurse/" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://myshiftplanner.app/es/nurse/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://myshiftplanner.app/fr/nurse/" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://myshiftplanner.app/de/nurse/" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://myshiftplanner.app/pt-br/nurse/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://myshiftplanner.app/ja/nurse/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://myshiftplanner.app/nurse/" />
-  </url>
-  <url>
-    <loc>https://myshiftplanner.app/es/nurse/</loc>
-    <lastmod>2026-08-19</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://myshiftplanner.app/nurse/" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://myshiftplanner.app/es/nurse/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://myshiftplanner.app/fr/nurse/" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://myshiftplanner.app/de/nurse/" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://myshiftplanner.app/pt-br/nurse/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://myshiftplanner.app/ja/nurse/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://myshiftplanner.app/nurse/" />
-  </url>
-  <url>
-    <loc>https://myshiftplanner.app/fr/nurse/</loc>
-    <lastmod>2026-08-19</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://myshiftplanner.app/nurse/" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://myshiftplanner.app/es/nurse/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://myshiftplanner.app/fr/nurse/" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://myshiftplanner.app/de/nurse/" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://myshiftplanner.app/pt-br/nurse/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://myshiftplanner.app/ja/nurse/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://myshiftplanner.app/nurse/" />
-  </url>
-  <url>
-    <loc>https://myshiftplanner.app/de/nurse/</loc>
-    <lastmod>2026-08-19</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://myshiftplanner.app/nurse/" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://myshiftplanner.app/es/nurse/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://myshiftplanner.app/fr/nurse/" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://myshiftplanner.app/de/nurse/" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://myshiftplanner.app/pt-br/nurse/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://myshiftplanner.app/ja/nurse/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://myshiftplanner.app/nurse/" />
-  </url>
-  <url>
-    <loc>https://myshiftplanner.app/pt-br/nurse/</loc>
-    <lastmod>2026-08-19</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://myshiftplanner.app/nurse/" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://myshiftplanner.app/es/nurse/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://myshiftplanner.app/fr/nurse/" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://myshiftplanner.app/de/nurse/" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://myshiftplanner.app/pt-br/nurse/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://myshiftplanner.app/ja/nurse/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://myshiftplanner.app/nurse/" />
-  </url>
-  <url>
-    <loc>https://myshiftplanner.app/ja/nurse/</loc>
-    <lastmod>2026-08-19</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://myshiftplanner.app/nurse/" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://myshiftplanner.app/es/nurse/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://myshiftplanner.app/fr/nurse/" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://myshiftplanner.app/de/nurse/" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://myshiftplanner.app/pt-br/nurse/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://myshiftplanner.app/ja/nurse/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://myshiftplanner.app/nurse/" />
-  </url>
-  <url>
-    <loc>https://myshiftplanner.app/work/</loc>
-    <lastmod>2026-08-19</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://myshiftplanner.app/work/" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://myshiftplanner.app/es/work/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://myshiftplanner.app/fr/work/" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://myshiftplanner.app/de/work/" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://myshiftplanner.app/pt-br/work/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://myshiftplanner.app/ja/work/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://myshiftplanner.app/work/" />
-  </url>
-  <url>
-    <loc>https://myshiftplanner.app/es/work/</loc>
-    <lastmod>2026-08-19</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://myshiftplanner.app/work/" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://myshiftplanner.app/es/work/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://myshiftplanner.app/fr/work/" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://myshiftplanner.app/de/work/" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://myshiftplanner.app/pt-br/work/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://myshiftplanner.app/ja/work/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://myshiftplanner.app/work/" />
-  </url>
-  <url>
-    <loc>https://myshiftplanner.app/fr/work/</loc>
-    <lastmod>2026-08-19</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://myshiftplanner.app/work/" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://myshiftplanner.app/es/work/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://myshiftplanner.app/fr/work/" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://myshiftplanner.app/de/work/" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://myshiftplanner.app/pt-br/work/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://myshiftplanner.app/ja/work/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://myshiftplanner.app/work/" />
-  </url>
-  <url>
-    <loc>https://myshiftplanner.app/de/work/</loc>
-    <lastmod>2026-08-19</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://myshiftplanner.app/work/" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://myshiftplanner.app/es/work/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://myshiftplanner.app/fr/work/" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://myshiftplanner.app/de/work/" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://myshiftplanner.app/pt-br/work/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://myshiftplanner.app/ja/work/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://myshiftplanner.app/work/" />
-  </url>
-  <url>
-    <loc>https://myshiftplanner.app/pt-br/work/</loc>
-    <lastmod>2026-08-19</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://myshiftplanner.app/work/" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://myshiftplanner.app/es/work/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://myshiftplanner.app/fr/work/" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://myshiftplanner.app/de/work/" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://myshiftplanner.app/pt-br/work/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://myshiftplanner.app/ja/work/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://myshiftplanner.app/work/" />
-  </url>
-  <url>
-    <loc>https://myshiftplanner.app/ja/work/</loc>
-    <lastmod>2026-08-19</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://myshiftplanner.app/work/" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://myshiftplanner.app/es/work/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://myshiftplanner.app/fr/work/" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://myshiftplanner.app/de/work/" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://myshiftplanner.app/pt-br/work/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://myshiftplanner.app/ja/work/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://myshiftplanner.app/work/" />
   </url>
   <url>
     <loc>https://myshiftplanner.app/about/</loc>
-    <lastmod>2026-08-19</lastmod>
+    <lastmod>2026-08-26</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://myshiftplanner.app/about/" />
     <xhtml:link rel="alternate" hreflang="es" href="https://myshiftplanner.app/es/about/" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://myshiftplanner.app/fr/about/" />
@@ -210,30 +23,24 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://myshiftplanner.app/about/" />
   </url>
   <url>
-    <loc>https://myshiftplanner.app/es/about/</loc>
-    <lastmod>2026-08-19</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://myshiftplanner.app/about/" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://myshiftplanner.app/es/about/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://myshiftplanner.app/fr/about/" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://myshiftplanner.app/de/about/" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://myshiftplanner.app/pt-br/about/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://myshiftplanner.app/ja/about/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://myshiftplanner.app/about/" />
+    <loc>https://myshiftplanner.app/ai-use/</loc>
+    <lastmod>2026-08-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://myshiftplanner.app/ai-use/" />
   </url>
   <url>
-    <loc>https://myshiftplanner.app/fr/about/</loc>
-    <lastmod>2026-08-19</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://myshiftplanner.app/about/" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://myshiftplanner.app/es/about/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://myshiftplanner.app/fr/about/" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://myshiftplanner.app/de/about/" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://myshiftplanner.app/pt-br/about/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://myshiftplanner.app/ja/about/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://myshiftplanner.app/about/" />
+    <loc>https://myshiftplanner.app/de/</loc>
+    <lastmod>2026-08-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://myshiftplanner.app/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://myshiftplanner.app/es/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://myshiftplanner.app/fr/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://myshiftplanner.app/de/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://myshiftplanner.app/pt-br/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://myshiftplanner.app/ja/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://myshiftplanner.app/" />
   </url>
   <url>
     <loc>https://myshiftplanner.app/de/about/</loc>
-    <lastmod>2026-08-19</lastmod>
+    <lastmod>2026-08-26</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://myshiftplanner.app/about/" />
     <xhtml:link rel="alternate" hreflang="es" href="https://myshiftplanner.app/es/about/" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://myshiftplanner.app/fr/about/" />
@@ -241,65 +48,10 @@
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://myshiftplanner.app/pt-br/about/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://myshiftplanner.app/ja/about/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://myshiftplanner.app/about/" />
-  </url>
-  <url>
-    <loc>https://myshiftplanner.app/pt-br/about/</loc>
-    <lastmod>2026-08-19</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://myshiftplanner.app/about/" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://myshiftplanner.app/es/about/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://myshiftplanner.app/fr/about/" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://myshiftplanner.app/de/about/" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://myshiftplanner.app/pt-br/about/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://myshiftplanner.app/ja/about/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://myshiftplanner.app/about/" />
-  </url>
-  <url>
-    <loc>https://myshiftplanner.app/ja/about/</loc>
-    <lastmod>2026-08-19</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://myshiftplanner.app/about/" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://myshiftplanner.app/es/about/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://myshiftplanner.app/fr/about/" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://myshiftplanner.app/de/about/" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://myshiftplanner.app/pt-br/about/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://myshiftplanner.app/ja/about/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://myshiftplanner.app/about/" />
-  </url>
-  <url>
-    <loc>https://myshiftplanner.app/guides/</loc>
-    <lastmod>2026-08-19</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://myshiftplanner.app/guides/" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://myshiftplanner.app/es/guides/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://myshiftplanner.app/fr/guides/" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://myshiftplanner.app/de/guides/" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://myshiftplanner.app/pt-br/guides/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://myshiftplanner.app/ja/guides/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://myshiftplanner.app/guides/" />
-  </url>
-  <url>
-    <loc>https://myshiftplanner.app/es/guides/</loc>
-    <lastmod>2026-08-19</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://myshiftplanner.app/guides/" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://myshiftplanner.app/es/guides/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://myshiftplanner.app/fr/guides/" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://myshiftplanner.app/de/guides/" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://myshiftplanner.app/pt-br/guides/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://myshiftplanner.app/ja/guides/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://myshiftplanner.app/guides/" />
-  </url>
-  <url>
-    <loc>https://myshiftplanner.app/fr/guides/</loc>
-    <lastmod>2026-08-19</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://myshiftplanner.app/guides/" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://myshiftplanner.app/es/guides/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://myshiftplanner.app/fr/guides/" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://myshiftplanner.app/de/guides/" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://myshiftplanner.app/pt-br/guides/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://myshiftplanner.app/ja/guides/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://myshiftplanner.app/guides/" />
   </url>
   <url>
     <loc>https://myshiftplanner.app/de/guides/</loc>
-    <lastmod>2026-08-19</lastmod>
+    <lastmod>2026-08-26</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://myshiftplanner.app/guides/" />
     <xhtml:link rel="alternate" hreflang="es" href="https://myshiftplanner.app/es/guides/" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://myshiftplanner.app/fr/guides/" />
@@ -307,263 +59,10 @@
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://myshiftplanner.app/pt-br/guides/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://myshiftplanner.app/ja/guides/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://myshiftplanner.app/guides/" />
-  </url>
-  <url>
-    <loc>https://myshiftplanner.app/pt-br/guides/</loc>
-    <lastmod>2026-08-19</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://myshiftplanner.app/guides/" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://myshiftplanner.app/es/guides/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://myshiftplanner.app/fr/guides/" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://myshiftplanner.app/de/guides/" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://myshiftplanner.app/pt-br/guides/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://myshiftplanner.app/ja/guides/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://myshiftplanner.app/guides/" />
-  </url>
-  <url>
-    <loc>https://myshiftplanner.app/ja/guides/</loc>
-    <lastmod>2026-08-19</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://myshiftplanner.app/guides/" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://myshiftplanner.app/es/guides/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://myshiftplanner.app/fr/guides/" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://myshiftplanner.app/de/guides/" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://myshiftplanner.app/pt-br/guides/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://myshiftplanner.app/ja/guides/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://myshiftplanner.app/guides/" />
-  </url>
-  <url>
-    <loc>https://myshiftplanner.app/guides/shift-rotation-patterns/</loc>
-    <lastmod>2026-08-19</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://myshiftplanner.app/guides/shift-rotation-patterns/" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://myshiftplanner.app/es/guides/shift-rotation-patterns/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://myshiftplanner.app/fr/guides/shift-rotation-patterns/" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://myshiftplanner.app/de/guides/shift-rotation-patterns/" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://myshiftplanner.app/pt-br/guides/shift-rotation-patterns/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://myshiftplanner.app/ja/guides/shift-rotation-patterns/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://myshiftplanner.app/guides/shift-rotation-patterns/" />
-  </url>
-  <url>
-    <loc>https://myshiftplanner.app/es/guides/shift-rotation-patterns/</loc>
-    <lastmod>2026-08-19</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://myshiftplanner.app/guides/shift-rotation-patterns/" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://myshiftplanner.app/es/guides/shift-rotation-patterns/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://myshiftplanner.app/fr/guides/shift-rotation-patterns/" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://myshiftplanner.app/de/guides/shift-rotation-patterns/" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://myshiftplanner.app/pt-br/guides/shift-rotation-patterns/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://myshiftplanner.app/ja/guides/shift-rotation-patterns/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://myshiftplanner.app/guides/shift-rotation-patterns/" />
-  </url>
-  <url>
-    <loc>https://myshiftplanner.app/fr/guides/shift-rotation-patterns/</loc>
-    <lastmod>2026-08-19</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://myshiftplanner.app/guides/shift-rotation-patterns/" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://myshiftplanner.app/es/guides/shift-rotation-patterns/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://myshiftplanner.app/fr/guides/shift-rotation-patterns/" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://myshiftplanner.app/de/guides/shift-rotation-patterns/" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://myshiftplanner.app/pt-br/guides/shift-rotation-patterns/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://myshiftplanner.app/ja/guides/shift-rotation-patterns/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://myshiftplanner.app/guides/shift-rotation-patterns/" />
-  </url>
-  <url>
-    <loc>https://myshiftplanner.app/de/guides/shift-rotation-patterns/</loc>
-    <lastmod>2026-08-19</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://myshiftplanner.app/guides/shift-rotation-patterns/" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://myshiftplanner.app/es/guides/shift-rotation-patterns/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://myshiftplanner.app/fr/guides/shift-rotation-patterns/" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://myshiftplanner.app/de/guides/shift-rotation-patterns/" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://myshiftplanner.app/pt-br/guides/shift-rotation-patterns/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://myshiftplanner.app/ja/guides/shift-rotation-patterns/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://myshiftplanner.app/guides/shift-rotation-patterns/" />
-  </url>
-  <url>
-    <loc>https://myshiftplanner.app/pt-br/guides/shift-rotation-patterns/</loc>
-    <lastmod>2026-08-19</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://myshiftplanner.app/guides/shift-rotation-patterns/" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://myshiftplanner.app/es/guides/shift-rotation-patterns/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://myshiftplanner.app/fr/guides/shift-rotation-patterns/" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://myshiftplanner.app/de/guides/shift-rotation-patterns/" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://myshiftplanner.app/pt-br/guides/shift-rotation-patterns/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://myshiftplanner.app/ja/guides/shift-rotation-patterns/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://myshiftplanner.app/guides/shift-rotation-patterns/" />
-  </url>
-  <url>
-    <loc>https://myshiftplanner.app/ja/guides/shift-rotation-patterns/</loc>
-    <lastmod>2026-08-19</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://myshiftplanner.app/guides/shift-rotation-patterns/" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://myshiftplanner.app/es/guides/shift-rotation-patterns/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://myshiftplanner.app/fr/guides/shift-rotation-patterns/" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://myshiftplanner.app/de/guides/shift-rotation-patterns/" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://myshiftplanner.app/pt-br/guides/shift-rotation-patterns/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://myshiftplanner.app/ja/guides/shift-rotation-patterns/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://myshiftplanner.app/guides/shift-rotation-patterns/" />
-  </url>
-  <url>
-    <loc>https://myshiftplanner.app/guides/shift-pay-calculator/</loc>
-    <lastmod>2026-08-19</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://myshiftplanner.app/guides/shift-pay-calculator/" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://myshiftplanner.app/es/guides/shift-pay-calculator/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://myshiftplanner.app/fr/guides/shift-pay-calculator/" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://myshiftplanner.app/de/guides/shift-pay-calculator/" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://myshiftplanner.app/pt-br/guides/shift-pay-calculator/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://myshiftplanner.app/ja/guides/shift-pay-calculator/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://myshiftplanner.app/guides/shift-pay-calculator/" />
-  </url>
-  <url>
-    <loc>https://myshiftplanner.app/es/guides/shift-pay-calculator/</loc>
-    <lastmod>2026-08-19</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://myshiftplanner.app/guides/shift-pay-calculator/" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://myshiftplanner.app/es/guides/shift-pay-calculator/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://myshiftplanner.app/fr/guides/shift-pay-calculator/" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://myshiftplanner.app/de/guides/shift-pay-calculator/" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://myshiftplanner.app/pt-br/guides/shift-pay-calculator/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://myshiftplanner.app/ja/guides/shift-pay-calculator/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://myshiftplanner.app/guides/shift-pay-calculator/" />
-  </url>
-  <url>
-    <loc>https://myshiftplanner.app/fr/guides/shift-pay-calculator/</loc>
-    <lastmod>2026-08-19</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://myshiftplanner.app/guides/shift-pay-calculator/" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://myshiftplanner.app/es/guides/shift-pay-calculator/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://myshiftplanner.app/fr/guides/shift-pay-calculator/" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://myshiftplanner.app/de/guides/shift-pay-calculator/" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://myshiftplanner.app/pt-br/guides/shift-pay-calculator/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://myshiftplanner.app/ja/guides/shift-pay-calculator/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://myshiftplanner.app/guides/shift-pay-calculator/" />
-  </url>
-  <url>
-    <loc>https://myshiftplanner.app/de/guides/shift-pay-calculator/</loc>
-    <lastmod>2026-08-19</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://myshiftplanner.app/guides/shift-pay-calculator/" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://myshiftplanner.app/es/guides/shift-pay-calculator/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://myshiftplanner.app/fr/guides/shift-pay-calculator/" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://myshiftplanner.app/de/guides/shift-pay-calculator/" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://myshiftplanner.app/pt-br/guides/shift-pay-calculator/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://myshiftplanner.app/ja/guides/shift-pay-calculator/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://myshiftplanner.app/guides/shift-pay-calculator/" />
-  </url>
-  <url>
-    <loc>https://myshiftplanner.app/pt-br/guides/shift-pay-calculator/</loc>
-    <lastmod>2026-08-19</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://myshiftplanner.app/guides/shift-pay-calculator/" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://myshiftplanner.app/es/guides/shift-pay-calculator/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://myshiftplanner.app/fr/guides/shift-pay-calculator/" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://myshiftplanner.app/de/guides/shift-pay-calculator/" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://myshiftplanner.app/pt-br/guides/shift-pay-calculator/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://myshiftplanner.app/ja/guides/shift-pay-calculator/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://myshiftplanner.app/guides/shift-pay-calculator/" />
-  </url>
-  <url>
-    <loc>https://myshiftplanner.app/ja/guides/shift-pay-calculator/</loc>
-    <lastmod>2026-08-19</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://myshiftplanner.app/guides/shift-pay-calculator/" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://myshiftplanner.app/es/guides/shift-pay-calculator/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://myshiftplanner.app/fr/guides/shift-pay-calculator/" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://myshiftplanner.app/de/guides/shift-pay-calculator/" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://myshiftplanner.app/pt-br/guides/shift-pay-calculator/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://myshiftplanner.app/ja/guides/shift-pay-calculator/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://myshiftplanner.app/guides/shift-pay-calculator/" />
-  </url>
-  <url>
-    <loc>https://myshiftplanner.app/guides/night-shift-planning/</loc>
-    <lastmod>2026-08-19</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://myshiftplanner.app/guides/night-shift-planning/" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://myshiftplanner.app/es/guides/night-shift-planning/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://myshiftplanner.app/fr/guides/night-shift-planning/" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://myshiftplanner.app/de/guides/night-shift-planning/" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://myshiftplanner.app/pt-br/guides/night-shift-planning/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://myshiftplanner.app/ja/guides/night-shift-planning/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://myshiftplanner.app/guides/night-shift-planning/" />
-  </url>
-  <url>
-    <loc>https://myshiftplanner.app/es/guides/night-shift-planning/</loc>
-    <lastmod>2026-08-19</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://myshiftplanner.app/guides/night-shift-planning/" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://myshiftplanner.app/es/guides/night-shift-planning/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://myshiftplanner.app/fr/guides/night-shift-planning/" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://myshiftplanner.app/de/guides/night-shift-planning/" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://myshiftplanner.app/pt-br/guides/night-shift-planning/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://myshiftplanner.app/ja/guides/night-shift-planning/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://myshiftplanner.app/guides/night-shift-planning/" />
-  </url>
-  <url>
-    <loc>https://myshiftplanner.app/fr/guides/night-shift-planning/</loc>
-    <lastmod>2026-08-19</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://myshiftplanner.app/guides/night-shift-planning/" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://myshiftplanner.app/es/guides/night-shift-planning/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://myshiftplanner.app/fr/guides/night-shift-planning/" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://myshiftplanner.app/de/guides/night-shift-planning/" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://myshiftplanner.app/pt-br/guides/night-shift-planning/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://myshiftplanner.app/ja/guides/night-shift-planning/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://myshiftplanner.app/guides/night-shift-planning/" />
-  </url>
-  <url>
-    <loc>https://myshiftplanner.app/de/guides/night-shift-planning/</loc>
-    <lastmod>2026-08-19</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://myshiftplanner.app/guides/night-shift-planning/" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://myshiftplanner.app/es/guides/night-shift-planning/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://myshiftplanner.app/fr/guides/night-shift-planning/" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://myshiftplanner.app/de/guides/night-shift-planning/" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://myshiftplanner.app/pt-br/guides/night-shift-planning/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://myshiftplanner.app/ja/guides/night-shift-planning/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://myshiftplanner.app/guides/night-shift-planning/" />
-  </url>
-  <url>
-    <loc>https://myshiftplanner.app/pt-br/guides/night-shift-planning/</loc>
-    <lastmod>2026-08-19</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://myshiftplanner.app/guides/night-shift-planning/" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://myshiftplanner.app/es/guides/night-shift-planning/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://myshiftplanner.app/fr/guides/night-shift-planning/" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://myshiftplanner.app/de/guides/night-shift-planning/" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://myshiftplanner.app/pt-br/guides/night-shift-planning/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://myshiftplanner.app/ja/guides/night-shift-planning/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://myshiftplanner.app/guides/night-shift-planning/" />
-  </url>
-  <url>
-    <loc>https://myshiftplanner.app/ja/guides/night-shift-planning/</loc>
-    <lastmod>2026-08-19</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://myshiftplanner.app/guides/night-shift-planning/" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://myshiftplanner.app/es/guides/night-shift-planning/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://myshiftplanner.app/fr/guides/night-shift-planning/" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://myshiftplanner.app/de/guides/night-shift-planning/" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://myshiftplanner.app/pt-br/guides/night-shift-planning/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://myshiftplanner.app/ja/guides/night-shift-planning/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://myshiftplanner.app/guides/night-shift-planning/" />
-  </url>
-  <url>
-    <loc>https://myshiftplanner.app/guides/multiple-workplaces/</loc>
-    <lastmod>2026-08-19</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://myshiftplanner.app/guides/multiple-workplaces/" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://myshiftplanner.app/es/guides/multiple-workplaces/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://myshiftplanner.app/fr/guides/multiple-workplaces/" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://myshiftplanner.app/de/guides/multiple-workplaces/" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://myshiftplanner.app/pt-br/guides/multiple-workplaces/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://myshiftplanner.app/ja/guides/multiple-workplaces/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://myshiftplanner.app/guides/multiple-workplaces/" />
-  </url>
-  <url>
-    <loc>https://myshiftplanner.app/es/guides/multiple-workplaces/</loc>
-    <lastmod>2026-08-19</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://myshiftplanner.app/guides/multiple-workplaces/" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://myshiftplanner.app/es/guides/multiple-workplaces/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://myshiftplanner.app/fr/guides/multiple-workplaces/" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://myshiftplanner.app/de/guides/multiple-workplaces/" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://myshiftplanner.app/pt-br/guides/multiple-workplaces/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://myshiftplanner.app/ja/guides/multiple-workplaces/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://myshiftplanner.app/guides/multiple-workplaces/" />
-  </url>
-  <url>
-    <loc>https://myshiftplanner.app/fr/guides/multiple-workplaces/</loc>
-    <lastmod>2026-08-19</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://myshiftplanner.app/guides/multiple-workplaces/" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://myshiftplanner.app/es/guides/multiple-workplaces/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://myshiftplanner.app/fr/guides/multiple-workplaces/" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://myshiftplanner.app/de/guides/multiple-workplaces/" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://myshiftplanner.app/pt-br/guides/multiple-workplaces/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://myshiftplanner.app/ja/guides/multiple-workplaces/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://myshiftplanner.app/guides/multiple-workplaces/" />
   </url>
   <url>
     <loc>https://myshiftplanner.app/de/guides/multiple-workplaces/</loc>
-    <lastmod>2026-08-19</lastmod>
+    <lastmod>2026-08-26</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://myshiftplanner.app/guides/multiple-workplaces/" />
     <xhtml:link rel="alternate" hreflang="es" href="https://myshiftplanner.app/es/guides/multiple-workplaces/" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://myshiftplanner.app/fr/guides/multiple-workplaces/" />
@@ -573,63 +72,19 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://myshiftplanner.app/guides/multiple-workplaces/" />
   </url>
   <url>
-    <loc>https://myshiftplanner.app/pt-br/guides/multiple-workplaces/</loc>
-    <lastmod>2026-08-19</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://myshiftplanner.app/guides/multiple-workplaces/" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://myshiftplanner.app/es/guides/multiple-workplaces/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://myshiftplanner.app/fr/guides/multiple-workplaces/" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://myshiftplanner.app/de/guides/multiple-workplaces/" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://myshiftplanner.app/pt-br/guides/multiple-workplaces/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://myshiftplanner.app/ja/guides/multiple-workplaces/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://myshiftplanner.app/guides/multiple-workplaces/" />
-  </url>
-  <url>
-    <loc>https://myshiftplanner.app/ja/guides/multiple-workplaces/</loc>
-    <lastmod>2026-08-19</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://myshiftplanner.app/guides/multiple-workplaces/" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://myshiftplanner.app/es/guides/multiple-workplaces/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://myshiftplanner.app/fr/guides/multiple-workplaces/" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://myshiftplanner.app/de/guides/multiple-workplaces/" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://myshiftplanner.app/pt-br/guides/multiple-workplaces/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://myshiftplanner.app/ja/guides/multiple-workplaces/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://myshiftplanner.app/guides/multiple-workplaces/" />
-  </url>
-  <url>
-    <loc>https://myshiftplanner.app/guides/nurse-12-hour-shift-schedule/</loc>
-    <lastmod>2026-08-19</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://myshiftplanner.app/guides/nurse-12-hour-shift-schedule/" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://myshiftplanner.app/es/guides/nurse-12-hour-shift-schedule/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://myshiftplanner.app/fr/guides/nurse-12-hour-shift-schedule/" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://myshiftplanner.app/de/guides/nurse-12-hour-shift-schedule/" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://myshiftplanner.app/pt-br/guides/nurse-12-hour-shift-schedule/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://myshiftplanner.app/ja/guides/nurse-12-hour-shift-schedule/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://myshiftplanner.app/guides/nurse-12-hour-shift-schedule/" />
-  </url>
-  <url>
-    <loc>https://myshiftplanner.app/es/guides/nurse-12-hour-shift-schedule/</loc>
-    <lastmod>2026-08-19</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://myshiftplanner.app/guides/nurse-12-hour-shift-schedule/" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://myshiftplanner.app/es/guides/nurse-12-hour-shift-schedule/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://myshiftplanner.app/fr/guides/nurse-12-hour-shift-schedule/" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://myshiftplanner.app/de/guides/nurse-12-hour-shift-schedule/" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://myshiftplanner.app/pt-br/guides/nurse-12-hour-shift-schedule/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://myshiftplanner.app/ja/guides/nurse-12-hour-shift-schedule/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://myshiftplanner.app/guides/nurse-12-hour-shift-schedule/" />
-  </url>
-  <url>
-    <loc>https://myshiftplanner.app/fr/guides/nurse-12-hour-shift-schedule/</loc>
-    <lastmod>2026-08-19</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://myshiftplanner.app/guides/nurse-12-hour-shift-schedule/" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://myshiftplanner.app/es/guides/nurse-12-hour-shift-schedule/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://myshiftplanner.app/fr/guides/nurse-12-hour-shift-schedule/" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://myshiftplanner.app/de/guides/nurse-12-hour-shift-schedule/" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://myshiftplanner.app/pt-br/guides/nurse-12-hour-shift-schedule/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://myshiftplanner.app/ja/guides/nurse-12-hour-shift-schedule/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://myshiftplanner.app/guides/nurse-12-hour-shift-schedule/" />
+    <loc>https://myshiftplanner.app/de/guides/night-shift-planning/</loc>
+    <lastmod>2026-08-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://myshiftplanner.app/guides/night-shift-planning/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://myshiftplanner.app/es/guides/night-shift-planning/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://myshiftplanner.app/fr/guides/night-shift-planning/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://myshiftplanner.app/de/guides/night-shift-planning/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://myshiftplanner.app/pt-br/guides/night-shift-planning/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://myshiftplanner.app/ja/guides/night-shift-planning/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://myshiftplanner.app/guides/night-shift-planning/" />
   </url>
   <url>
     <loc>https://myshiftplanner.app/de/guides/nurse-12-hour-shift-schedule/</loc>
-    <lastmod>2026-08-19</lastmod>
+    <lastmod>2026-08-26</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://myshiftplanner.app/guides/nurse-12-hour-shift-schedule/" />
     <xhtml:link rel="alternate" hreflang="es" href="https://myshiftplanner.app/es/guides/nurse-12-hour-shift-schedule/" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://myshiftplanner.app/fr/guides/nurse-12-hour-shift-schedule/" />
@@ -639,63 +94,41 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://myshiftplanner.app/guides/nurse-12-hour-shift-schedule/" />
   </url>
   <url>
-    <loc>https://myshiftplanner.app/pt-br/guides/nurse-12-hour-shift-schedule/</loc>
-    <lastmod>2026-08-19</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://myshiftplanner.app/guides/nurse-12-hour-shift-schedule/" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://myshiftplanner.app/es/guides/nurse-12-hour-shift-schedule/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://myshiftplanner.app/fr/guides/nurse-12-hour-shift-schedule/" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://myshiftplanner.app/de/guides/nurse-12-hour-shift-schedule/" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://myshiftplanner.app/pt-br/guides/nurse-12-hour-shift-schedule/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://myshiftplanner.app/ja/guides/nurse-12-hour-shift-schedule/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://myshiftplanner.app/guides/nurse-12-hour-shift-schedule/" />
+    <loc>https://myshiftplanner.app/de/guides/shift-pay-calculator/</loc>
+    <lastmod>2026-08-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://myshiftplanner.app/guides/shift-pay-calculator/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://myshiftplanner.app/es/guides/shift-pay-calculator/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://myshiftplanner.app/fr/guides/shift-pay-calculator/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://myshiftplanner.app/de/guides/shift-pay-calculator/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://myshiftplanner.app/pt-br/guides/shift-pay-calculator/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://myshiftplanner.app/ja/guides/shift-pay-calculator/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://myshiftplanner.app/guides/shift-pay-calculator/" />
   </url>
   <url>
-    <loc>https://myshiftplanner.app/ja/guides/nurse-12-hour-shift-schedule/</loc>
-    <lastmod>2026-08-19</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://myshiftplanner.app/guides/nurse-12-hour-shift-schedule/" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://myshiftplanner.app/es/guides/nurse-12-hour-shift-schedule/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://myshiftplanner.app/fr/guides/nurse-12-hour-shift-schedule/" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://myshiftplanner.app/de/guides/nurse-12-hour-shift-schedule/" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://myshiftplanner.app/pt-br/guides/nurse-12-hour-shift-schedule/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://myshiftplanner.app/ja/guides/nurse-12-hour-shift-schedule/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://myshiftplanner.app/guides/nurse-12-hour-shift-schedule/" />
+    <loc>https://myshiftplanner.app/de/guides/shift-rotation-patterns/</loc>
+    <lastmod>2026-08-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://myshiftplanner.app/guides/shift-rotation-patterns/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://myshiftplanner.app/es/guides/shift-rotation-patterns/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://myshiftplanner.app/fr/guides/shift-rotation-patterns/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://myshiftplanner.app/de/guides/shift-rotation-patterns/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://myshiftplanner.app/pt-br/guides/shift-rotation-patterns/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://myshiftplanner.app/ja/guides/shift-rotation-patterns/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://myshiftplanner.app/guides/shift-rotation-patterns/" />
   </url>
   <url>
-    <loc>https://myshiftplanner.app/nurse/contact.html</loc>
-    <lastmod>2026-08-19</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://myshiftplanner.app/nurse/contact.html" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://myshiftplanner.app/es/nurse/contact.html" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://myshiftplanner.app/fr/nurse/contact.html" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://myshiftplanner.app/de/nurse/contact.html" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://myshiftplanner.app/pt-br/nurse/contact.html" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://myshiftplanner.app/ja/nurse/contact.html" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://myshiftplanner.app/nurse/contact.html" />
-  </url>
-  <url>
-    <loc>https://myshiftplanner.app/es/nurse/contact.html</loc>
-    <lastmod>2026-08-19</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://myshiftplanner.app/nurse/contact.html" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://myshiftplanner.app/es/nurse/contact.html" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://myshiftplanner.app/fr/nurse/contact.html" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://myshiftplanner.app/de/nurse/contact.html" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://myshiftplanner.app/pt-br/nurse/contact.html" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://myshiftplanner.app/ja/nurse/contact.html" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://myshiftplanner.app/nurse/contact.html" />
-  </url>
-  <url>
-    <loc>https://myshiftplanner.app/fr/nurse/contact.html</loc>
-    <lastmod>2026-08-19</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://myshiftplanner.app/nurse/contact.html" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://myshiftplanner.app/es/nurse/contact.html" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://myshiftplanner.app/fr/nurse/contact.html" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://myshiftplanner.app/de/nurse/contact.html" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://myshiftplanner.app/pt-br/nurse/contact.html" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://myshiftplanner.app/ja/nurse/contact.html" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://myshiftplanner.app/nurse/contact.html" />
+    <loc>https://myshiftplanner.app/de/nurse/</loc>
+    <lastmod>2026-08-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://myshiftplanner.app/nurse/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://myshiftplanner.app/es/nurse/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://myshiftplanner.app/fr/nurse/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://myshiftplanner.app/de/nurse/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://myshiftplanner.app/pt-br/nurse/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://myshiftplanner.app/ja/nurse/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://myshiftplanner.app/nurse/" />
   </url>
   <url>
     <loc>https://myshiftplanner.app/de/nurse/contact.html</loc>
-    <lastmod>2026-08-19</lastmod>
+    <lastmod>2026-08-26</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://myshiftplanner.app/nurse/contact.html" />
     <xhtml:link rel="alternate" hreflang="es" href="https://myshiftplanner.app/es/nurse/contact.html" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://myshiftplanner.app/fr/nurse/contact.html" />
@@ -703,197 +136,10 @@
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://myshiftplanner.app/pt-br/nurse/contact.html" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://myshiftplanner.app/ja/nurse/contact.html" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://myshiftplanner.app/nurse/contact.html" />
-  </url>
-  <url>
-    <loc>https://myshiftplanner.app/pt-br/nurse/contact.html</loc>
-    <lastmod>2026-08-19</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://myshiftplanner.app/nurse/contact.html" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://myshiftplanner.app/es/nurse/contact.html" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://myshiftplanner.app/fr/nurse/contact.html" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://myshiftplanner.app/de/nurse/contact.html" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://myshiftplanner.app/pt-br/nurse/contact.html" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://myshiftplanner.app/ja/nurse/contact.html" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://myshiftplanner.app/nurse/contact.html" />
-  </url>
-  <url>
-    <loc>https://myshiftplanner.app/ja/nurse/contact.html</loc>
-    <lastmod>2026-08-19</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://myshiftplanner.app/nurse/contact.html" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://myshiftplanner.app/es/nurse/contact.html" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://myshiftplanner.app/fr/nurse/contact.html" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://myshiftplanner.app/de/nurse/contact.html" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://myshiftplanner.app/pt-br/nurse/contact.html" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://myshiftplanner.app/ja/nurse/contact.html" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://myshiftplanner.app/nurse/contact.html" />
-  </url>
-  <url>
-    <loc>https://myshiftplanner.app/nurse/support.html</loc>
-    <lastmod>2026-08-19</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://myshiftplanner.app/nurse/support.html" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://myshiftplanner.app/es/nurse/support.html" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://myshiftplanner.app/fr/nurse/support.html" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://myshiftplanner.app/de/nurse/support.html" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://myshiftplanner.app/pt-br/nurse/support.html" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://myshiftplanner.app/ja/nurse/support.html" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://myshiftplanner.app/nurse/support.html" />
-  </url>
-  <url>
-    <loc>https://myshiftplanner.app/es/nurse/support.html</loc>
-    <lastmod>2026-08-19</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://myshiftplanner.app/nurse/support.html" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://myshiftplanner.app/es/nurse/support.html" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://myshiftplanner.app/fr/nurse/support.html" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://myshiftplanner.app/de/nurse/support.html" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://myshiftplanner.app/pt-br/nurse/support.html" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://myshiftplanner.app/ja/nurse/support.html" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://myshiftplanner.app/nurse/support.html" />
-  </url>
-  <url>
-    <loc>https://myshiftplanner.app/fr/nurse/support.html</loc>
-    <lastmod>2026-08-19</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://myshiftplanner.app/nurse/support.html" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://myshiftplanner.app/es/nurse/support.html" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://myshiftplanner.app/fr/nurse/support.html" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://myshiftplanner.app/de/nurse/support.html" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://myshiftplanner.app/pt-br/nurse/support.html" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://myshiftplanner.app/ja/nurse/support.html" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://myshiftplanner.app/nurse/support.html" />
-  </url>
-  <url>
-    <loc>https://myshiftplanner.app/de/nurse/support.html</loc>
-    <lastmod>2026-08-19</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://myshiftplanner.app/nurse/support.html" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://myshiftplanner.app/es/nurse/support.html" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://myshiftplanner.app/fr/nurse/support.html" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://myshiftplanner.app/de/nurse/support.html" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://myshiftplanner.app/pt-br/nurse/support.html" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://myshiftplanner.app/ja/nurse/support.html" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://myshiftplanner.app/nurse/support.html" />
-  </url>
-  <url>
-    <loc>https://myshiftplanner.app/pt-br/nurse/support.html</loc>
-    <lastmod>2026-08-19</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://myshiftplanner.app/nurse/support.html" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://myshiftplanner.app/es/nurse/support.html" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://myshiftplanner.app/fr/nurse/support.html" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://myshiftplanner.app/de/nurse/support.html" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://myshiftplanner.app/pt-br/nurse/support.html" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://myshiftplanner.app/ja/nurse/support.html" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://myshiftplanner.app/nurse/support.html" />
-  </url>
-  <url>
-    <loc>https://myshiftplanner.app/ja/nurse/support.html</loc>
-    <lastmod>2026-08-19</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://myshiftplanner.app/nurse/support.html" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://myshiftplanner.app/es/nurse/support.html" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://myshiftplanner.app/fr/nurse/support.html" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://myshiftplanner.app/de/nurse/support.html" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://myshiftplanner.app/pt-br/nurse/support.html" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://myshiftplanner.app/ja/nurse/support.html" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://myshiftplanner.app/nurse/support.html" />
-  </url>
-  <url>
-    <loc>https://myshiftplanner.app/nurse/privacy.html</loc>
-    <lastmod>2026-08-19</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://myshiftplanner.app/nurse/privacy.html" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://myshiftplanner.app/es/nurse/privacy.html" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://myshiftplanner.app/fr/nurse/privacy.html" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://myshiftplanner.app/de/nurse/privacy.html" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://myshiftplanner.app/pt-br/nurse/privacy.html" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://myshiftplanner.app/ja/nurse/privacy.html" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://myshiftplanner.app/nurse/privacy.html" />
-  </url>
-  <url>
-    <loc>https://myshiftplanner.app/es/nurse/privacy.html</loc>
-    <lastmod>2026-08-19</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://myshiftplanner.app/nurse/privacy.html" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://myshiftplanner.app/es/nurse/privacy.html" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://myshiftplanner.app/fr/nurse/privacy.html" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://myshiftplanner.app/de/nurse/privacy.html" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://myshiftplanner.app/pt-br/nurse/privacy.html" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://myshiftplanner.app/ja/nurse/privacy.html" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://myshiftplanner.app/nurse/privacy.html" />
-  </url>
-  <url>
-    <loc>https://myshiftplanner.app/fr/nurse/privacy.html</loc>
-    <lastmod>2026-08-19</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://myshiftplanner.app/nurse/privacy.html" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://myshiftplanner.app/es/nurse/privacy.html" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://myshiftplanner.app/fr/nurse/privacy.html" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://myshiftplanner.app/de/nurse/privacy.html" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://myshiftplanner.app/pt-br/nurse/privacy.html" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://myshiftplanner.app/ja/nurse/privacy.html" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://myshiftplanner.app/nurse/privacy.html" />
-  </url>
-  <url>
-    <loc>https://myshiftplanner.app/de/nurse/privacy.html</loc>
-    <lastmod>2026-08-19</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://myshiftplanner.app/nurse/privacy.html" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://myshiftplanner.app/es/nurse/privacy.html" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://myshiftplanner.app/fr/nurse/privacy.html" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://myshiftplanner.app/de/nurse/privacy.html" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://myshiftplanner.app/pt-br/nurse/privacy.html" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://myshiftplanner.app/ja/nurse/privacy.html" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://myshiftplanner.app/nurse/privacy.html" />
-  </url>
-  <url>
-    <loc>https://myshiftplanner.app/pt-br/nurse/privacy.html</loc>
-    <lastmod>2026-08-19</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://myshiftplanner.app/nurse/privacy.html" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://myshiftplanner.app/es/nurse/privacy.html" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://myshiftplanner.app/fr/nurse/privacy.html" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://myshiftplanner.app/de/nurse/privacy.html" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://myshiftplanner.app/pt-br/nurse/privacy.html" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://myshiftplanner.app/ja/nurse/privacy.html" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://myshiftplanner.app/nurse/privacy.html" />
-  </url>
-  <url>
-    <loc>https://myshiftplanner.app/ja/nurse/privacy.html</loc>
-    <lastmod>2026-08-19</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://myshiftplanner.app/nurse/privacy.html" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://myshiftplanner.app/es/nurse/privacy.html" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://myshiftplanner.app/fr/nurse/privacy.html" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://myshiftplanner.app/de/nurse/privacy.html" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://myshiftplanner.app/pt-br/nurse/privacy.html" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://myshiftplanner.app/ja/nurse/privacy.html" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://myshiftplanner.app/nurse/privacy.html" />
-  </url>
-  <url>
-    <loc>https://myshiftplanner.app/nurse/healthcarestaffdiscount/</loc>
-    <lastmod>2026-08-19</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://myshiftplanner.app/nurse/healthcarestaffdiscount/" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://myshiftplanner.app/es/nurse/healthcarestaffdiscount/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://myshiftplanner.app/fr/nurse/healthcarestaffdiscount/" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://myshiftplanner.app/de/nurse/healthcarestaffdiscount/" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://myshiftplanner.app/pt-br/nurse/healthcarestaffdiscount/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://myshiftplanner.app/ja/nurse/healthcarestaffdiscount/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://myshiftplanner.app/nurse/healthcarestaffdiscount/" />
-  </url>
-  <url>
-    <loc>https://myshiftplanner.app/es/nurse/healthcarestaffdiscount/</loc>
-    <lastmod>2026-08-19</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://myshiftplanner.app/nurse/healthcarestaffdiscount/" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://myshiftplanner.app/es/nurse/healthcarestaffdiscount/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://myshiftplanner.app/fr/nurse/healthcarestaffdiscount/" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://myshiftplanner.app/de/nurse/healthcarestaffdiscount/" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://myshiftplanner.app/pt-br/nurse/healthcarestaffdiscount/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://myshiftplanner.app/ja/nurse/healthcarestaffdiscount/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://myshiftplanner.app/nurse/healthcarestaffdiscount/" />
-  </url>
-  <url>
-    <loc>https://myshiftplanner.app/fr/nurse/healthcarestaffdiscount/</loc>
-    <lastmod>2026-08-19</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://myshiftplanner.app/nurse/healthcarestaffdiscount/" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://myshiftplanner.app/es/nurse/healthcarestaffdiscount/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://myshiftplanner.app/fr/nurse/healthcarestaffdiscount/" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://myshiftplanner.app/de/nurse/healthcarestaffdiscount/" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://myshiftplanner.app/pt-br/nurse/healthcarestaffdiscount/" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://myshiftplanner.app/ja/nurse/healthcarestaffdiscount/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://myshiftplanner.app/nurse/healthcarestaffdiscount/" />
   </url>
   <url>
     <loc>https://myshiftplanner.app/de/nurse/healthcarestaffdiscount/</loc>
-    <lastmod>2026-08-19</lastmod>
+    <lastmod>2026-08-26</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://myshiftplanner.app/nurse/healthcarestaffdiscount/" />
     <xhtml:link rel="alternate" hreflang="es" href="https://myshiftplanner.app/es/nurse/healthcarestaffdiscount/" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://myshiftplanner.app/fr/nurse/healthcarestaffdiscount/" />
@@ -903,8 +149,151 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://myshiftplanner.app/nurse/healthcarestaffdiscount/" />
   </url>
   <url>
-    <loc>https://myshiftplanner.app/pt-br/nurse/healthcarestaffdiscount/</loc>
-    <lastmod>2026-08-19</lastmod>
+    <loc>https://myshiftplanner.app/de/nurse/privacy.html</loc>
+    <lastmod>2026-08-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://myshiftplanner.app/nurse/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://myshiftplanner.app/es/nurse/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://myshiftplanner.app/fr/nurse/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://myshiftplanner.app/de/nurse/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://myshiftplanner.app/pt-br/nurse/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://myshiftplanner.app/ja/nurse/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://myshiftplanner.app/nurse/privacy.html" />
+  </url>
+  <url>
+    <loc>https://myshiftplanner.app/de/nurse/support.html</loc>
+    <lastmod>2026-08-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://myshiftplanner.app/nurse/support.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://myshiftplanner.app/es/nurse/support.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://myshiftplanner.app/fr/nurse/support.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://myshiftplanner.app/de/nurse/support.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://myshiftplanner.app/pt-br/nurse/support.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://myshiftplanner.app/ja/nurse/support.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://myshiftplanner.app/nurse/support.html" />
+  </url>
+  <url>
+    <loc>https://myshiftplanner.app/de/work/</loc>
+    <lastmod>2026-08-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://myshiftplanner.app/work/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://myshiftplanner.app/es/work/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://myshiftplanner.app/fr/work/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://myshiftplanner.app/de/work/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://myshiftplanner.app/pt-br/work/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://myshiftplanner.app/ja/work/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://myshiftplanner.app/work/" />
+  </url>
+  <url>
+    <loc>https://myshiftplanner.app/es/</loc>
+    <lastmod>2026-08-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://myshiftplanner.app/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://myshiftplanner.app/es/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://myshiftplanner.app/fr/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://myshiftplanner.app/de/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://myshiftplanner.app/pt-br/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://myshiftplanner.app/ja/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://myshiftplanner.app/" />
+  </url>
+  <url>
+    <loc>https://myshiftplanner.app/es/about/</loc>
+    <lastmod>2026-08-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://myshiftplanner.app/about/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://myshiftplanner.app/es/about/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://myshiftplanner.app/fr/about/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://myshiftplanner.app/de/about/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://myshiftplanner.app/pt-br/about/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://myshiftplanner.app/ja/about/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://myshiftplanner.app/about/" />
+  </url>
+  <url>
+    <loc>https://myshiftplanner.app/es/guides/</loc>
+    <lastmod>2026-08-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://myshiftplanner.app/guides/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://myshiftplanner.app/es/guides/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://myshiftplanner.app/fr/guides/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://myshiftplanner.app/de/guides/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://myshiftplanner.app/pt-br/guides/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://myshiftplanner.app/ja/guides/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://myshiftplanner.app/guides/" />
+  </url>
+  <url>
+    <loc>https://myshiftplanner.app/es/guides/multiple-workplaces/</loc>
+    <lastmod>2026-08-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://myshiftplanner.app/guides/multiple-workplaces/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://myshiftplanner.app/es/guides/multiple-workplaces/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://myshiftplanner.app/fr/guides/multiple-workplaces/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://myshiftplanner.app/de/guides/multiple-workplaces/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://myshiftplanner.app/pt-br/guides/multiple-workplaces/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://myshiftplanner.app/ja/guides/multiple-workplaces/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://myshiftplanner.app/guides/multiple-workplaces/" />
+  </url>
+  <url>
+    <loc>https://myshiftplanner.app/es/guides/night-shift-planning/</loc>
+    <lastmod>2026-08-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://myshiftplanner.app/guides/night-shift-planning/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://myshiftplanner.app/es/guides/night-shift-planning/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://myshiftplanner.app/fr/guides/night-shift-planning/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://myshiftplanner.app/de/guides/night-shift-planning/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://myshiftplanner.app/pt-br/guides/night-shift-planning/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://myshiftplanner.app/ja/guides/night-shift-planning/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://myshiftplanner.app/guides/night-shift-planning/" />
+  </url>
+  <url>
+    <loc>https://myshiftplanner.app/es/guides/nurse-12-hour-shift-schedule/</loc>
+    <lastmod>2026-08-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://myshiftplanner.app/guides/nurse-12-hour-shift-schedule/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://myshiftplanner.app/es/guides/nurse-12-hour-shift-schedule/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://myshiftplanner.app/fr/guides/nurse-12-hour-shift-schedule/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://myshiftplanner.app/de/guides/nurse-12-hour-shift-schedule/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://myshiftplanner.app/pt-br/guides/nurse-12-hour-shift-schedule/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://myshiftplanner.app/ja/guides/nurse-12-hour-shift-schedule/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://myshiftplanner.app/guides/nurse-12-hour-shift-schedule/" />
+  </url>
+  <url>
+    <loc>https://myshiftplanner.app/es/guides/shift-pay-calculator/</loc>
+    <lastmod>2026-08-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://myshiftplanner.app/guides/shift-pay-calculator/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://myshiftplanner.app/es/guides/shift-pay-calculator/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://myshiftplanner.app/fr/guides/shift-pay-calculator/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://myshiftplanner.app/de/guides/shift-pay-calculator/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://myshiftplanner.app/pt-br/guides/shift-pay-calculator/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://myshiftplanner.app/ja/guides/shift-pay-calculator/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://myshiftplanner.app/guides/shift-pay-calculator/" />
+  </url>
+  <url>
+    <loc>https://myshiftplanner.app/es/guides/shift-rotation-patterns/</loc>
+    <lastmod>2026-08-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://myshiftplanner.app/guides/shift-rotation-patterns/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://myshiftplanner.app/es/guides/shift-rotation-patterns/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://myshiftplanner.app/fr/guides/shift-rotation-patterns/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://myshiftplanner.app/de/guides/shift-rotation-patterns/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://myshiftplanner.app/pt-br/guides/shift-rotation-patterns/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://myshiftplanner.app/ja/guides/shift-rotation-patterns/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://myshiftplanner.app/guides/shift-rotation-patterns/" />
+  </url>
+  <url>
+    <loc>https://myshiftplanner.app/es/nurse/</loc>
+    <lastmod>2026-08-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://myshiftplanner.app/nurse/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://myshiftplanner.app/es/nurse/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://myshiftplanner.app/fr/nurse/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://myshiftplanner.app/de/nurse/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://myshiftplanner.app/pt-br/nurse/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://myshiftplanner.app/ja/nurse/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://myshiftplanner.app/nurse/" />
+  </url>
+  <url>
+    <loc>https://myshiftplanner.app/es/nurse/contact.html</loc>
+    <lastmod>2026-08-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://myshiftplanner.app/nurse/contact.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://myshiftplanner.app/es/nurse/contact.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://myshiftplanner.app/fr/nurse/contact.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://myshiftplanner.app/de/nurse/contact.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://myshiftplanner.app/pt-br/nurse/contact.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://myshiftplanner.app/ja/nurse/contact.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://myshiftplanner.app/nurse/contact.html" />
+  </url>
+  <url>
+    <loc>https://myshiftplanner.app/es/nurse/healthcarestaffdiscount/</loc>
+    <lastmod>2026-08-26</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://myshiftplanner.app/nurse/healthcarestaffdiscount/" />
     <xhtml:link rel="alternate" hreflang="es" href="https://myshiftplanner.app/es/nurse/healthcarestaffdiscount/" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://myshiftplanner.app/fr/nurse/healthcarestaffdiscount/" />
@@ -912,10 +301,388 @@
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://myshiftplanner.app/pt-br/nurse/healthcarestaffdiscount/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://myshiftplanner.app/ja/nurse/healthcarestaffdiscount/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://myshiftplanner.app/nurse/healthcarestaffdiscount/" />
+  </url>
+  <url>
+    <loc>https://myshiftplanner.app/es/nurse/privacy.html</loc>
+    <lastmod>2026-08-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://myshiftplanner.app/nurse/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://myshiftplanner.app/es/nurse/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://myshiftplanner.app/fr/nurse/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://myshiftplanner.app/de/nurse/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://myshiftplanner.app/pt-br/nurse/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://myshiftplanner.app/ja/nurse/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://myshiftplanner.app/nurse/privacy.html" />
+  </url>
+  <url>
+    <loc>https://myshiftplanner.app/es/nurse/support.html</loc>
+    <lastmod>2026-08-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://myshiftplanner.app/nurse/support.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://myshiftplanner.app/es/nurse/support.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://myshiftplanner.app/fr/nurse/support.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://myshiftplanner.app/de/nurse/support.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://myshiftplanner.app/pt-br/nurse/support.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://myshiftplanner.app/ja/nurse/support.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://myshiftplanner.app/nurse/support.html" />
+  </url>
+  <url>
+    <loc>https://myshiftplanner.app/es/work/</loc>
+    <lastmod>2026-08-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://myshiftplanner.app/work/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://myshiftplanner.app/es/work/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://myshiftplanner.app/fr/work/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://myshiftplanner.app/de/work/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://myshiftplanner.app/pt-br/work/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://myshiftplanner.app/ja/work/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://myshiftplanner.app/work/" />
+  </url>
+  <url>
+    <loc>https://myshiftplanner.app/fr/</loc>
+    <lastmod>2026-08-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://myshiftplanner.app/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://myshiftplanner.app/es/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://myshiftplanner.app/fr/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://myshiftplanner.app/de/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://myshiftplanner.app/pt-br/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://myshiftplanner.app/ja/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://myshiftplanner.app/" />
+  </url>
+  <url>
+    <loc>https://myshiftplanner.app/fr/about/</loc>
+    <lastmod>2026-08-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://myshiftplanner.app/about/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://myshiftplanner.app/es/about/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://myshiftplanner.app/fr/about/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://myshiftplanner.app/de/about/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://myshiftplanner.app/pt-br/about/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://myshiftplanner.app/ja/about/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://myshiftplanner.app/about/" />
+  </url>
+  <url>
+    <loc>https://myshiftplanner.app/fr/guides/</loc>
+    <lastmod>2026-08-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://myshiftplanner.app/guides/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://myshiftplanner.app/es/guides/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://myshiftplanner.app/fr/guides/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://myshiftplanner.app/de/guides/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://myshiftplanner.app/pt-br/guides/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://myshiftplanner.app/ja/guides/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://myshiftplanner.app/guides/" />
+  </url>
+  <url>
+    <loc>https://myshiftplanner.app/fr/guides/multiple-workplaces/</loc>
+    <lastmod>2026-08-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://myshiftplanner.app/guides/multiple-workplaces/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://myshiftplanner.app/es/guides/multiple-workplaces/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://myshiftplanner.app/fr/guides/multiple-workplaces/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://myshiftplanner.app/de/guides/multiple-workplaces/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://myshiftplanner.app/pt-br/guides/multiple-workplaces/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://myshiftplanner.app/ja/guides/multiple-workplaces/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://myshiftplanner.app/guides/multiple-workplaces/" />
+  </url>
+  <url>
+    <loc>https://myshiftplanner.app/fr/guides/night-shift-planning/</loc>
+    <lastmod>2026-08-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://myshiftplanner.app/guides/night-shift-planning/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://myshiftplanner.app/es/guides/night-shift-planning/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://myshiftplanner.app/fr/guides/night-shift-planning/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://myshiftplanner.app/de/guides/night-shift-planning/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://myshiftplanner.app/pt-br/guides/night-shift-planning/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://myshiftplanner.app/ja/guides/night-shift-planning/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://myshiftplanner.app/guides/night-shift-planning/" />
+  </url>
+  <url>
+    <loc>https://myshiftplanner.app/fr/guides/nurse-12-hour-shift-schedule/</loc>
+    <lastmod>2026-08-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://myshiftplanner.app/guides/nurse-12-hour-shift-schedule/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://myshiftplanner.app/es/guides/nurse-12-hour-shift-schedule/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://myshiftplanner.app/fr/guides/nurse-12-hour-shift-schedule/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://myshiftplanner.app/de/guides/nurse-12-hour-shift-schedule/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://myshiftplanner.app/pt-br/guides/nurse-12-hour-shift-schedule/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://myshiftplanner.app/ja/guides/nurse-12-hour-shift-schedule/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://myshiftplanner.app/guides/nurse-12-hour-shift-schedule/" />
+  </url>
+  <url>
+    <loc>https://myshiftplanner.app/fr/guides/shift-pay-calculator/</loc>
+    <lastmod>2026-08-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://myshiftplanner.app/guides/shift-pay-calculator/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://myshiftplanner.app/es/guides/shift-pay-calculator/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://myshiftplanner.app/fr/guides/shift-pay-calculator/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://myshiftplanner.app/de/guides/shift-pay-calculator/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://myshiftplanner.app/pt-br/guides/shift-pay-calculator/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://myshiftplanner.app/ja/guides/shift-pay-calculator/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://myshiftplanner.app/guides/shift-pay-calculator/" />
+  </url>
+  <url>
+    <loc>https://myshiftplanner.app/fr/guides/shift-rotation-patterns/</loc>
+    <lastmod>2026-08-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://myshiftplanner.app/guides/shift-rotation-patterns/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://myshiftplanner.app/es/guides/shift-rotation-patterns/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://myshiftplanner.app/fr/guides/shift-rotation-patterns/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://myshiftplanner.app/de/guides/shift-rotation-patterns/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://myshiftplanner.app/pt-br/guides/shift-rotation-patterns/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://myshiftplanner.app/ja/guides/shift-rotation-patterns/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://myshiftplanner.app/guides/shift-rotation-patterns/" />
+  </url>
+  <url>
+    <loc>https://myshiftplanner.app/fr/nurse/</loc>
+    <lastmod>2026-08-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://myshiftplanner.app/nurse/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://myshiftplanner.app/es/nurse/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://myshiftplanner.app/fr/nurse/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://myshiftplanner.app/de/nurse/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://myshiftplanner.app/pt-br/nurse/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://myshiftplanner.app/ja/nurse/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://myshiftplanner.app/nurse/" />
+  </url>
+  <url>
+    <loc>https://myshiftplanner.app/fr/nurse/contact.html</loc>
+    <lastmod>2026-08-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://myshiftplanner.app/nurse/contact.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://myshiftplanner.app/es/nurse/contact.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://myshiftplanner.app/fr/nurse/contact.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://myshiftplanner.app/de/nurse/contact.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://myshiftplanner.app/pt-br/nurse/contact.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://myshiftplanner.app/ja/nurse/contact.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://myshiftplanner.app/nurse/contact.html" />
+  </url>
+  <url>
+    <loc>https://myshiftplanner.app/fr/nurse/healthcarestaffdiscount/</loc>
+    <lastmod>2026-08-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://myshiftplanner.app/nurse/healthcarestaffdiscount/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://myshiftplanner.app/es/nurse/healthcarestaffdiscount/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://myshiftplanner.app/fr/nurse/healthcarestaffdiscount/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://myshiftplanner.app/de/nurse/healthcarestaffdiscount/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://myshiftplanner.app/pt-br/nurse/healthcarestaffdiscount/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://myshiftplanner.app/ja/nurse/healthcarestaffdiscount/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://myshiftplanner.app/nurse/healthcarestaffdiscount/" />
+  </url>
+  <url>
+    <loc>https://myshiftplanner.app/fr/nurse/privacy.html</loc>
+    <lastmod>2026-08-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://myshiftplanner.app/nurse/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://myshiftplanner.app/es/nurse/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://myshiftplanner.app/fr/nurse/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://myshiftplanner.app/de/nurse/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://myshiftplanner.app/pt-br/nurse/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://myshiftplanner.app/ja/nurse/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://myshiftplanner.app/nurse/privacy.html" />
+  </url>
+  <url>
+    <loc>https://myshiftplanner.app/fr/nurse/support.html</loc>
+    <lastmod>2026-08-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://myshiftplanner.app/nurse/support.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://myshiftplanner.app/es/nurse/support.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://myshiftplanner.app/fr/nurse/support.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://myshiftplanner.app/de/nurse/support.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://myshiftplanner.app/pt-br/nurse/support.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://myshiftplanner.app/ja/nurse/support.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://myshiftplanner.app/nurse/support.html" />
+  </url>
+  <url>
+    <loc>https://myshiftplanner.app/fr/work/</loc>
+    <lastmod>2026-08-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://myshiftplanner.app/work/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://myshiftplanner.app/es/work/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://myshiftplanner.app/fr/work/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://myshiftplanner.app/de/work/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://myshiftplanner.app/pt-br/work/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://myshiftplanner.app/ja/work/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://myshiftplanner.app/work/" />
+  </url>
+  <url>
+    <loc>https://myshiftplanner.app/guides/</loc>
+    <lastmod>2026-08-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://myshiftplanner.app/guides/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://myshiftplanner.app/es/guides/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://myshiftplanner.app/fr/guides/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://myshiftplanner.app/de/guides/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://myshiftplanner.app/pt-br/guides/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://myshiftplanner.app/ja/guides/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://myshiftplanner.app/guides/" />
+  </url>
+  <url>
+    <loc>https://myshiftplanner.app/guides/2-2-3-shift-schedule/</loc>
+    <lastmod>2026-08-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://myshiftplanner.app/guides/2-2-3-shift-schedule/" />
+  </url>
+  <url>
+    <loc>https://myshiftplanner.app/guides/4-on-4-off-shift-pattern/</loc>
+    <lastmod>2026-08-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://myshiftplanner.app/guides/4-on-4-off-shift-pattern/" />
+  </url>
+  <url>
+    <loc>https://myshiftplanner.app/guides/multiple-workplaces/</loc>
+    <lastmod>2026-08-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://myshiftplanner.app/guides/multiple-workplaces/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://myshiftplanner.app/es/guides/multiple-workplaces/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://myshiftplanner.app/fr/guides/multiple-workplaces/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://myshiftplanner.app/de/guides/multiple-workplaces/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://myshiftplanner.app/pt-br/guides/multiple-workplaces/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://myshiftplanner.app/ja/guides/multiple-workplaces/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://myshiftplanner.app/guides/multiple-workplaces/" />
+  </url>
+  <url>
+    <loc>https://myshiftplanner.app/guides/night-shift-planning/</loc>
+    <lastmod>2026-08-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://myshiftplanner.app/guides/night-shift-planning/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://myshiftplanner.app/es/guides/night-shift-planning/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://myshiftplanner.app/fr/guides/night-shift-planning/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://myshiftplanner.app/de/guides/night-shift-planning/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://myshiftplanner.app/pt-br/guides/night-shift-planning/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://myshiftplanner.app/ja/guides/night-shift-planning/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://myshiftplanner.app/guides/night-shift-planning/" />
+  </url>
+  <url>
+    <loc>https://myshiftplanner.app/guides/nurse-12-hour-shift-schedule/</loc>
+    <lastmod>2026-08-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://myshiftplanner.app/guides/nurse-12-hour-shift-schedule/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://myshiftplanner.app/es/guides/nurse-12-hour-shift-schedule/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://myshiftplanner.app/fr/guides/nurse-12-hour-shift-schedule/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://myshiftplanner.app/de/guides/nurse-12-hour-shift-schedule/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://myshiftplanner.app/pt-br/guides/nurse-12-hour-shift-schedule/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://myshiftplanner.app/ja/guides/nurse-12-hour-shift-schedule/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://myshiftplanner.app/guides/nurse-12-hour-shift-schedule/" />
+  </url>
+  <url>
+    <loc>https://myshiftplanner.app/guides/rotating-shift-schedule-generator/</loc>
+    <lastmod>2026-08-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://myshiftplanner.app/guides/rotating-shift-schedule-generator/" />
+  </url>
+  <url>
+    <loc>https://myshiftplanner.app/guides/shift-pay-calculator/</loc>
+    <lastmod>2026-08-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://myshiftplanner.app/guides/shift-pay-calculator/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://myshiftplanner.app/es/guides/shift-pay-calculator/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://myshiftplanner.app/fr/guides/shift-pay-calculator/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://myshiftplanner.app/de/guides/shift-pay-calculator/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://myshiftplanner.app/pt-br/guides/shift-pay-calculator/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://myshiftplanner.app/ja/guides/shift-pay-calculator/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://myshiftplanner.app/guides/shift-pay-calculator/" />
+  </url>
+  <url>
+    <loc>https://myshiftplanner.app/guides/shift-rotation-patterns/</loc>
+    <lastmod>2026-08-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://myshiftplanner.app/guides/shift-rotation-patterns/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://myshiftplanner.app/es/guides/shift-rotation-patterns/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://myshiftplanner.app/fr/guides/shift-rotation-patterns/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://myshiftplanner.app/de/guides/shift-rotation-patterns/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://myshiftplanner.app/pt-br/guides/shift-rotation-patterns/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://myshiftplanner.app/ja/guides/shift-rotation-patterns/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://myshiftplanner.app/guides/shift-rotation-patterns/" />
+  </url>
+  <url>
+    <loc>https://myshiftplanner.app/ja/</loc>
+    <lastmod>2026-08-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://myshiftplanner.app/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://myshiftplanner.app/es/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://myshiftplanner.app/fr/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://myshiftplanner.app/de/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://myshiftplanner.app/pt-br/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://myshiftplanner.app/ja/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://myshiftplanner.app/" />
+  </url>
+  <url>
+    <loc>https://myshiftplanner.app/ja/about/</loc>
+    <lastmod>2026-08-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://myshiftplanner.app/about/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://myshiftplanner.app/es/about/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://myshiftplanner.app/fr/about/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://myshiftplanner.app/de/about/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://myshiftplanner.app/pt-br/about/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://myshiftplanner.app/ja/about/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://myshiftplanner.app/about/" />
+  </url>
+  <url>
+    <loc>https://myshiftplanner.app/ja/guides/</loc>
+    <lastmod>2026-08-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://myshiftplanner.app/guides/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://myshiftplanner.app/es/guides/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://myshiftplanner.app/fr/guides/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://myshiftplanner.app/de/guides/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://myshiftplanner.app/pt-br/guides/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://myshiftplanner.app/ja/guides/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://myshiftplanner.app/guides/" />
+  </url>
+  <url>
+    <loc>https://myshiftplanner.app/ja/guides/multiple-workplaces/</loc>
+    <lastmod>2026-08-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://myshiftplanner.app/guides/multiple-workplaces/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://myshiftplanner.app/es/guides/multiple-workplaces/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://myshiftplanner.app/fr/guides/multiple-workplaces/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://myshiftplanner.app/de/guides/multiple-workplaces/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://myshiftplanner.app/pt-br/guides/multiple-workplaces/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://myshiftplanner.app/ja/guides/multiple-workplaces/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://myshiftplanner.app/guides/multiple-workplaces/" />
+  </url>
+  <url>
+    <loc>https://myshiftplanner.app/ja/guides/night-shift-planning/</loc>
+    <lastmod>2026-08-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://myshiftplanner.app/guides/night-shift-planning/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://myshiftplanner.app/es/guides/night-shift-planning/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://myshiftplanner.app/fr/guides/night-shift-planning/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://myshiftplanner.app/de/guides/night-shift-planning/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://myshiftplanner.app/pt-br/guides/night-shift-planning/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://myshiftplanner.app/ja/guides/night-shift-planning/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://myshiftplanner.app/guides/night-shift-planning/" />
+  </url>
+  <url>
+    <loc>https://myshiftplanner.app/ja/guides/nurse-12-hour-shift-schedule/</loc>
+    <lastmod>2026-08-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://myshiftplanner.app/guides/nurse-12-hour-shift-schedule/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://myshiftplanner.app/es/guides/nurse-12-hour-shift-schedule/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://myshiftplanner.app/fr/guides/nurse-12-hour-shift-schedule/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://myshiftplanner.app/de/guides/nurse-12-hour-shift-schedule/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://myshiftplanner.app/pt-br/guides/nurse-12-hour-shift-schedule/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://myshiftplanner.app/ja/guides/nurse-12-hour-shift-schedule/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://myshiftplanner.app/guides/nurse-12-hour-shift-schedule/" />
+  </url>
+  <url>
+    <loc>https://myshiftplanner.app/ja/guides/shift-pay-calculator/</loc>
+    <lastmod>2026-08-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://myshiftplanner.app/guides/shift-pay-calculator/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://myshiftplanner.app/es/guides/shift-pay-calculator/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://myshiftplanner.app/fr/guides/shift-pay-calculator/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://myshiftplanner.app/de/guides/shift-pay-calculator/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://myshiftplanner.app/pt-br/guides/shift-pay-calculator/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://myshiftplanner.app/ja/guides/shift-pay-calculator/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://myshiftplanner.app/guides/shift-pay-calculator/" />
+  </url>
+  <url>
+    <loc>https://myshiftplanner.app/ja/guides/shift-rotation-patterns/</loc>
+    <lastmod>2026-08-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://myshiftplanner.app/guides/shift-rotation-patterns/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://myshiftplanner.app/es/guides/shift-rotation-patterns/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://myshiftplanner.app/fr/guides/shift-rotation-patterns/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://myshiftplanner.app/de/guides/shift-rotation-patterns/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://myshiftplanner.app/pt-br/guides/shift-rotation-patterns/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://myshiftplanner.app/ja/guides/shift-rotation-patterns/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://myshiftplanner.app/guides/shift-rotation-patterns/" />
+  </url>
+  <url>
+    <loc>https://myshiftplanner.app/ja/nurse/</loc>
+    <lastmod>2026-08-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://myshiftplanner.app/nurse/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://myshiftplanner.app/es/nurse/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://myshiftplanner.app/fr/nurse/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://myshiftplanner.app/de/nurse/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://myshiftplanner.app/pt-br/nurse/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://myshiftplanner.app/ja/nurse/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://myshiftplanner.app/nurse/" />
+  </url>
+  <url>
+    <loc>https://myshiftplanner.app/ja/nurse/contact.html</loc>
+    <lastmod>2026-08-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://myshiftplanner.app/nurse/contact.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://myshiftplanner.app/es/nurse/contact.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://myshiftplanner.app/fr/nurse/contact.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://myshiftplanner.app/de/nurse/contact.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://myshiftplanner.app/pt-br/nurse/contact.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://myshiftplanner.app/ja/nurse/contact.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://myshiftplanner.app/nurse/contact.html" />
   </url>
   <url>
     <loc>https://myshiftplanner.app/ja/nurse/healthcarestaffdiscount/</loc>
-    <lastmod>2026-08-19</lastmod>
+    <lastmod>2026-08-26</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://myshiftplanner.app/nurse/healthcarestaffdiscount/" />
     <xhtml:link rel="alternate" hreflang="es" href="https://myshiftplanner.app/es/nurse/healthcarestaffdiscount/" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://myshiftplanner.app/fr/nurse/healthcarestaffdiscount/" />
@@ -923,5 +690,258 @@
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://myshiftplanner.app/pt-br/nurse/healthcarestaffdiscount/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://myshiftplanner.app/ja/nurse/healthcarestaffdiscount/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://myshiftplanner.app/nurse/healthcarestaffdiscount/" />
+  </url>
+  <url>
+    <loc>https://myshiftplanner.app/ja/nurse/privacy.html</loc>
+    <lastmod>2026-08-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://myshiftplanner.app/nurse/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://myshiftplanner.app/es/nurse/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://myshiftplanner.app/fr/nurse/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://myshiftplanner.app/de/nurse/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://myshiftplanner.app/pt-br/nurse/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://myshiftplanner.app/ja/nurse/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://myshiftplanner.app/nurse/privacy.html" />
+  </url>
+  <url>
+    <loc>https://myshiftplanner.app/ja/nurse/support.html</loc>
+    <lastmod>2026-08-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://myshiftplanner.app/nurse/support.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://myshiftplanner.app/es/nurse/support.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://myshiftplanner.app/fr/nurse/support.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://myshiftplanner.app/de/nurse/support.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://myshiftplanner.app/pt-br/nurse/support.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://myshiftplanner.app/ja/nurse/support.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://myshiftplanner.app/nurse/support.html" />
+  </url>
+  <url>
+    <loc>https://myshiftplanner.app/ja/work/</loc>
+    <lastmod>2026-08-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://myshiftplanner.app/work/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://myshiftplanner.app/es/work/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://myshiftplanner.app/fr/work/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://myshiftplanner.app/de/work/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://myshiftplanner.app/pt-br/work/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://myshiftplanner.app/ja/work/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://myshiftplanner.app/work/" />
+  </url>
+  <url>
+    <loc>https://myshiftplanner.app/nurse/</loc>
+    <lastmod>2026-08-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://myshiftplanner.app/nurse/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://myshiftplanner.app/es/nurse/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://myshiftplanner.app/fr/nurse/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://myshiftplanner.app/de/nurse/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://myshiftplanner.app/pt-br/nurse/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://myshiftplanner.app/ja/nurse/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://myshiftplanner.app/nurse/" />
+  </url>
+  <url>
+    <loc>https://myshiftplanner.app/nurse/contact.html</loc>
+    <lastmod>2026-08-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://myshiftplanner.app/nurse/contact.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://myshiftplanner.app/es/nurse/contact.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://myshiftplanner.app/fr/nurse/contact.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://myshiftplanner.app/de/nurse/contact.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://myshiftplanner.app/pt-br/nurse/contact.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://myshiftplanner.app/ja/nurse/contact.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://myshiftplanner.app/nurse/contact.html" />
+  </url>
+  <url>
+    <loc>https://myshiftplanner.app/nurse/healthcarestaffdiscount/</loc>
+    <lastmod>2026-08-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://myshiftplanner.app/nurse/healthcarestaffdiscount/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://myshiftplanner.app/es/nurse/healthcarestaffdiscount/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://myshiftplanner.app/fr/nurse/healthcarestaffdiscount/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://myshiftplanner.app/de/nurse/healthcarestaffdiscount/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://myshiftplanner.app/pt-br/nurse/healthcarestaffdiscount/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://myshiftplanner.app/ja/nurse/healthcarestaffdiscount/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://myshiftplanner.app/nurse/healthcarestaffdiscount/" />
+  </url>
+  <url>
+    <loc>https://myshiftplanner.app/nurse/privacy.html</loc>
+    <lastmod>2026-08-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://myshiftplanner.app/nurse/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://myshiftplanner.app/es/nurse/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://myshiftplanner.app/fr/nurse/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://myshiftplanner.app/de/nurse/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://myshiftplanner.app/pt-br/nurse/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://myshiftplanner.app/ja/nurse/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://myshiftplanner.app/nurse/privacy.html" />
+  </url>
+  <url>
+    <loc>https://myshiftplanner.app/nurse/support.html</loc>
+    <lastmod>2026-08-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://myshiftplanner.app/nurse/support.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://myshiftplanner.app/es/nurse/support.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://myshiftplanner.app/fr/nurse/support.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://myshiftplanner.app/de/nurse/support.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://myshiftplanner.app/pt-br/nurse/support.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://myshiftplanner.app/ja/nurse/support.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://myshiftplanner.app/nurse/support.html" />
+  </url>
+  <url>
+    <loc>https://myshiftplanner.app/pt-br/</loc>
+    <lastmod>2026-08-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://myshiftplanner.app/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://myshiftplanner.app/es/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://myshiftplanner.app/fr/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://myshiftplanner.app/de/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://myshiftplanner.app/pt-br/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://myshiftplanner.app/ja/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://myshiftplanner.app/" />
+  </url>
+  <url>
+    <loc>https://myshiftplanner.app/pt-br/about/</loc>
+    <lastmod>2026-08-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://myshiftplanner.app/about/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://myshiftplanner.app/es/about/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://myshiftplanner.app/fr/about/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://myshiftplanner.app/de/about/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://myshiftplanner.app/pt-br/about/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://myshiftplanner.app/ja/about/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://myshiftplanner.app/about/" />
+  </url>
+  <url>
+    <loc>https://myshiftplanner.app/pt-br/guides/</loc>
+    <lastmod>2026-08-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://myshiftplanner.app/guides/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://myshiftplanner.app/es/guides/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://myshiftplanner.app/fr/guides/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://myshiftplanner.app/de/guides/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://myshiftplanner.app/pt-br/guides/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://myshiftplanner.app/ja/guides/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://myshiftplanner.app/guides/" />
+  </url>
+  <url>
+    <loc>https://myshiftplanner.app/pt-br/guides/multiple-workplaces/</loc>
+    <lastmod>2026-08-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://myshiftplanner.app/guides/multiple-workplaces/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://myshiftplanner.app/es/guides/multiple-workplaces/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://myshiftplanner.app/fr/guides/multiple-workplaces/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://myshiftplanner.app/de/guides/multiple-workplaces/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://myshiftplanner.app/pt-br/guides/multiple-workplaces/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://myshiftplanner.app/ja/guides/multiple-workplaces/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://myshiftplanner.app/guides/multiple-workplaces/" />
+  </url>
+  <url>
+    <loc>https://myshiftplanner.app/pt-br/guides/night-shift-planning/</loc>
+    <lastmod>2026-08-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://myshiftplanner.app/guides/night-shift-planning/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://myshiftplanner.app/es/guides/night-shift-planning/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://myshiftplanner.app/fr/guides/night-shift-planning/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://myshiftplanner.app/de/guides/night-shift-planning/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://myshiftplanner.app/pt-br/guides/night-shift-planning/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://myshiftplanner.app/ja/guides/night-shift-planning/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://myshiftplanner.app/guides/night-shift-planning/" />
+  </url>
+  <url>
+    <loc>https://myshiftplanner.app/pt-br/guides/nurse-12-hour-shift-schedule/</loc>
+    <lastmod>2026-08-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://myshiftplanner.app/guides/nurse-12-hour-shift-schedule/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://myshiftplanner.app/es/guides/nurse-12-hour-shift-schedule/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://myshiftplanner.app/fr/guides/nurse-12-hour-shift-schedule/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://myshiftplanner.app/de/guides/nurse-12-hour-shift-schedule/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://myshiftplanner.app/pt-br/guides/nurse-12-hour-shift-schedule/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://myshiftplanner.app/ja/guides/nurse-12-hour-shift-schedule/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://myshiftplanner.app/guides/nurse-12-hour-shift-schedule/" />
+  </url>
+  <url>
+    <loc>https://myshiftplanner.app/pt-br/guides/shift-pay-calculator/</loc>
+    <lastmod>2026-08-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://myshiftplanner.app/guides/shift-pay-calculator/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://myshiftplanner.app/es/guides/shift-pay-calculator/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://myshiftplanner.app/fr/guides/shift-pay-calculator/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://myshiftplanner.app/de/guides/shift-pay-calculator/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://myshiftplanner.app/pt-br/guides/shift-pay-calculator/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://myshiftplanner.app/ja/guides/shift-pay-calculator/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://myshiftplanner.app/guides/shift-pay-calculator/" />
+  </url>
+  <url>
+    <loc>https://myshiftplanner.app/pt-br/guides/shift-rotation-patterns/</loc>
+    <lastmod>2026-08-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://myshiftplanner.app/guides/shift-rotation-patterns/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://myshiftplanner.app/es/guides/shift-rotation-patterns/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://myshiftplanner.app/fr/guides/shift-rotation-patterns/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://myshiftplanner.app/de/guides/shift-rotation-patterns/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://myshiftplanner.app/pt-br/guides/shift-rotation-patterns/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://myshiftplanner.app/ja/guides/shift-rotation-patterns/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://myshiftplanner.app/guides/shift-rotation-patterns/" />
+  </url>
+  <url>
+    <loc>https://myshiftplanner.app/pt-br/nurse/</loc>
+    <lastmod>2026-08-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://myshiftplanner.app/nurse/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://myshiftplanner.app/es/nurse/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://myshiftplanner.app/fr/nurse/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://myshiftplanner.app/de/nurse/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://myshiftplanner.app/pt-br/nurse/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://myshiftplanner.app/ja/nurse/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://myshiftplanner.app/nurse/" />
+  </url>
+  <url>
+    <loc>https://myshiftplanner.app/pt-br/nurse/contact.html</loc>
+    <lastmod>2026-08-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://myshiftplanner.app/nurse/contact.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://myshiftplanner.app/es/nurse/contact.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://myshiftplanner.app/fr/nurse/contact.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://myshiftplanner.app/de/nurse/contact.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://myshiftplanner.app/pt-br/nurse/contact.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://myshiftplanner.app/ja/nurse/contact.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://myshiftplanner.app/nurse/contact.html" />
+  </url>
+  <url>
+    <loc>https://myshiftplanner.app/pt-br/nurse/healthcarestaffdiscount/</loc>
+    <lastmod>2026-08-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://myshiftplanner.app/nurse/healthcarestaffdiscount/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://myshiftplanner.app/es/nurse/healthcarestaffdiscount/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://myshiftplanner.app/fr/nurse/healthcarestaffdiscount/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://myshiftplanner.app/de/nurse/healthcarestaffdiscount/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://myshiftplanner.app/pt-br/nurse/healthcarestaffdiscount/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://myshiftplanner.app/ja/nurse/healthcarestaffdiscount/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://myshiftplanner.app/nurse/healthcarestaffdiscount/" />
+  </url>
+  <url>
+    <loc>https://myshiftplanner.app/pt-br/nurse/privacy.html</loc>
+    <lastmod>2026-08-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://myshiftplanner.app/nurse/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://myshiftplanner.app/es/nurse/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://myshiftplanner.app/fr/nurse/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://myshiftplanner.app/de/nurse/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://myshiftplanner.app/pt-br/nurse/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://myshiftplanner.app/ja/nurse/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://myshiftplanner.app/nurse/privacy.html" />
+  </url>
+  <url>
+    <loc>https://myshiftplanner.app/pt-br/nurse/support.html</loc>
+    <lastmod>2026-08-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://myshiftplanner.app/nurse/support.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://myshiftplanner.app/es/nurse/support.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://myshiftplanner.app/fr/nurse/support.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://myshiftplanner.app/de/nurse/support.html" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://myshiftplanner.app/pt-br/nurse/support.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://myshiftplanner.app/ja/nurse/support.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://myshiftplanner.app/nurse/support.html" />
+  </url>
+  <url>
+    <loc>https://myshiftplanner.app/pt-br/work/</loc>
+    <lastmod>2026-08-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://myshiftplanner.app/work/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://myshiftplanner.app/es/work/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://myshiftplanner.app/fr/work/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://myshiftplanner.app/de/work/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://myshiftplanner.app/pt-br/work/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://myshiftplanner.app/ja/work/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://myshiftplanner.app/work/" />
+  </url>
+  <url>
+    <loc>https://myshiftplanner.app/work/</loc>
+    <lastmod>2026-08-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://myshiftplanner.app/work/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://myshiftplanner.app/es/work/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://myshiftplanner.app/fr/work/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://myshiftplanner.app/de/work/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://myshiftplanner.app/pt-br/work/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://myshiftplanner.app/ja/work/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://myshiftplanner.app/work/" />
   </url>
 </urlset>

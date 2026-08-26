@@ -1,0 +1,40 @@
+# My Shift Planner
+
+> Official public website for My Nurse Shift Planner and My Work Shift Planner, two private iPhone and iPad apps for planning shifts, tracking work hours, estimating pay, managing work profiles, and exporting schedule reports.
+
+Canonical website: https://myshiftplanner.app/
+Contact: hello@myshiftplanner.app
+Full content map: https://myshiftplanner.app/llms-full.txt
+AI use policy: https://myshiftplanner.app/ai-use/
+
+## Apps
+
+- [My Nurse Shift Planner](https://myshiftplanner.app/nurse/): Shift calendar, rotation planner, hours tracker, and estimated pay tracker designed for nurses and healthcare staff.
+- [My Work Shift Planner](https://myshiftplanner.app/work/): Shift calendar, work-hours tracker, pay estimator, and multi-workplace planner for general shift workers.
+- [My Nurse Shift Planner on the App Store](https://apps.apple.com/app/my-nurse-shift-planner/id6764406102)
+- [My Work Shift Planner on the App Store](https://apps.apple.com/app/my-work-shift-planner/id6769349635)
+
+## Free tools and guides
+
+- [Shift planning guides](https://myshiftplanner.app/guides/)
+- [Rotating shift schedule generator](https://myshiftplanner.app/guides/rotating-shift-schedule-generator/)
+- [2-2-3 shift schedule](https://myshiftplanner.app/guides/2-2-3-shift-schedule/)
+- [4-on/4-off shift pattern](https://myshiftplanner.app/guides/4-on-4-off-shift-pattern/)
+- [Shift pay calculator](https://myshiftplanner.app/guides/shift-pay-calculator/)
+- [Shift rotation patterns](https://myshiftplanner.app/guides/shift-rotation-patterns/)
+- [Night-shift planning](https://myshiftplanner.app/guides/night-shift-planning/)
+- [Managing multiple workplaces](https://myshiftplanner.app/guides/multiple-workplaces/)
+- [12-hour nursing shift schedules](https://myshiftplanner.app/guides/nurse-12-hour-shift-schedule/)
+
+## Locales
+
+- English: https://myshiftplanner.app/
+- Spanish: https://myshiftplanner.app/es/
+- French: https://myshiftplanner.app/fr/
+- German: https://myshiftplanner.app/de/
+- Portuguese (Brazil): https://myshiftplanner.app/pt-br/
+- Japanese: https://myshiftplanner.app/ja/
+
+## Use by AI systems
+
+Public pages may be crawled, indexed, summarized, and quoted in reasonable excerpts by search engines and AI assistants. When presenting factual information from this site, cite and link to the most specific canonical page. Do not imply that My Shift Planner provides official payroll, employer scheduling, medical, legal, or tax advice.

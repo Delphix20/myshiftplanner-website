@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>My Shift Planner Guides</title>
+  <subtitle>Practical guides and free tools for rotating schedules, work hours, and estimated pay.</subtitle>
+  <id>https://myshiftplanner.app/guides/</id>
+  <link href="https://myshiftplanner.app/feed.xml" rel="self" type="application/atom+xml"/>
+  <link href="https://myshiftplanner.app/guides/" rel="alternate" type="text/html"/>
+  <updated>2026-08-26T00:00:00Z</updated>
+  <author><name>My Shift Planner</name><email>hello@myshiftplanner.app</email></author>
+  <entry><title>2-2-3 shift schedule explained</title><id>https://myshiftplanner.app/guides/2-2-3-shift-schedule/</id><link href="https://myshiftplanner.app/guides/2-2-3-shift-schedule/"/><updated>2026-08-26T00:00:00Z</updated><summary>Understand the full 14-day 2-2-3 cycle, choose the right anchor date, and preview future work and rest blocks.</summary></entry>
+  <entry><title>4-on/4-off shift pattern explained</title><id>https://myshiftplanner.app/guides/4-on-4-off-shift-pattern/</id><link href="https://myshiftplanner.app/guides/4-on-4-off-shift-pattern/"/><updated>2026-08-26T00:00:00Z</updated><summary>See how the eight-day work/rest cycle moves through weekdays and how to keep day and night assignments distinct.</summary></entry>
+  <entry><title>Free rotating shift schedule generator</title><id>https://myshiftplanner.app/guides/rotating-shift-schedule-generator/</id><link href="https://myshiftplanner.app/guides/rotating-shift-schedule-generator/"/><updated>2026-08-26T00:00:00Z</updated><summary>Preview 2-2-3, 4-on/4-off, 3-on/3-off and weekday rotations from a selected start date.</summary></entry>
+  <entry><title>12-hour nurse shift schedules</title><id>https://myshiftplanner.app/guides/nurse-12-hour-shift-schedule/</id><link href="https://myshiftplanner.app/guides/nurse-12-hour-shift-schedule/"/><updated>2026-08-26T00:00:00Z</updated><summary>How to organize 12-hour nursing shifts, night work, overtime, leave, and schedule changes in one monthly view.</summary></entry>
+  <entry><title>Common shift rotation patterns</title><id>https://myshiftplanner.app/guides/shift-rotation-patterns/</id><link href="https://myshiftplanner.app/guides/shift-rotation-patterns/"/><updated>2026-08-26T00:00:00Z</updated><summary>A practical comparison of fixed schedules, 2-2-3 rotations, 4-on/4-off cycles, and custom shift patterns.</summary></entry>
+  <entry><title>Free shift pay calculator</title><id>https://myshiftplanner.app/guides/shift-pay-calculator/</id><link href="https://myshiftplanner.app/guides/shift-pay-calculator/"/><updated>2026-08-26T00:00:00Z</updated><summary>Estimate gross shift pay from hours, overtime, night and weekend differentials, and bonuses.</summary></entry>
+  <entry><title>Night-shift planning checklist</title><id>https://myshiftplanner.app/guides/night-shift-planning/</id><link href="https://myshiftplanner.app/guides/night-shift-planning/"/><updated>2026-08-26T00:00:00Z</updated><summary>A practical checklist for recording cross-midnight shifts, reminders, recovery days, hours, and differentials.</summary></entry>
+  <entry><title>Managing multiple workplaces</title><id>https://myshiftplanner.app/guides/multiple-workplaces/</id><link href="https://myshiftplanner.app/guides/multiple-workplaces/"/><updated>2026-08-26T00:00:00Z</updated><summary>Keep workplace schedules, time zones, rates, and pay settings separated without losing the full month.</summary></entry>
+</feed>

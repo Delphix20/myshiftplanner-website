@@ -1,16 +1,14 @@
 <!DOCTYPE html>
 <html lang="de">
   <head>
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-1G81C7EHDF"></script>
-    <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-1G81C7EHDF');</script>
+    <script src="/assets/js/analytics.js" defer></script>
     <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon-work-16.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon-work-32.png">
     <link rel="icon" type="image/png" sizes="192x192" href="/assets/images/favicon-work-192.png">
     <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/apple-touch-icon-work.png">
-    <title>Kostenloser Schichtlohnrechner: Stunden, Überstunden und Differenzen</title>
+    <title>Kostenloser Schichtlohnrechner: Arbeitszeit, Überstunden und Zuschläge</title>
     <meta name="description" content="Schätzen Sie mit diesem kostenlosen browserbasierten Rechner den Bruttoschichtlohn anhand von regulären Stunden, Überstunden, Nacht- und Wochenendzuschlägen sowie Prämien.">
     <meta name="robots" content="index, follow, max-image-preview:large">
 <link rel="canonical" href="https://myshiftplanner.app/de/guides/shift-pay-calculator/">
@@ -26,8 +24,13 @@
 <meta property="og:title" content="Kostenloser Schichtlohnrechner">
 <meta property="og:description" content="Schätzen Sie den Bruttoschichtlohn anhand von Stunden, Überstunden, Zuschlägen und Prämien.">
 <meta property="og:url" content="https://myshiftplanner.app/de/guides/shift-pay-calculator/">
-<meta property="og:image" content="https://myshiftplanner.app/assets/images/work-3.png">
+<meta property="og:image" content="https://myshiftplanner.app/assets/images/social/my-shift-planner.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="My Shift Planner apps for nursing and work schedules">
+    <meta name="twitter:image" content="https://myshiftplanner.app/assets/images/social/my-shift-planner.jpg">
 <meta name="twitter:card" content="summary_large_image">
+    <link rel="alternate" type="application/atom+xml" title="My Shift Planner Guides" href="https://myshiftplanner.app/feed.xml">
     <link rel="preload" href="/assets/fonts/nunito-latin-variable.woff2" as="font" type="font/woff2" crossorigin>
     <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebApplication","name":"Schichtlohnrechner","url":"https://myshiftplanner.app/de/guides/shift-pay-calculator/","applicationCategory":"FinanceApplication","operatingSystem":"Jeder moderne Webbrowser","description":"Ein kostenloser Rechner zur Schätzung des Bruttoschichtlohns aus Stunden, Überstunden, Zuschlägen und Prämien.","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"My Shift Planner","item":"https://myshiftplanner.app/de/"},{"@type":"ListItem","position":2,"name":"Ratgeber","item":"https://myshiftplanner.app/de/guides/"},{"@type":"ListItem","position":3,"name":"Schichtlohnrechner","item":"https://myshiftplanner.app/de/guides/shift-pay-calculator/"}]}]}</script>
     <link rel="stylesheet" href="/assets/css/styles.css?v=20260819-6">
@@ -54,7 +57,7 @@
           <form class="glass-card calculator-card" id="shift-pay-form">
             <div class="content-head">
 <h2>Geben Sie Ihre geplanten Stunden und Tarife ein</h2>
-<p>Verwenden Sie für jeden Betrag die gleiche Währung. Wenn keine Differenz gilt, belassen Sie die Stunden oder den Tarif bei Null.</p>
+<p>Verwenden Sie für jeden Betrag die gleiche Währung. Wenn keine Zuschlag gilt, belassen Sie die Stunden oder den Tarif bei Null.</p>
 </div>
             <div class="calculator-grid">
               <div class="calculator-field">
@@ -110,7 +113,7 @@
 <span>Überstundenvergütung</span><strong id="overtime-pay-result">$0.00</strong>
 </div>
               <div class="calculator-result">
-<span>Differenziale</span><strong id="differentials-result">$0.00</strong>
+<span>Zuschläge</span><strong id="differentials-result">$0.00</strong>
 </div>
               <div class="calculator-result">
 <span>Boni</span><strong id="bonus-result">$0.00</strong>
@@ -130,7 +133,7 @@
           <h2>Bevor Sie das Ergebnis verwenden</h2>
 <ul>
 <li>Geben Sie im Feld Überstunden nur reguläre Stunden ein, die noch nicht gezählt wurden.</li>
-<li>Nacht- und Wochenendstunden können sich überschneiden, wenn Ihr Arbeitgeber für die gleichen Stunden beide Differenzen zahlt.</li>
+<li>Nacht- und Wochenendstunden können sich überschneiden, wenn Ihr Arbeitgeber für die gleichen Stunden beide Zuschläge zahlt.</li>
 <li>Dieses Tool berechnet keine Steuern, Abzüge, Feiertagsregeln, Mindestgarantien oder arbeitgeberspezifische Rundungen.</li>
 <li>Die Gesetze und Richtlinien zu Überstunden variieren. Nutzen Sie die von Ihrem Arbeitgeber oder Lohn- und Gehaltsabrechnungsdienstleister angezeigte Regelung.</li>
 </ul>

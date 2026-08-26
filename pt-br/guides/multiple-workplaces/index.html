@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
   <head>
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-1G81C7EHDF"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-1G81C7EHDF');</script>
+    <script src="/assets/js/analytics.js" defer></script>
     <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon-work-16.png">
@@ -25,8 +24,13 @@
 <meta property="og:title" content="Organize vários locais de trabalho">
 <meta property="og:description" content="Mantenha funções, locais, taxas e horários separados sem perder a visão mensal completa.">
 <meta property="og:url" content="https://myshiftplanner.app/pt-br/guides/multiple-workplaces/">
-<meta property="og:image" content="https://myshiftplanner.app/assets/images/work-3.png">
+<meta property="og:image" content="https://myshiftplanner.app/assets/images/social/my-shift-planner.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="My Shift Planner apps for nursing and work schedules">
+    <meta name="twitter:image" content="https://myshiftplanner.app/assets/images/social/my-shift-planner.jpg">
 <meta name="twitter:card" content="summary_large_image">
+    <link rel="alternate" type="application/atom+xml" title="My Shift Planner Guides" href="https://myshiftplanner.app/feed.xml">
     <link rel="preload" href="/assets/fonts/nunito-latin-variable.woff2" as="font" type="font/woff2" crossorigin>
     <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Article","headline":"Como organizar turnos em vários locais de trabalho","datePublished":"2026-08-01","dateModified":"2026-08-01","author":{"@type":"Organization","name":"My Shift Planner","url":"https://myshiftplanner.app/pt-br/about/"},"publisher":{"@type":"Organization","name":"My Shift Planner"},"mainEntityOfPage":"https://myshiftplanner.app/pt-br/guides/multiple-workplaces/"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"My Shift Planner","item":"https://myshiftplanner.app/pt-br/"},{"@type":"ListItem","position":2,"name":"Guias","item":"https://myshiftplanner.app/pt-br/guides/"},{"@type":"ListItem","position":3,"name":"Vários locais de trabalho","item":"https://myshiftplanner.app/pt-br/guides/multiple-workplaces/"}]}]}</script>
     <link rel="stylesheet" href="/assets/css/styles.css?v=20260819-6">
@@ -41,7 +45,7 @@
 </div></header>
     <main>
       <section class="guide-hero"><div class="section-inner"><div class="glass-card guide-hero-card">
-<nav class="breadcrumb" aria-label="Pão ralado"><a href="/pt-br/">Página inicial</a><span>/</span><a href="/pt-br/guides/">Guias</a><span>/</span><span>Vários locais de trabalho</span></nav><span class="eyebrow">Guia de organização</span><h1>Gerencie vários locais de trabalho sem misturar os detalhes</h1>
+<nav class="breadcrumb" aria-label="Pão ralado"><a href="/pt-br/">Página inicial</a><span>/</span><a href="/pt-br/guides/">Guias</a><span>/</span><span>Vários locais de trabalho</span></nav><span class="eyebrow">Guia de organização</span><h1>Gerencie vários locais de trabalho sem misturar as informações</h1>
 <p>Um único calendário deve mostrar o mês inteiro, enquanto cada perfil de local de trabalho preserva sua própria função, localização, configurações de remuneração e contexto de horário.</p>
 <p class="guide-updated">Publicado e revisado em 1º de agosto de 2026</p>
 <div class="author-card">
@@ -50,26 +54,26 @@
 </div></div></section>
       <section class="content-section content-section-tight"><div class="section-inner guide-layout">
 <article class="glass-card guide-article">
-        <h2>Crie um perfil para cada contexto de trabalho significativo</h2>
+        <h2>Crie um perfil para cada trabalho</h2>
 <p>Perfis separados são úteis quando os locais de trabalho têm locais, funções, taxas horárias, fusos horários ou regras de remuneração diferentes. Se duas equipes compartilharem todos esses detalhes, um perfil separado poderá criar confusão sem melhorar o cronograma.</p>
         <h2>O que cada perfil deve conter</h2>
 <ul>
 <li>Um nome de perfil reconhecível, como local de trabalho ou contrato.</li>
 <li>O papel que você desempenha lá.</li>
 <li>O fuso horário correto se o trabalho abranger regiões.</li>
-<li>Taxa base e diferenciais elegíveis.</li>
+<li>Taxa base e adicionais elegíveis.</li>
 <li>Qualquer regra de pausa não remunerada ou horas extras específica do perfil.</li>
 </ul>
-        <h2>Use um calendário para encontrar conflitos</h2>
+        <h2>Use um calendário para identificar sobreposições</h2>
 <p>Depois que os turnos estiverem anexados aos perfis, revise-os juntos. Procure horários sobrepostos, turnos noturnos que terminam antes do início de outro trabalho, viagens entre locais e blocos de trabalho consecutivos que são fáceis de perder em calendários separados.</p>
         <div class="guide-callout">
 <strong>Verificação de sobreposição</strong><p>Compare horários completos de início e término, não apenas datas. Um turno que termina na terça-feira de manhã pode entrar em conflito com outro turno mostrado na terça-feira, mesmo que o primeiro tenha começado na segunda-feira.</p>
 </div>
-        <h2>Mantenha as taxas separadas</h2>
-<p>Uma única taxa horária combinada torna as estimativas mensais mais difíceis de entender. Armazene a taxa básica e os diferenciais de cada local de trabalho de forma independente e, em seguida, revise os totais do perfil e a estimativa combinada. O resultado continua a ser uma estimativa de planeamento em vez de um recibo de vencimento oficial.</p>
-        <h2>Torne as exportações compreensíveis</h2>
+        <h2>Separe as configurações de ganhos</h2>
+<p>Uma única taxa horária combinada torna as estimativas mensais mais difíceis de entender. Armazene a taxa básica e os adicionais de cada local de trabalho de forma independente e, em seguida, revise os totais do perfil e a estimativa combinada. O resultado continua a ser uma estimativa de planeamento em vez de um recibo de vencimento oficial.</p>
+        <h2>Crie relatórios fáceis de revisar</h2>
 <p>Inclua local de trabalho, função, data, horário de início, horário de término, horas e remuneração estimada quando esses campos forem relevantes. Nomes de perfis claros são especialmente importantes em arquivos CSV, onde a cor e o layout do cartão não estão disponíveis.</p>
-        <h2>Revise as alterações na origem</h2>
+        <h2>Confira as mudanças na escala oficial</h2>
 <p>Os planejadores pessoais são úteis para reunir vários empregos em uma única visualização, mas não recebem atualizações do empregador automaticamente. Confirme trocas, cancelamentos e horários de início alterados no sistema oficial de cada local de trabalho.</p>
         <div class="glass-card resource-cta">
 <div>

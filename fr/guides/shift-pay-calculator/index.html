@@ -1,17 +1,15 @@
 <!DOCTYPE html>
 <html lang="fr">
   <head>
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-1G81C7EHDF"></script>
-    <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-1G81C7EHDF');</script>
+    <script src="/assets/js/analytics.js" defer></script>
     <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon-work-16.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon-work-32.png">
     <link rel="icon" type="image/png" sizes="192x192" href="/assets/images/favicon-work-192.png">
     <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/apple-touch-icon-work.png">
-    <title>Calculateur de paie gratuit : heures, heures supplémentaires et différentiels</title>
-    <meta name="description" content="Estimez la rémunération brute des horaires de travail à partir des heures régulières, des heures supplémentaires, des différentiels de nuit et de week-end et des primes avec cette calculatrice gratuite basée sur un navigateur.">
+    <title>Calculateur de paie gratuit : heures, heures supplémentaires et majorations</title>
+    <meta name="description" content="Estimez la rémunération brute des horaires de travail à partir des heures régulières, des heures supplémentaires, des majorations de nuit et de week-end et des primes avec cette calculatrice gratuite basée sur un navigateur.">
     <meta name="robots" content="index, follow, max-image-preview:large">
 <link rel="canonical" href="https://myshiftplanner.app/fr/guides/shift-pay-calculator/">
     <link rel="alternate" hreflang="en" href="https://myshiftplanner.app/guides/shift-pay-calculator/">
@@ -24,12 +22,17 @@
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="My Shift Planner">
 <meta property="og:title" content="Calculateur de rémunération par quarts gratuit">
-<meta property="og:description" content="Estimez la rémunération brute des horaires de travail en utilisant les heures, les heures supplémentaires, les différentiels et les primes.">
+<meta property="og:description" content="Estimez la rémunération brute des horaires de travail en utilisant les heures, les heures supplémentaires, les majorations et les primes.">
 <meta property="og:url" content="https://myshiftplanner.app/fr/guides/shift-pay-calculator/">
-<meta property="og:image" content="https://myshiftplanner.app/assets/images/work-3.png">
+<meta property="og:image" content="https://myshiftplanner.app/assets/images/social/my-shift-planner.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="My Shift Planner apps for nursing and work schedules">
+    <meta name="twitter:image" content="https://myshiftplanner.app/assets/images/social/my-shift-planner.jpg">
 <meta name="twitter:card" content="summary_large_image">
+    <link rel="alternate" type="application/atom+xml" title="My Shift Planner Guides" href="https://myshiftplanner.app/feed.xml">
     <link rel="preload" href="/assets/fonts/nunito-latin-variable.woff2" as="font" type="font/woff2" crossorigin>
-    <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebApplication","name":"Calculateur de rémunération par quarts","url":"https://myshiftplanner.app/fr/guides/shift-pay-calculator/","applicationCategory":"FinanceApplication","operatingSystem":"Tout navigateur Web moderne","description":"Un calculateur gratuit pour estimer la rémunération brute des équipes à partir des heures, des heures supplémentaires, des différentiels et des primes.","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"My Shift Planner","item":"https://myshiftplanner.app/fr/"},{"@type":"ListItem","position":2,"name":"Guides","item":"https://myshiftplanner.app/fr/guides/"},{"@type":"ListItem","position":3,"name":"Calculateur de rémunération par quarts","item":"https://myshiftplanner.app/fr/guides/shift-pay-calculator/"}]}]}</script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebApplication","name":"Calculateur de rémunération par quarts","url":"https://myshiftplanner.app/fr/guides/shift-pay-calculator/","applicationCategory":"FinanceApplication","operatingSystem":"Tout navigateur Web moderne","description":"Un calculateur gratuit pour estimer la rémunération brute des équipes à partir des heures, des heures supplémentaires, des majorations et des primes.","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"My Shift Planner","item":"https://myshiftplanner.app/fr/"},{"@type":"ListItem","position":2,"name":"Guides","item":"https://myshiftplanner.app/fr/guides/"},{"@type":"ListItem","position":3,"name":"Calculateur de rémunération par quarts","item":"https://myshiftplanner.app/fr/guides/shift-pay-calculator/"}]}]}</script>
     <link rel="stylesheet" href="/assets/css/styles.css?v=20260819-6">
   <meta property="og:locale" content="fr_FR">
 </head>
@@ -42,8 +45,8 @@
 </div></header>
       <main>
         <section class="guide-hero"><div class="section-inner"><div class="glass-card guide-hero-card">
-<nav class="breadcrumb" aria-label="Fil d'Ariane"><a href="/fr/">Accueil</a><span>/</span><a href="/fr/guides/">Guides</a><span>/</span><span>Calculateur de salaire</span></nav><span class="eyebrow">Outil de navigation gratuit</span><h1>Calculateur de revenu par poste</h1>
-<p>Créez rapidement une estimation du salaire brut à partir des heures régulières, des heures supplémentaires, des différentiels de nuit et de week-end et des primes. Rien de ce que vous saisissez n'est envoyé nulle part par cette calculatrice.</p>
+<nav class="breadcrumb" aria-label="Fil d'Ariane"><a href="/fr/">Accueil</a><span>/</span><a href="/fr/guides/">Guides</a><span>/</span><span>Calculateur de salaire</span></nav><span class="eyebrow">Outil de navigation gratuit</span><h1>Calculateur de salaire par garde</h1>
+<p>Créez rapidement une estimation du salaire brut à partir des heures régulières, des heures supplémentaires, des majorations de nuit et de week-end et des primes. Rien de ce que vous saisissez n'est envoyé nulle part par cette calculatrice.</p>
 <p class="guide-updated">Mis à jour le 1er août 2026</p>
 <div class="author-card">
 <strong>Créé et révisé par <a class="text-link" href="/fr/about/">My Shift Planner</a></strong><p>Cette calculatrice s'exécute localement dans votre navigateur. Les résultats sont des estimations de planification et ne remplacent pas les calculs officiels de paie.</p>
@@ -54,7 +57,7 @@
           <form class="glass-card calculator-card" id="shift-pay-form">
             <div class="content-head">
 <h2>Entrez vos horaires et tarifs prévus</h2>
-<p>Utilisez la même devise pour chaque montant. Si aucun différentiel ne s’applique, laissez ses heures ou son taux à zéro.</p>
+<p>Utilisez la même devise pour chaque montant. Si aucun majoration ne s’applique, laissez ses heures ou son taux à zéro.</p>
 </div>
             <div class="calculator-grid">
               <div class="calculator-field">
@@ -84,13 +87,13 @@
 <label for="overtime-multiplier">Multiplicateur d'heures supplémentaires</label><input id="overtime-multiplier" type="number" min="0" step="0.1" value="1.5" inputmode="decimal"><span>Par exemple, saisissez 1,5 pour temps et demi</span>
 </div>
               <div class="calculator-field">
-<label for="night-hours">Horaires différentiels de nuit</label><input id="night-hours" type="number" min="0" step="0.25" value="48" inputmode="decimal">
+<label for="night-hours">Horaires majorations de nuit</label><input id="night-hours" type="number" min="0" step="0.25" value="48" inputmode="decimal">
 </div>
               <div class="calculator-field">
 <label for="night-differential">Différentiel de nuit par heure</label><input id="night-differential" type="number" min="0" step="0.01" value="3" inputmode="decimal">
 </div>
               <div class="calculator-field">
-<label for="weekend-hours">Horaires différentiels le week-end</label><input id="weekend-hours" type="number" min="0" step="0.25" value="24" inputmode="decimal">
+<label for="weekend-hours">Horaires majorations le week-end</label><input id="weekend-hours" type="number" min="0" step="0.25" value="24" inputmode="decimal">
 </div>
               <div class="calculator-field">
 <label for="weekend-differential">Supplément horaire de week-end</label><input id="weekend-differential" type="number" min="0" step="0.01" value="2" inputmode="decimal">
@@ -130,7 +133,7 @@
           <h2>Avant d'utiliser le résultat</h2>
 <ul>
 <li>Saisissez uniquement les heures régulières qui ne sont pas déjà comptées dans le champ des heures supplémentaires.</li>
-<li>Les heures de nuit et de week-end peuvent se chevaucher si votre employeur paie les deux différentiels pour les mêmes heures.</li>
+<li>Les heures de nuit et de week-end peuvent se chevaucher si votre employeur paie les deux majorations pour les mêmes heures.</li>
 <li>Cet outil ne calcule pas les impôts, les déductions, les règles de congés, les garanties minimales ou les arrondis spécifiques à l'employeur.</li>
 <li>Les lois et politiques relatives aux heures supplémentaires varient. Utilisez la règle indiquée par votre employeur ou votre fournisseur de paie.</li>
 </ul>

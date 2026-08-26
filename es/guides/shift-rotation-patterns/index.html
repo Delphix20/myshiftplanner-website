@@ -1,16 +1,14 @@
 <!DOCTYPE html>
 <html lang="es">
   <head>
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-1G81C7EHDF"></script>
-    <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-1G81C7EHDF');</script>
+    <script src="/assets/js/analytics.js" defer></script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon-work-16.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon-work-32.png">
     <link rel="icon" type="image/png" sizes="192x192" href="/assets/images/favicon-work-192.png">
     <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/apple-touch-icon-work.png">
-    <title>Patrones de rotación de turnos: 2-2-3, 4-On/4-Off y más</title>
+    <title>Patrones de turnos rotativos: 2-2-3, 4 días de trabajo/4 de descanso y más</title>
     <meta name="description" content="Compare patrones comunes de rotación de turnos, incluidos turnos fijos, 2-2-3, 4 horas de trabajo/4 horas de descanso y horarios rotativos día/noche, con ejemplos prácticos de planificación.">
     <meta name="robots" content="index, follow, max-image-preview:large">
     <link rel="canonical" href="https://myshiftplanner.app/es/guides/shift-rotation-patterns/">
@@ -26,8 +24,13 @@
 <meta property="og:title" content="Patrones comunes de rotación de turnos">
 <meta property="og:description" content="Una comparación práctica de horarios de turnos fijos, 2-2-3, 4-en/4-off y rotativos.">
 <meta property="og:url" content="https://myshiftplanner.app/es/guides/shift-rotation-patterns/">
-<meta property="og:image" content="https://myshiftplanner.app/assets/images/work-1.png">
+<meta property="og:image" content="https://myshiftplanner.app/assets/images/social/my-shift-planner.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="My Shift Planner apps for nursing and work schedules">
+    <meta name="twitter:image" content="https://myshiftplanner.app/assets/images/social/my-shift-planner.jpg">
 <meta name="twitter:card" content="summary_large_image">
+    <link rel="alternate" type="application/atom+xml" title="My Shift Planner Guides" href="https://myshiftplanner.app/feed.xml">
     <link rel="preload" href="/assets/fonts/nunito-latin-variable.woff2" as="font" type="font/woff2" crossorigin>
     <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Article","headline":"Patrones comunes de rotación de turnos","description":"Una comparación práctica de horarios de turnos fijos, 2-2-3, 4-en/4-off y rotativos.","datePublished":"2026-08-01","dateModified":"2026-08-01","author":{"@type":"Organization","name":"My Shift Planner","url":"https://myshiftplanner.app/es/about/"},"publisher":{"@type":"Organization","name":"My Shift Planner"},"mainEntityOfPage":"https://myshiftplanner.app/es/guides/shift-rotation-patterns/"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"My Shift Planner","item":"https://myshiftplanner.app/es/"},{"@type":"ListItem","position":2,"name":"Guías","item":"https://myshiftplanner.app/es/guides/"},{"@type":"ListItem","position":3,"name":"Patrones de rotación de turnos","item":"https://myshiftplanner.app/es/guides/shift-rotation-patterns/"}]}]}</script>
     <link rel="stylesheet" href="/assets/css/styles.css?v=20260819-6">
@@ -62,13 +65,13 @@
             <div class="pattern-grid">
               <section class="pattern-card"><span>Horario fijo</span><h3>Mismos días laborables</h3>
 <p>Trabaja una serie constante de días laborables o noches. Es fácil de revisar, pero las excepciones aún deben registrarse por separado.</p></section>
-              <section class="pattern-card"><span>patrón 2-2-3</span><h3>Dos adentro, dos afuera, tres encendidos</h3>
+              <section class="pattern-card"><span>patrón 2-2-3</span><h3>2 días de trabajo, 2 de descanso y 3 de trabajo</h3>
 <p>Un ciclo de dos semanas a menudo alterna bloques de trabajo más cortos y más largos. Los arreglos exactos para el día y la noche varían según el empleador.</p></section>
-              <section class="pattern-card"><span>4 encendidos/4 apagados</span><h3>Cuatro días laborables, cuatro días de descanso</h3>
+              <section class="pattern-card"><span>4 días de trabajo/4 de descanso</span><h3>Cuatro días laborables, cuatro días de descanso</h3>
 <p>El ciclo avanza a través de los días laborables del calendario a lo largo del tiempo. Puede ser predecible, aunque rara vez coincide con un mes de lunes a viernes.</p></section>
-              <section class="pattern-card"><span>Días y noches rotativos</span><h3>Cambios de horario de turno</h3>
+              <section class="pattern-card"><span>Días y noches rotativos</span><h3>Cambios entre turnos de día y de noche</h3>
 <p>El bloque de trabajo puede permanecer constante mientras los tiempos de inicio rotan. Etiquete las tareas de día y de noche explícitamente en lugar de depender únicamente del color.</p></section>
-              <section class="pattern-card"><span>Ciclo personalizado</span><h3>Secuencia específica del empleador</h3>
+              <section class="pattern-card"><span>Ciclo personalizado</span><h3>Ciclo propio del lugar de trabajo</h3>
 <p>Muchos lugares de trabajo utilizan variaciones locales. Registre la secuencia exacta en lugar de asumir que el nombre de un patrón familiar tiene una definición universal.</p></section>
             </div>
 
@@ -86,7 +89,7 @@
 <strong>Utilice recordatorios de forma selectiva.</strong> Los recordatorios son más útiles para el trabajo real o registros de guardia, no para bajas o entradas canceladas.</li>
             </ol>
 
-            <h2>Qué comparar entre rotaciones</h2>
+            <h2>Qué debes comparar entre rotaciones</h2>
             <p>Mire más allá del número de días laborables. Compare los turnos consecutivos, la dirección de los cambios día/noche, la frecuencia de los fines de semana, el trabajo nocturno, las horas esperadas y la frecuencia con la que se interrumpe el patrón. Si trabaja en más de una ubicación, verifique también las superposiciones y el tiempo de viaje.</p>
 
             <h2>Usa los patrones de rotación con criterio</h2>

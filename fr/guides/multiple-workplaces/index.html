@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html lang="fr">
   <head>
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-1G81C7EHDF"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-1G81C7EHDF');</script>
+    <script src="/assets/js/analytics.js" defer></script>
     <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon-work-16.png">
@@ -25,8 +24,13 @@
 <meta property="og:title" content="Organiser plusieurs lieux de travail">
 <meta property="og:description" content="Séparez les rôles, les emplacements, les tarifs et les horaires sans perdre la vue mensuelle complète.">
 <meta property="og:url" content="https://myshiftplanner.app/fr/guides/multiple-workplaces/">
-<meta property="og:image" content="https://myshiftplanner.app/assets/images/work-3.png">
+<meta property="og:image" content="https://myshiftplanner.app/assets/images/social/my-shift-planner.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="My Shift Planner apps for nursing and work schedules">
+    <meta name="twitter:image" content="https://myshiftplanner.app/assets/images/social/my-shift-planner.jpg">
 <meta name="twitter:card" content="summary_large_image">
+    <link rel="alternate" type="application/atom+xml" title="My Shift Planner Guides" href="https://myshiftplanner.app/feed.xml">
     <link rel="preload" href="/assets/fonts/nunito-latin-variable.woff2" as="font" type="font/woff2" crossorigin>
     <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Article","headline":"Comment organiser les horaires de travail sur plusieurs lieux de travail","datePublished":"2026-08-01","dateModified":"2026-08-01","author":{"@type":"Organization","name":"My Shift Planner","url":"https://myshiftplanner.app/fr/about/"},"publisher":{"@type":"Organization","name":"My Shift Planner"},"mainEntityOfPage":"https://myshiftplanner.app/fr/guides/multiple-workplaces/"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"My Shift Planner","item":"https://myshiftplanner.app/fr/"},{"@type":"ListItem","position":2,"name":"Guides","item":"https://myshiftplanner.app/fr/guides/"},{"@type":"ListItem","position":3,"name":"Plusieurs lieux de travail","item":"https://myshiftplanner.app/fr/guides/multiple-workplaces/"}]}]}</script>
     <link rel="stylesheet" href="/assets/css/styles.css?v=20260819-6">
@@ -41,7 +45,7 @@
 </div></header>
     <main>
       <section class="guide-hero"><div class="section-inner"><div class="glass-card guide-hero-card">
-<nav class="breadcrumb" aria-label="Fil d'Ariane"><a href="/fr/">Accueil</a><span>/</span><a href="/fr/guides/">Guides</a><span>/</span><span>Plusieurs lieux de travail</span></nav><span class="eyebrow">Guide d'organisation</span><h1>Gérez plusieurs lieux de travail sans mélanger les détails</h1>
+<nav class="breadcrumb" aria-label="Fil d'Ariane"><a href="/fr/">Accueil</a><span>/</span><a href="/fr/guides/">Guides</a><span>/</span><span>Plusieurs lieux de travail</span></nav><span class="eyebrow">Guide d'organisation</span><h1>Gérez plusieurs lieux de travail sans mélanger les informations</h1>
 <p>Un seul calendrier doit afficher tout le mois, tandis que chaque profil de lieu de travail conserve son propre rôle, son emplacement, ses paramètres de rémunération et son contexte d'horaire.</p>
 <p class="guide-updated">Publié et révisé le 1er août 2026</p>
 <div class="author-card">
@@ -50,26 +54,26 @@
 </div></div></section>
       <section class="content-section content-section-tight"><div class="section-inner guide-layout">
 <article class="glass-card guide-article">
-        <h2>Créez un profil pour chaque contexte de travail significatif</h2>
+        <h2>Créez un profil pour chaque emploi</h2>
 <p>Des profils distincts sont utiles lorsque les lieux de travail ont des emplacements, des rôles, des taux horaires, des fuseaux horaires ou des règles de rémunération différents. Si deux équipes partagent tous ces détails, un profil distinct peut ajouter de la confusion sans améliorer le calendrier.</p>
         <h2>Ce que doit contenir chaque profil</h2>
 <ul>
 <li>Un nom de profil reconnaissable, tel que le lieu de travail ou le contrat.</li>
 <li>Le rôle que vous y jouez.</li>
 <li>Le fuseau horaire correct si le travail s’étend sur plusieurs régions.</li>
-<li>Taux de base et différentiels éligibles.</li>
+<li>Taux de base et majorations éligibles.</li>
 <li>Toute règle de pause non rémunérée ou d'heures supplémentaires spécifique au profil.</li>
 </ul>
-        <h2>Utilisez un calendrier pour rechercher les conflits</h2>
+        <h2>Utilisez un calendrier pour repérer les chevauchements</h2>
 <p>Once shifts are attached to profiles, review them together. Recherchez les périodes qui se chevauchent, les gardes de nuit qui se terminent avant le début d'un autre travail, les déplacements entre les sites et les blocs de travail consécutifs qui sont faciles à manquer dans des calendriers séparés.</p>
         <div class="guide-callout">
 <strong>Vérification du chevauchement</strong><p>Comparez les heures complètes de début et de fin, pas seulement les dates. Une équipe se terminant mardi matin peut entrer en conflit avec une autre équipe affichée mardi même si la première a commencé lundi.</p>
 </div>
-        <h2>Gardez les tarifs séparés</h2>
-<p>Un taux horaire mixte unique rend les estimations mensuelles plus difficiles à comprendre. Stockez indépendamment le taux de base et les différentiels de chaque lieu de travail, puis examinez les totaux du profil et l'estimation combinée. Le résultat reste une estimation prévisionnelle plutôt qu’une fiche de paie officielle.</p>
-        <h2>Rendre les exportations compréhensibles</h2>
+        <h2>Séparez les paramètres de rémunération</h2>
+<p>Un taux horaire mixte unique rend les estimations mensuelles plus difficiles à comprendre. Stockez indépendamment le taux de base et les majorations de chaque lieu de travail, puis examinez les totaux du profil et l'estimation combinée. Le résultat reste une estimation prévisionnelle plutôt qu’une fiche de paie officielle.</p>
+        <h2>Créez des rapports faciles à relire</h2>
 <p>Incluez le lieu de travail, le rôle, la date, l'heure de début, l'heure de fin, les heures et le salaire estimé lorsque ces champs sont pertinents. Les noms de profil clairs sont particulièrement importants dans les fichiers CSV, où la couleur et la disposition des cartes ne sont pas disponibles.</p>
-        <h2>Examiner les modifications à la source</h2>
+        <h2>Vérifiez les changements dans le planning officiel</h2>
 <p>Les planificateurs personnels sont utiles pour regrouper plusieurs emplois en une seule vue, mais ils ne reçoivent pas automatiquement les mises à jour des employeurs. Confirmez les échanges, les annulations et les heures de début modifiées dans le système officiel de chaque lieu de travail.</p>
         <div class="glass-card resource-cta">
 <div>
@@ -78,7 +82,7 @@
 </div>
 <div class="cta-row"><a class="button" href="/fr/work/">Explorer Planning de Travail</a></div>
 </div>
-      </article><aside class="guide-aside"><strong>Ressources connexes</strong><nav aria-label="Guides associés"><a href="/fr/guides/shift-rotation-patterns/">Modèles de rotation des équipes</a><a href="/fr/guides/shift-pay-calculator/">Calculateur de revenu par poste</a><a href="/fr/guides/night-shift-planning/">Liste de contrôle pour le garde de nuit</a><a href="/fr/guides/">Tous les guides</a></nav></aside>
+      </article><aside class="guide-aside"><strong>Ressources connexes</strong><nav aria-label="Guides associés"><a href="/fr/guides/shift-rotation-patterns/">Modèles de rotation des équipes</a><a href="/fr/guides/shift-pay-calculator/">Calculateur de salaire par garde</a><a href="/fr/guides/night-shift-planning/">Liste de contrôle pour le garde de nuit</a><a href="/fr/guides/">Tous les guides</a></nav></aside>
 </div></section>
     </main>
     <footer class="footer"><div class="footer-inner"><div class="glass-card footer-card">
