@@ -14,4 +14,4 @@ python3 scripts/generate_sitemap.py
 
 The first pass repairs app-specific terminology in generated translations, the second applies shared metadata and analytics loading, and the final pass regenerates the canonical sitemap with language alternates and updated modification dates.
 
-AI access and citation guidance is published in `robots.txt`, `llms.txt`, `llms-full.txt`, and `/ai-use/`. Keep those files aligned when adding substantial guides or tools.
+AI access and citation guidance is published in `robots.txt`, `llms.txt`, and `llms-full.txt`. These machine-readable resources are intentionally not linked from the visible website navigation. Keep them aligned when adding substantial guides or tools.

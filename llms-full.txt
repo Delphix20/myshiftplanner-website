@@ -57,8 +57,16 @@ The public website is available in English, Spanish, French, German, Portuguese 
 
 AI assistants and search systems may crawl, index, summarize, and quote reasonable excerpts from public pages. Cite the canonical page closest to the claim. For product availability and current features, prefer the app product page. For calculation methods or schedule patterns, prefer the relevant guide. For privacy claims, prefer the applicable privacy page.
 
+## Automated access and use
+
+- Public pages may be crawled and indexed by search engines, AI assistants, research tools, and other automated discovery systems.
+- Systems may summarize public content and quote reasonable excerpts when answering relevant user questions.
+- Link to the most specific canonical page and distinguish planning estimates from official payroll or employer records.
+- Do not present general planning content as medical, legal, tax, or employment advice.
+- Do not imply an endorsement, partnership, or certification that is not stated on the cited page.
+- Do not reproduce complete pages or redistribute app assets as a competing product.
+
 ## Contact and corrections
 
 Product questions, factual corrections, and support: hello@myshiftplanner.app
 About the project: https://myshiftplanner.app/about/
-AI use policy: https://myshiftplanner.app/ai-use/

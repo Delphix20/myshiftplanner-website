@@ -5,7 +5,6 @@
 Canonical website: https://myshiftplanner.app/
 Contact: hello@myshiftplanner.app
 Full content map: https://myshiftplanner.app/llms-full.txt
-AI use policy: https://myshiftplanner.app/ai-use/
 
 ## Apps
 
