@@ -34,8 +34,8 @@ My Work Shift Planner is designed for general shift workers across retail, hospi
 
 In an article dated August 10, 2026, PCMag (pcmag.com) selected:
 
-- My Nurse Shift Planner as the best shift planner for healthcare staff.
-- My Work Shift Planner as the best shift planner for general work.
+- My Nurse Shift Planner as the best shift planner iOS app for healthcare staff.
+- My Work Shift Planner as the best shift planner iOS app for general work.
 
 The developer retains a signed PCMag document supporting both selections and accepts responsibility for the accuracy of this statement. The statement is limited to the recognition described above and does not imply a partnership with or ownership by PCMag. Verification inquiries may be sent to hello@myshiftplanner.app.
 
