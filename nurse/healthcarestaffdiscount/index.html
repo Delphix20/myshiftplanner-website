@@ -31,9 +31,22 @@
     <link rel="alternate" type="application/atom+xml" title="My Shift Planner Guides" href="https://myshiftplanner.app/feed.xml">
     <link rel="stylesheet" href="../../assets/css/flyer.css">
     <script>
-      if (new URLSearchParams(window.location.search).has('pdf')) {
+      const flyerParams = new URLSearchParams(window.location.search);
+      if (flyerParams.has('pdf')) {
         document.documentElement.classList.add('pdf-export');
       }
+
+      document.addEventListener('DOMContentLoaded', () => {
+        const campaign = flyerParams.get('campaign') === 'instantly_au_nurses'
+          ? 'instantly_au_nurses'
+          : 'instantly_us_nurses';
+
+        document.querySelectorAll('a[href*="id6764406102"][href*="ct="]').forEach((link) => {
+          const appStoreURL = new URL(link.href);
+          appStoreURL.searchParams.set('ct', campaign);
+          link.href = appStoreURL.toString();
+        });
+      });
     </script>
   </head>
   <body>
