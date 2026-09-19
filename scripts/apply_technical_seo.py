@@ -5,13 +5,14 @@ from __future__ import annotations
 
 import re
 from pathlib import Path
+from apply_attribution import main as apply_attribution
 
 
 ROOT = Path(__file__).resolve().parents[1]
 BASE = "https://myshiftplanner.app"
 LOCALES = (("es", "es"), ("fr", "fr"), ("de", "de"), ("pt-br", "pt-BR"), ("ja", "ja"))
 FEED_LINK = '<link rel="alternate" type="application/atom+xml" title="My Shift Planner Guides" href="https://myshiftplanner.app/feed.xml">'
-ANALYTICS_SCRIPT = '<script src="/assets/js/analytics.js" defer></script>'
+ANALYTICS_SCRIPT = '<script src="/assets/js/analytics.js" defer></script>\n    <script src="/assets/js/attribution.js" defer></script>'
 
 
 def canonical(text: str) -> str | None:
@@ -111,3 +112,4 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+    apply_attribution()

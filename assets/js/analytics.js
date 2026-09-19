@@ -2,6 +2,8 @@
   const measurementId = 'G-1G81C7EHDF';
   window.dataLayer = window.dataLayer || [];
   window.gtag = window.gtag || function gtag() { window.dataLayer.push(arguments); };
+  // Local previews must not create visits or conversions in production GA4.
+  if (!['myshiftplanner.app', 'www.myshiftplanner.app'].includes(window.location.hostname)) return;
   window.gtag('js', new Date());
   window.gtag('config', measurementId);
 
@@ -14,6 +16,8 @@
     script.src = `https://www.googletagmanager.com/gtag/js?id=${measurementId}`;
     document.head.append(script);
   };
+
+  window.loadSiteAnalytics = load;
 
   const schedule = () => {
     if ('requestIdleCallback' in window) {

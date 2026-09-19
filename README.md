@@ -1,5 +1,22 @@
 # myshiftplanner-website
 
+Download attribution uses `assets/js/attribution.js`. Untagged visits use
+`website_nurse` or `website_work`; a validated `?campaign=...` or `utm_campaign`
+label is kept through same-app navigation and forwarded as the App Store `ct` token.
+Labels are limited to 30 letters, digits, underscores or hyphens. Never put
+recipient names, emails or identifiers in campaign labels. Existing email campaign
+configuration is managed separately.
+
+GA4 `app_store_click` measures clicks; `offer_code_click` measures redemption-link
+clicks. Neither is an install or purchase. App Store Connect displays a campaign
+after at least five individual Apple Accounts download through it, subject to
+Apple's attribution window and reporting delay. The provider token was verified
+in App Store Connect on 2026-09-19. Shared links without a campaign parameter cannot
+distinguish an email visitor from another visitor to the same URL.
+
+After generating pages run `python3 scripts/apply_attribution.py` (also called by
+`apply_technical_seo.py`). Run `node --test tests/attribution.test.cjs` to check attribution.
+
 Static GitHub Pages website for `myshiftplanner.app`, including the root planner chooser, the nurse and work planner pages, localized guides, and browser-based planning tools.
 
 ## Publishing checks
