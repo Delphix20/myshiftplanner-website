@@ -1,0 +1,39 @@
+# Daily check that the website opens over HTTPS and that its security certificate is not about to expire.
+# When it fails, GitHub emails the repository owner.
+#
+# Why this exists: on 4 October 2026 the certificate expired and the site was down for two days. GitHub renews
+# the certificate by itself about a month before it expires, but only while the DNS records at Cloudflare are
+# set to "DNS only" (grey cloud). With the Cloudflare proxy switched on, the renewal fails silently.
+name: Site check
+
+on:
+  schedule:
+    - cron: "17 6 * * *"
+  workflow_dispatch:
+
+permissions: {}
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Pages open over HTTPS
+        run: |
+          for url in https://myshiftplanner.app/ https://myshiftplanner.app/nurse/ https://myshiftplanner.app/de/nurse/ https://www.myshiftplanner.app/; do
+            code=$(curl -sS -L -o /dev/null -w "%{http_code}" --max-time 30 "$url" || echo "000")
+            echo "$url -> $code"
+            if [ "$code" != "200" ]; then
+              echo "::error::$url does not open (answer: $code). Check the certificate under Settings > Pages and the DNS records at Cloudflare."
+              exit 1
+            fi
+          done
+      - name: Certificate has at least 14 days left
+        run: |
+          end=$(echo | openssl s_client -connect myshiftplanner.app:443 -servername myshiftplanner.app 2>/dev/null | openssl x509 -noout -enddate | cut -d= -f2)
+          days=$(( ( $(date -d "$end" +%s) - $(date +%s) ) / 86400 ))
+          echo "The certificate is valid until $end ($days days left)."
+          if [ "$days" -lt 14 ]; then
+            echo "::error::Only $days days left on the certificate, so GitHub is not renewing it. At Cloudflare, the A records and the www record of myshiftplanner.app must be 'DNS only'."
+            exit 1
+          fi

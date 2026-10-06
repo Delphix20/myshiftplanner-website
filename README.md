@@ -32,3 +32,12 @@ python3 scripts/generate_sitemap.py
 The first pass repairs app-specific terminology in generated translations, the second applies shared metadata and analytics loading, and the final pass regenerates the canonical sitemap with language alternates and updated modification dates.
 
 AI access and citation guidance is published in `robots.txt`, `llms.txt`, and `llms-full.txt`. These machine-readable resources are intentionally not linked from the visible website navigation. Keep them aligned when adding substantial guides or tools.
+
+## Hosting and the security certificate
+
+The site is served by GitHub Pages from `main`; the DNS for `myshiftplanner.app` is at Cloudflare.
+The four `A` records and the `www` record must stay **DNS only** (grey cloud). GitHub renews the
+site's certificate by itself, but cannot do so behind the Cloudflare proxy: on 4 October 2026 the
+certificate expired that way and the site was down for two days. `.github/workflows/site-check.yml`
+checks every day that the pages open and that the certificate has at least 14 days left, and GitHub
+emails the repository owner when it fails.
