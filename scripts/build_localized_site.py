@@ -69,7 +69,7 @@ LOCALES = {
         "og_locale": "de_DE",
         "code": "DE",
         "name": "Deutsch",
-        "nurse_app": "Mein Pflege-Dienstplan",
+        "nurse_app": "Dienstplan für Pflegekräfte",
         "work_app": "Mein Schichtplan",
         "nurse_short": "Pflege-Dienstplan",
         "work_short": "Schichtplan",
@@ -139,9 +139,9 @@ IMAGE_ALTS = {
     },
     "de": {
         "nurse": {
-            "hero": "Monatlicher Pflege-Dienstplan in Mein Pflege-Dienstplan",
-            "earnings": "Monatliche Verdienstprognose in Mein Pflege-Dienstplan",
-            "profiles": "Arbeitsprofile in Mein Pflege-Dienstplan",
+            "hero": "Monatlicher Pflege-Dienstplan in Dienstplan für Pflegekräfte",
+            "earnings": "Monatliche Verdienstprognose in Dienstplan für Pflegekräfte",
+            "profiles": "Arbeitsprofile in Dienstplan für Pflegekräfte",
         },
         "work": {
             "hero": "Monatlicher Schichtkalender in Mein Schichtplan",

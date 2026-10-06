@@ -2515,6 +2515,13 @@ html[lang="ja"] body {
     white-space: nowrap;
   }
 
+  /* The German app name is longer: it takes two lines instead of being cut off */
+  html[lang="de"] .topbar-with-language .brand-copy strong {
+    display: block;
+    white-space: normal;
+    line-height: 1.15;
+  }
+
   .topbar-with-language .brand-copy span {
     display: none;
   }
