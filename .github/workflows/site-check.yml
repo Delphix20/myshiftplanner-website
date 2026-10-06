@@ -1,9 +1,9 @@
-# Daily check that the website opens over HTTPS and that its security certificate is not about to expire.
+# Daily check that the website opens over HTTPS and that the certificate visitors get is not about to expire.
 # When it fails, GitHub emails the repository owner.
 #
-# Why this exists: on 4 October 2026 the certificate expired and the site was down for two days. GitHub renews
-# the certificate by itself about a month before it expires, but only while the DNS records at Cloudflare are
-# set to "DNS only" (grey cloud). With the Cloudflare proxy switched on, the renewal fails silently.
+# Why this exists: on 4 October 2026 GitHub's certificate for the domain expired (GitHub cannot renew it behind
+# the Cloudflare proxy), Cloudflare was on "Full (strict)" and refused it, and the site answered error 526 for
+# two days. The setup that works is described in README.md: proxied at Cloudflare, SSL/TLS mode "Full".
 name: Site check
 
 on:
@@ -24,7 +24,7 @@ jobs:
             code=$(curl -sS -L -o /dev/null -w "%{http_code}" --max-time 30 "$url" || echo "000")
             echo "$url -> $code"
             if [ "$code" != "200" ]; then
-              echo "::error::$url does not open (answer: $code). Check the certificate under Settings > Pages and the DNS records at Cloudflare."
+              echo "::error::$url does not open (answer: $code). An answer of 526 means Cloudflare's SSL/TLS mode for myshiftplanner.app is no longer \"Full\": set it back (see README.md)."
               exit 1
             fi
           done
@@ -34,6 +34,6 @@ jobs:
           days=$(( ( $(date -d "$end" +%s) - $(date +%s) ) / 86400 ))
           echo "The certificate is valid until $end ($days days left)."
           if [ "$days" -lt 14 ]; then
-            echo "::error::Only $days days left on the certificate, so GitHub is not renewing it. At Cloudflare, the A records and the www record of myshiftplanner.app must be 'DNS only'."
+            echo "::error::Only $days days left on the certificate visitors get, so it is not being renewed. See README.md for how the site is set up at Cloudflare."
             exit 1
           fi

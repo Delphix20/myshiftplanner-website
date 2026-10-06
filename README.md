@@ -35,9 +35,14 @@ AI access and citation guidance is published in `robots.txt`, `llms.txt`, and `l
 
 ## Hosting and the security certificate
 
-The site is served by GitHub Pages from `main`; the DNS for `myshiftplanner.app` is at Cloudflare.
-The four `A` records and the `www` record must stay **DNS only** (grey cloud). GitHub renews the
-site's certificate by itself, but cannot do so behind the Cloudflare proxy: on 4 October 2026 the
-certificate expired that way and the site was down for two days. `.github/workflows/site-check.yml`
-checks every day that the pages open and that the certificate has at least 14 days left, and GitHub
-emails the repository owner when it fails.
+The site is served by GitHub Pages from `main`, behind Cloudflare: the four `A` records and the `www`
+record of `myshiftplanner.app` are proxied (orange cloud), and Cloudflare's SSL/TLS mode for the domain
+is set to **Full** by hand (not "Automatic" and not "Full (strict)").
+
+Why: behind the Cloudflare proxy GitHub cannot renew its own certificate for the domain. With
+"Full (strict)" Cloudflare refuses GitHub's expired certificate and every page answers error 526: that
+happened on 4 October 2026 and the site was down for two days. In "Full" mode Cloudflare does not check
+GitHub's certificate, and visitors get Cloudflare's own certificate, which Cloudflare renews by itself.
+
+`.github/workflows/site-check.yml` checks every day that the pages open and that the certificate
+visitors get has at least 14 days left; GitHub emails the repository owner when it fails.
